@@ -1,0 +1,2235 @@
+/*** ALL DATATEL 2010 COURSE SEARCH AND BROWSE STYLES ***/
+
+/* Line break */
+hr {
+/* [ReplaceColor(themeColor:"Accent4")] */  color:#d3d3d3;
+height:2px;
+}
+
+/* Styles for Search tabs when doing a search from the header search area */
+.ms-sctabrx {
+ /* [ReplaceColor(themeColor:"Accent3-Darkest")] */border-color:#8dd5ec;
+border-style:solid;
+border-width:0 0 1px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+font-family:Verdana,Arial,Helvetica;
+font-size:0.7em;
+font-style:normal;
+font-weight:normal;
+padding:2px 4px;
+text-align:left;
+vertical-align:middle;
+width:100%;
+}
+.ms-main .ms-sctabcf {
+background-color:transparent;
+background-image: url('/_layouts/images/topnavdivider.gif');
+background-repeat: repeat-y;
+background-position: scroll 0 0;
+ /* [ReplaceColor(themeColor:"Accent3-lighter")] */ border-color:#c0e1ec 
+-moz-use-text-color  /* [ReplaceColor(themeColor:"Accent3-Darkest")] */ #8dd5ec /* [ReplaceColor(themeColor:"Accent3-lighter")] */ #c0e1ec;
+border-style:solid none solid solid;
+border-width:1px medium 1px 1px;
+}
+.ms-sctabcf {
+/* [ReplaceColor(themeColor:"Accent3-Darkest")] */border-bottom:1px solid #8dd5ec;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+font-size:1em;
+font-style:normal;
+font-weight:normal;
+padding:2px 11px 2px 10px;
+vertical-align:middle;
+}
+.ms-ptabcfhover, .ms-sctabcfhover {
+background-image: url("/_layouts/images/PortalTabHover.gif");
+background-repeat: repeat-x;
+font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;  
+font-size: 1em;   
+font-style: normal; 
+font-weight: normal;
+padding-bottom: 2px; 
+padding-top: 2px; 
+padding-left: 10px; 
+padding-right: 10px; 
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color: #333333; 
+vertical-align: middle;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color: #ffdf88; 
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top: solid 1px #888888; 
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right: solid 1px #888888; 
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left: solid 1px #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom: solid 1px #888888;
+}
+.ms-ptabcf a:link, .ms-ptabcf a:visited, .ms-ptabcfhover a:link, .ms-ptabcfhover a:visited, .ms-sctabcf a:link, .ms-sctabcf a:visited, .ms-sctabcfhover a:link, .ms-sctabcfhover a:visited {
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color: #000;
+font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+font-style:normal;
+text-decoration:none;
+}
+/* Link styles under tabbed search area when a user perfomed a search in the header */
+.dt-emphasis{
+font:arial;
+font-size: 13px;
+font-weight: bold;
+font-style: italic;
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #db6e0e;
+padding-left: 5px;
+text-decoration: none;
+}
+.dt-emphasis a:link, .dt-emphasis a:visited{
+font:arial;
+font-size: 13px;
+font-weight: bold;
+font-style: italic;
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #db6e0e;
+padding-left: 5px;
+text-decoration: underline;
+}
+.dt-emphasis a:hover{
+font:arial;
+font-size: 13px;
+font-weight: bold;
+font-style: italic;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+padding-left: 5px;
+text-decoration: underline;
+}
+.dt-searchlink{
+font:arial;
+font-size: 12px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+padding-top: 3px;
+padding-left: 25px;
+}
+
+/***** Styles for Courses Home and Sections Home pages *****/
+
+/* Text at top of search box to expalin how to enter your criteria */
+div.dt-explanation{
+font:arial;
+font-size: 12px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+height:15px;
+}
+.dt-explanation{
+font:arial;
+font-size: 12px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+padding: 15px;
+margin: 15px;
+}
+/* Styles for radio button text */
+.dt-radiobtn-left{
+font:arial;
+font-size: 12px;
+/* [ReplaceColor(themeColor:"Dark2")] */ color: #0f7997;
+font-weight: bold;
+vertical-align:middle;
+padding-left: 5px;
+padding-right: 20px;
+}
+.dt-radiobtn-right{
+font:arial;
+font-size: 12px;
+/* [ReplaceColor(themeColor:"Dark2")] */ color: #0f7997;
+font-weight: bold;
+vertical-align:middle;
+padding-left: 5px;	
+}
+/* Styles for Advanced Search link below Search box */
+div.dt-advancedsearch{
+font:arial;
+font-size: 11px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+text-decoration: underline;
+float:right;
+vertical-align:top;	
+padding-right: 175px;
+}
+div.dt-advancedsearch a:link, div.dt-advancedsearch a:visited{
+font:arial;
+font-size: 11px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+text-decoration: underline;	
+float:right;
+vertical-align:top;	
+padding-right: 43px;
+}
+/* Style for Tips box on far right of Course and Sections Home page */
+.dt-tips{
+/* [ReplaceColor(themeColor: "Accent1")] */background-color: #E6F1FA;
+padding: 15px;
+margin: 15px;
+font:arial;
+font-size: 11px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color: #165c76;
+}
+/* Browse links on Course and Sections Home page */
+.dt-browselinks{
+font:arial;
+font-size: 12px;	
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color: #165c76;
+font-weight:700;
+text-decoration:underline;	
+}
+.dt-browselinks a:link, .dt-browselinks a:visited{
+font:arial;
+font-size: 12px;	
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color: #165c76;
+font-weight:700;
+text-decoration:underline;	
+}
+.dt-browselinks a:hover{
+font:arial;
+font-size: 12px;	
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color: #000000;
+font-weight:700;
+text-decoration:underline;	
+}
+
+
+/****** Search Result Page Styles *****/
+
+/* Title above Search Results */
+.dt-resultstitle{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+padding: 5px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color: #165c76;
+font-weight: bold;
+}
+.dt-pagetitle{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+/* [ReplaceColor(themeColor:"Dark2")] */ color: #0f7997;
+}
+/* Link on right side of Search Results page to browse for courses and sections */
+.dt-rightlink{
+font-family:Arial, Helvetica, san-serif;
+font-size:12px;
+/* [ReplaceColor(themeColor:"Dark2")] */ color: #0f7997;
+text-decoration: none;
+vertical-align: top;
+padding: 5px;
+}
+.dt-rightlink a:link,.dt-rightlink  a:visited,.dt-rightlink  a:active{
+font-family:Arial, Helvetica, san-serif;
+font-size:12px;
+/* [ReplaceColor(themeColor:"Dark2")] */ color: #0f7997;
+text-decoration: underline;
+vertical-align: top;
+padding: 5px;
+}
+.ms-ptabarea, .ms-sctabarea {
+margin-left:20px;
+}
+/* Search result content text */
+td.ms-vb {
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+white-space:wrap;
+background-color: transparent;
+}
+td.ms-vb a:link, td.ms-vb a:visited, td.ms-vb a:active{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+white-space:wrap;
+}
+.ms-vb a:link, .ms-vb2 a:link, .ms-vb-user a:link{
+/* [ReplaceColor(themeColor:"Hyperlink")] */	color:#666;
+cursor: pointer;
+text-decoration:none;
+vertical-align: bottom;
+}
+td.ms-vb a:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+white-space:wrap;
+}
+td.dt-vb {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin-left: 0px;
+padding: 0px;
+white-space:wrap;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color: #333333;
+vertical-align:top;
+}
+td.dt-vb a:link, td.dt-vb a:active, td.dt-vb a:visited{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin-left: 0px;
+padding: 0px;
+white-space:wrap;
+/* [ReplaceColor(themeColor:"Dark2")] */ color: #0f7997;
+vertical-align:top;
+font-weight:bold;
+}
+td.dt-vb a:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin-left: 0px;
+padding: 0px;
+white-space:wrap;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color: #000000;
+vertical-align:top;
+font-weight:bold;
+}
+/* Bottom bar of page results */
+.ms-bottompaging .ms-paging{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 color:#333333;
+}
+.ms-srchresultstop{
+/* [ReplaceColor(themeColor:"Accent4")] */ background-color: #e8e8e8;
+}
+.srch-WPBody{
+margin:0px;
+font-family:tahoma;
+font-size:1em;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ color:#666666;
+}
+.srch-sort{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	COLOR:#333333;
+FONT-SIZE:1.0em;
+}
+.srch-sort A:link,.srch-sort A:visited{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+}
+.srch-sort a:hover{
+color:#FF0000;
+}
+.srch-sort-right{
+float:right;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	COLOR:#333333;
+background-color: transparent;
+FONT-SIZE:1.0em;
+padding-bottom:4px;
+}
+.srch-sort-right A:link,.srch-sort-right A:visited{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+}
+.srch-sort-right a:hover{
+color:#FF0000;
+}
+.srch-summary{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 COLOR:#333333;
+FONT-SIZE:1.0em;
+FONT-FAMILY:Tahoma;
+}
+.srch-summary A:link,.srch-summary A:visited{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+}
+.srch-summary a:hover{
+/* [ReplaceColor(themeColor:"Accent1-Darker")] */ color:#FF0000;
+}
+.srch-stats{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 COLOR:#333333;
+FONT-SIZE:1.0em;
+FONT-FAMILY:Tahoma;
+/* [ReplaceColor(themeColor:"Accent4")] */ background-color:#fff !important;
+white-space:normal !important;
+text-align:left;
+padding-left: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.srch-stats A:link{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+}
+.srch-stats a:hover{
+/* [ReplaceColor(themeColor:"Accent1-Darker")] */ color:#FF0000;
+}
+.srch-Description{
+FONT-SIZE:1.0em;
+MARGIN:0px 0px 4px;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	COLOR:#333333;
+FONT-FAMILY:Tahoma;
+}
+.srch-Description b{
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */ COLOR:#333333;
+}
+.srch-alertme a:link,.srch-alertme A:visited{
+MARGIN:0px 0px 0px;
+}
+.srch-alertme a:hover{
+MARGIN:0px 0px 0px;
+}
+.srch-Title{
+FONT-SIZE:1.2em;
+MARGIN:0px 0px 5px;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+FONT-FAMILY:Tahoma;
+}
+.srch-Title A:link,.srch-Title A:visited{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+}
+.srch-Title a:hover{
+color:#FF0000;
+text-decoration:underline;
+}
+.srch-URL A:link,.srch-URL A:visited{
+color:#008800 !important;
+text-decoration:none;
+}
+.srch-URL a:hover{
+color:#FF0000;
+text-decoration:underline;
+}
+.srch-Metadata{
+/* [ReplaceColor(themeColor:"Accent4")] */ BORDER-TOP:#d3d3d3 1px solid;
+FONT-SIZE:1.0em;
+MARGIN:0px 0px 15px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ COLOR:#888888;
+FONT-FAMILY:Tahoma;
+}
+.srch-Page{
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ COLOR:#666666;
+FONT-WEIGHT:bold;
+FONT-SIZE:1.0em;
+FONT-FAMILY:Tahoma;
+/* [ReplaceColor(themeColor:"Accent4")] */ background-color:#e8e8e8 !important;
+text-align:right;
+padding-right: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.srch-Page A:link,.srch-Page A:visited, .srch-Page A:active{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+FONT-WEIGHT:normal;
+}
+.srch-Page a:hover{
+color:#FF0000;
+/* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-top:solid 1px #c6e5f8;
+/* [ReplaceColor(themeColor:"Accent1-Darker")] */ border-right:solid 1px #91cdf2;
+/* [ReplaceColor(themeColor:"Accent1-Darker")] */ border-left:solid 1px #91cdf2;
+/* [ReplaceColor(themeColor:"Accent1-Darker")] */ border-bottom:solid 1px #91cdf2;
+}
+.srch-dup A:link,.srch-dup A:visited{
+ /* [ReplaceColor(themeColor:"Accent3-Darkest")] */COLOR:#52b5d1;
+}
+.srch-Icon{
+margin-right:4;
+}
+.srch-ActionLink a{
+text-decoration:none;
+font-size:.85em;
+font-style:italic;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#337999;
+margin-top:2;
+margin-bottom:0;
+}
+.srch-ActionLink a:hover{
+color:#FF0000;
+}
+
+
+/***** Advanced Search Page *****/
+
+/* Title in Advanced Search page */
+.dt-advancedresultstitle{
+float: left;
+/* [ReplaceColor(themeColor:"Light1")] */ color: white;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight: bold;
+white-space:nowrap;
+padding-left: 10px;
+}
+.dt-columnhead{
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark2")] */ background-color: #0f7997;
+/* [ReplaceColor(themeColor:"Light1")] */  color: #fff
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border: 1px solid #333333;
+}
+
+/***** Browse Courses and Sections page styles *****/
+
+/* Filter arrow in column header */
+th .ms-selectedtitle .ms-vb,th .ms-selectedtitle .ms-vh2-nofilter-icon,th .ms-selectedtitle .ms-vb a,th .ms-selectedtitle .ms-vh2-nofilter-icon a{
+/* [ReplaceColor(themeColor:"Accent6-Darker")] */ color:#4c4c4c;
+}
+.dt-browsearrow{
+background-image:url('/_layouts/images/datatel/BrowseArrow.png');
+background-repeat: no-repeat;
+float: right;
+vertical-align: top;
+right: 0px;
+width: 16px;
+height: 16px;
+padding:0px;
+margin:0px;
+position: absolute;
+z-index: -1;
+}
+/* Alternating row colors for browse results pages */
+.ms-alternating{
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ background-color:#f8f8f8;
+}
+.ms-alternatingstrong{
+/* [ReplaceColor(themeColor:"Accent4")] */  background-color:#e8e8e8;
+}
+.ms-alternatingstrong td,.ms-basictable .ms-alternating td{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-bottom:3px solid #d3d3d3;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top:1px solid #d3d3d3;
+}
+.ms-alternatingstrong td td,.ms-basictable .ms-alternating td td{
+border:0px;
+}
+.ms-listviewtable .ms-vh2,.ms-summarystandardbody .ms-vh2{
+padding:5px;
+}
+.ms-listviewtable{
+width:100%;
+margin-left: 0px;
+margin-right: 0px;
+/* [ReplaceColor(themeColor:"Accent4")] */ border:1px solid #d3d3d3;
+}
+.ms-selectedtitle{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border:1px solid #888888;
+margin:0px;
+padding:0px;
+cursor:pointer;
+}
+.ms-selectedtitlealternative{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:transparent;
+background-image: none;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border:1px solid #888888;
+margin:0px;
+padding:0px;
+cursor:pointer;
+}
+.ms-unselectedtitle{
+background-color:transparent;
+margin:0px;
+padding:0px;
+}
+.ms-gb a:link,.ms-gb a:visited,.ms-gb a:active{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color: #165c76;
+font-size:12px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+vertical-align: middle;
+}
+.ms-gb2{
+height:22px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 color:#333333;
+padding-bottom:3px;
+/* [ReplaceColor(themeColor:"Accent3-Lightest")] */ border:1px solid #c0e1ec;
+vertical-align: middle;
+}
+.ms-gb2 a:link,.ms-gb2 a:visited,.ms-gb2 a:active{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color:#333333;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+vertical-align: middle;
+}
+
+/*******  Course and Section Page Styles  ******/
+
+/* Text that explains the Course or Section details on a Course or Sections page */
+.dt-descriptiontext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+padding: 5px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+}
+.dt-ms-descriptiontext{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 color:#333333;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+text-align:left;
+padding-left: 20px;
+padding-top:0px;
+}
+/* Column headers for viewing details about a course or section on a course or sections page */
+.datatelsectioninfo-table {
+/* [ReplaceColor(themeColor:"Light1")] */ border: white solid 0px;       
+}
+div.datatel-sectioninfo{
+margin-left: 0px;
+padding-left:0px;
+}
+.datatelsectioninfo-header td{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color: #e3eff2;
+/* [ReplaceColor(themeColor:"Dark2")] */ color: #0f7997;
+font-weight: bold;
+font-family: Arial;
+font-size: 12px;
+border: none;
+border-style: none;
+text-align: left;
+padding: 5px;
+padding-left:10px;
+margin: 7px;
+}
+.datatelsectioninfo-item td{
+padding-right:5px;
+padding-left: 10px;
+padding-bottom: 5px;
+padding-top: 5px;
+font-size: 12px;
+font-family: Arial;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+border: none;  
+border-style: none;
+}
+.datateltermheader{
+font-weight: bold;
+padding-top: 20px;
+padding-left:2px;
+}
+div.datatel-sectioninfo a:link, div.datatel-sectioninfo a:visited{
+font: Arial;
+font-size: 12px;  
+text-decoration: underline;
+font-weight: bold;
+}
+
+/* Add to preferred list and warning buttons graphics */
+.dt-addtolistbutton-available{
+/* [ReColorImage(themeColor:"Accent3-Darkest",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/AddtoPrefList_btn.png');
+background-repeat: no-repeat;
+float: left;
+width: 150px;
+height: 20px;
+vertical-align: middle;
+padding:0px;
+margin:0px;
+cursor: pointer;
+}
+.dt-addtolistbutton-available a:hover{
+/* [ReColorImage(themeColor:"Dark2-Medium",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/AddtoPrefList-over_btn.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 150px;
+height: 20px;
+padding:0px;
+margin:0px;
+cursor: pointer;
+}
+.dt-addtolistbutton-notavailable{
+/* [RecolorImage(themeColor:"Light2-Medium",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/Unavailable.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 150px;
+height: 20px;
+padding:0px;
+margin:0px;
+}
+.dt-addtolistbutton-enrolled{
+/* [Recolorimage(themeColor:"FollowedHyperlink",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/PrevEnrolled.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 152px;
+height: 32px;
+padding:0px;
+margin:0px;
+}
+.dt-addtolistbutton-preferred {
+/* [Recolorimage(themeColor:"FollowedHyperlink",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/AlreadyonList.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 175px;
+height: 20px;
+padding:0px;
+margin:0px;
+}
+.dt-addtolistbutton-success{
+background-image:url('/_layouts/images/datatel/SuccessAdd.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 140px;
+height: 20px;
+padding:0px;
+margin:0px;
+}
+.dt-addtolistbutton-wait{
+/* [Recolorimage(themeColor: "Dark1-Medium",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/PleaseWait.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 150px;
+height: 20px;
+padding:0px;
+margin:0px;
+}
+.dt-addtolistbutton-failure{
+background-image:url('/_layouts/images/datatel/AddtoPrefList-disable_btn.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 150px;
+height: 20px;
+padding:0px;
+margin:0px;
+}
+.dt-addtolisticon-warning {
+/* [Recolorimage(themeColor:"Accent5-Darker",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/Warning_btn.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 25px;
+height: 20px;
+padding:0px;
+margin:0px;
+cursor:pointer;
+}
+.dt-addtolisticon-error {
+background-image:url('/_layouts/images/datatel/Error_btn.png');
+background-repeat: no-repeat;
+float: left;
+vertical-align: middle;
+width: 150px;
+height: 20px;
+padding:0px;
+margin:0px;
+cursor:pointer;
+}
+.dt-addtolist-hover{
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color: #000000;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+padding:5px;
+margin: 5px;
+/* [ReplaceColor(themeColor:"FollowedHyperlink")] */ border: 2px solid #ef9240;
+}
+.datatelsectioninfo-preferredsectionslink {
+float: left;
+background-image:url('/_layouts/images/datatel/PreferredList.png');
+background-repeat: no-repeat;
+width: 175px;
+height: 20px;
+vertical-align:bottom;
+margin-top: 35px;
+margin-bottom: 15px;
+cursor:pointer;
+}
+/* Instruction text in place of course add buttons */
+.dt-instructiontext{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#337999;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+background-color:transparent;
+padding-left:10px;
+font-style:italic;
+}
+
+
+/* book icon in course offerings web part */
+
+.dt-bookicon{
+background-image:url('/_layouts/images/datatel/bookprices.png');
+background-repeat: no-repeat;
+background-position: right;
+width: 16px;
+height: 16px;
+vertical-align: middle;
+padding:0px;
+margin:0px;
+cursor: pointer;
+float: right;
+display: block;
+}
+
+.dt-sectiontitlelink{
+float:left;
+display: inline;
+position: relative;
+padding-right: 5px;
+}
+
+/* styles for Books Prices table in Section Info page */
+
+.dt-books{
+line-height: 20px;
+}
+.dt-books-pricecolumn{
+text-align:right
+}
+.dt-books-pricetotal{
+text-decoration:overline; 
+text-align:right;
+}
+
+/* Added from Teamsites */
+.ms-gb{
+height:auto;
+/* [Recolorimage(themeColor:"Accent1-Darker",method:"Tinting")] */ background-image:url('/_layouts/images/datatel/CatalogTitle-bkgrd.png');
+background-repeat: repeat-x;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+font-size:12px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Accent3-Lighter")] */ border:1px solid #c0e1ec;
+padding-bottom:5px;
+padding-left: 10px;
+vertical-align: middle;
+}
+.ms-gb,.ms-gb2,.ms-gbload,.ms-vb,.ms-vb2,.ms-vb-tall,.ms-GRFont,.ms-vb-user,.ms-pb,.ms-pb-selected td{
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ color:#666666;
+}
+.ms-vb a,.ms-vb2 a,.ms-GRStatusText a,.ms-vb-user a,.ms-disc a{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 color:#333;
+text-decoration:none;
+}
+.ms-vb a:hover,.ms-vb2 a:hover,.ms-vb-user a:hover,.ms-disc a:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000;
+text-decoration:underline;
+}
+.ms-vb a:visited,.ms-vb2 a:visited,.ms-GRStatusText a:visited,.ms-vb-user a:visited,.ms-disc a:visited{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#337999;
+text-decoration:none;
+}
+.ms-vb a:visited:hover,.ms-vb2 a:visited:hover,.ms-vb-user a:visited:hover,.ms-disc a:visited:hover{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#337999;
+text-decoration:underline;
+}
+.ms-vb2{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+/* Breadcrumb styles */
+div.dt-teamsites .ms-pagebreadcrumb {
+background-color: transparent;
+vertical-align: middle;
+padding:10px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color: #888888;
+border:0px;
+}
+.ms-pagebreadcrumb, .ms-pagebreadcrumb a {
+background-color:transparent;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-size:8pt;
+text-decoration:none;
+}
+.ms-pagebreadcrumb a:hover {
+background-color:transparent;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+font-size:8pt;
+text-decoration:none;
+}
+.ms-globalTitleArea{
+text-align:right;
+background-image:none;
+padding-left:5px;
+padding:0px;
+padding-top:1px;
+margin-left:5px;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #ffffff;
+}
+td.ms-titleimagearea{
+padding-left: 15px;
+}
+.ms-globalTitleAreaSeparator{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+background-image:none;
+}
+a.ms-sitemapdirectional{
+padding-left: 3px;
+padding-right: 3px;
+}
+div.dt-teamsites a.ms-sitemapdirectional{
+padding-left: 0px;	
+background-color: transparent;
+}
+div.dt-teamsites .ms-banner{
+display: none;
+}
+div.dt-teamsites .ms-globalbreadcrumb{
+font-size:1px;
+text-align:right;
+padding:0px;
+padding-left:10px;
+height:1px;
+margin:0px;
+/* [ReplaceColor(themeColor:"Accent1-lighter")] */ border-bottom: 1px solid #c0e1ec;
+background-color: transparent;
+}
+div.dt-teamsites .ms-globalbreadcrumb a, div.dt-teamsites .ms-globalbreadcrumb a:link{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Light1")] */ color:#ffffff;
+}
+div.dt-teamsites .ms-globalbreadcrumb a:hover{
+text-decoration:underline;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ color:#e3eff2;
+}
+.ms-globallinks-ts, .ms-globallinks-ts a:link, .ms-globallinks-ts a:visited{	
+font-size: 7pt;	
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;
+text-decoration: none;	 
+vertical-align: middle; 
+font-family:Arial, Helvetica, sans-serif;
+float: top;	
+padding-left:1px; 
+padding-right:1px;
+padding-top:0px;
+padding-bottom:0px;
+border:0px;
+height:15px;
+}
+.ms-globallinks-ts{
+font-size:8pt;
+background-color:transparent;
+font-family:Arial, Helvetica, sans-serif;
+}
+.ms-globallinks-ts, .ms-globallinks-ts a{
+/* [ReplaceColor(themeColor:"Light1")] */ color:#ffffff;
+text-decoration:none;
+font-family:Arial, Helvetica, sans-serif;
+}	
+/*	Body content with webparts */
+.ms-bodyareaframe,.ms-viewareaframe{
+vertical-align:top;
+height:100%;
+width:100%;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+/* [ReplaceColor(themeColor:"Accent3-Lighter")] */ border-top:2px solid #ef9240;
+/* [ReplaceColor(themeColor:"Accent3-Lighter")] */ border-right:2px solid #ef9240;
+/* [ReplaceColor(themeColor:"Accent3-Lighter")] */ border-left:2px solid #ef9240;
+/* [ReplaceColor(themeColor:"Accent3-Lighter")] */ border-bottom:2px solid #ef9240;
+padding:0px;
+}
+.ms-webpartpagedescription{
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+padding:8px 12px 0px 12px;
+}
+/**** Admin Page Menu Bar Styles ****/
+/* Menu bar */
+.ms-menutoolbar{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-bottom:0px solid #0f7997;
+/* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color:#c0e1ec;
+background-image:none;
+background-repeat:repeat;
+height:10px;
+}
+.ms-menutoolbar td{
+/* [ReplaceColor(themeColor:"Light2-Lighter")] */ border-top:solid 0px #f2f8ff;
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ border-bottom:solid 1px #c0e1ec;
+}
+.ms-menutoolbar td a:hover{
+/* [ReplaceColor(themeColor:"Hyperlink",themeShade:"0.82")] */ color:#000000;
+text-decoration:none;
+}
+.ms-menubuttonactivehover,.ms-buttonactivehover{
+margin:0px 1px 0px 1px;
+padding:3px 7px 4px 7px;
+/* [RecolorImage(themeColor:"Light1-Darkest",includeRectangle:{x:0,y:431,width:1,height:21}),method:"Tinting")] */ background-image:url("/_layouts/images/datatel/menubuttonhover.gif");
+line-height:16px;
+/* [ReplaceColor(themeColor:"Light1-Lighter")] */ border:solid 1px #ffdf88;
+cursor:pointer;
+}
+.ms-titlearea,.ms-mwstitlearea{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#52b5d1;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+}
+.ms-titlearea a{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#52b5d1;
+text-decoration:none;
+}
+.ms-titlearea a:hover,.ms-mwstitlearea a:hover{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+text-decoration:underline;
+}
+
+/* Form menu bar*/
+.ms-listheaderlabel,.ms-viewselector,.ms-viewselectortext,.ms-viewselectorhover{
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+}
+.ms-menutoolbar td td.ms-viewselector,.ms-menutoolbar td td.ms-viewselectorhover,.ms-toolbar td td.ms-viewselector,.ms-toolbar td td.ms-viewselectorhover,.ms-authoringcontrols td td.ms-viewselector,.ms-authoringcontrols td td.ms-viewselectorhover,td.ms-viewselector{
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+background-image:url("/_layouts/images/datatel/selectednav.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffdf88;
+font-weight:normal;
+padding:0px;
+font-size: 12px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+line-height:16px;
+}
+.ms-menutoolbar .ms-splitbuttontext{
+padding:0px 6px 1px 8px;
+}
+.ms-splitbuttonhover{
+/* [RecolorImage(themeColor:"Accent6-Darker",method:"Tinting",includeRectangle:{x:0,y:431,width:1,height:21},method:"Tinting")] */ background-image:url("/_layouts/images/datatel/menubuttonhover.gif");
+border-collapse:collapse;
+margin:0px 1px 0px 1px;
+}
+.ms-menutoolbar td td.ms-viewselectorhover,.ms-toolbar td td.ms-viewselectorhover,.ms-authoringcontrols td td.ms-viewselectorhover{
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting",includeRectangle:{x:0,y:654,width:1,height:18},method:"Tinting")] */ background-image:url("/_layouts/images/datatel/menubuttonhover.gif");
+/* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ef9240;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+font-size: 12px;
+line-height:16px;
+}
+td.ms-viewselector,td.ms-viewselectorhover{
+width:125px;
+}
+div.ms-viewselector a{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */  color:#000000;
+}
+
+/*Announcement message*/
+.ms-listdescription{
+/* [ReplaceColor(themeColor:"Light2-Lightest")] */ color:#ffffff;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+background-color:transparent;
+padding:0px;
+font-size:11px;
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top: 0px solid #d3d3d3;
+border-bottom:0px;
+width:98%;
+margin-left:20px;
+margin-right:20px;
+}
+
+/* Quicklaunch Recycle Bin Text and Background */
+table.ms-recyclebin td{
+/* [Recolorimage(themeColor:"Dark2-Medium",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/quickLaunch_bg.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Dark2")] */ background-color: #0f7997;
+width:100%;
+font-weight:normal;
+font-size: 10px;
+text-align:center;
+/* [ReplaceColor(themeColor:"Light1")] */ border-top:solid 1px #ffffff;
+/* [ReplaceColor(themeColor:"Light1")] */ border-left:solid 0px #ffffff;
+padding:3px 3px 3px 3px;
+letter-spacing:.1em;
+}
+table.ms-recyclebin td a{
+/* [ReplaceColor(themeColor:"Light1")] */ color:#ffffff;
+text-decoration:none;
+font-weight:normal;
+letter-spacing:.1em;
+}
+table.ms-recyclebin td a:hover{
+/* [ReplaceColor(themeColor:"Accent1-lighter")] */ color:#c0e1ec;
+text-decoration:underline;
+font-weight:normal;
+letter-spacing:.1em;
+}
+#MSOTlPn_MainTD{
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color: #c0e1ec;
+}
+/**** Calendar Styles pulled from calendar.css ****/
+.ms-calheader{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-cal-navselected,.ms-cal-nav{
+font-size:8pt;
+}
+span.ms-cal-navselected a{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+font-weight:bold;
+}
+.ms-cal-navselected a:hover{
+text-decoration:underline;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+td a.ms-cal-nav{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */   color:#165c76;
+text-decoration:none;
+font-weight:normal;
+}
+span.ms-cal-nav a,span.ms-cal-nav a:visited{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+text-decoration:none;
+font-weight:normal;
+}
+span.ms-cal-nav a:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:underline;
+font-weight:normal;
+}
+.ms-cal-nav a:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:underline;
+font-weight:normal;
+}
+.ms-cal-nav img,.ms-cal-navselected img{
+vertical-align:middle;
+}
+.ms-cal-weekempty,.ms-cal-weekemptyRTL{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:18px;
+font-size:2px;
+}
+.ms-cal-weekname{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:14.5%;
+}
+.ms-cal-weekday{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+padding:2px;
+font-weight:bold;
+}
+.ms-cal-week,.ms-cal-weekB,.ms-cal-weekRTL,.ms-cal-weekRTLB{
+background-image:url("/_layouts/images/datatel/weekbox.gif");
+background-repeat:repeat-y;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:1px solid #0f7997;
+}
+.ms-cal-weekselected,.ms-cal-weekselectedRTL{
+/* [ReplaceColor(themeColor:"Dark2")] */ border:1px solid #0f7997;
+cursor:pointer;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-cal-weekselected a,.ms-cal-weekselectedRTL a{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:none;
+cursor:pointer;
+}
+.ms-cal-weekbox,.ms-cal-weekboxRTL{
+width:15px;
+}
+.ms-cal-topday,.ms-cal-topdayL,.ms-cal-wtopdayL,.ms-cal-wtopday{
+ /* [Recolorimage(themeColor:"Accent3-Darkest",method:"Tinting")] */background-image:url("/_layouts/images/datatel/calnumBttn.gif");
+background-repeat:repeat-x;
+ /* [ReplaceColor(themeColor:"Accent3-Darkest")] */background-color:#8dd5ec;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-align:left;
+}
+.ms-cal-topdayRTL,.ms-cal-topdayRTLL,.ms-cal-wtopdayRTL,.ms-cal-wtopdayRTLL{
+/* [Recolorimage(themeColor:"Accent1-Darker",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/calnumBttn.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-align:right;
+}
+.ms-cal-wtopday{
+border-right:none;
+}
+.ms-cal-wtopdayRTL{
+border-left:none;
+}
+.ms-cal-topday div,.ms-cal-topdayRTL div,.ms-cal-topdayL div,.ms-cal-topdayRTLL div,
+.ms-cal-wtopday div,.ms-cal-wtopdayL div,.ms-cal-wtopdayRTL div,.ms-cal-wtopdayRTLL div,
+.ms-cal-wtopdayfocus div,.ms-cal-wtopdayfocusL div,.ms-cal-wtopdayfocusRTL div,.ms-cal-wtopdayfocusRTLL div,
+.ms-cal-wtopday-today div,.ms-cal-wtopday-todayRTL div{
+font-weight:bold;
+padding:1px 1px 2px 5px;
+}
+.ms-cal-wtopdayL div span,.ms-cal-wtopday div span,.ms-cal-wtopdayRTL div span,.ms-cal-wtopdayRTLL div span,
+.ms-cal-wtopdayLover div span,.ms-cal-wtopdayover div span,.ms-cal-wtopdayRTLover div span,.ms-cal-wtopdayRTLLover div span,
+.ms-cal-wtopday-today div span,.ms-cal-wtopdayfocus div span,.ms-cal-wtopdayfocusL div span,.ms-cal-wtopdayfocusRTLL div span,
+.ms-cal-wtopdayfocusRTL div span,.ms-cal-wtopday-todayover div span,.ms-cal-wtopday-todayRTLover div span,
+.ms-cal-wtopday-todayRTL div span,.ms-cal-wtopdayfocusRTLover div span,
+.ms-cal-wtopdayfocusRTLLover div span,.ms-cal-wtopdayfocusover div span,.ms-cal-wtopdayfocusLover div span{
+font-weight:normal;
+padding:0px 10px 0px 10px;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+.ms-cal-wtopdayL div a,.ms-cal-wtopday div a,.ms-cal-wtopdayRTL div a,.ms-cal-wtopdayRTLL div a,.ms-cal-wtopdayfocus div a,.ms-cal-wtopdayfocusL div a,.ms-cal-wtopdayfocusRTLL div a,.ms-cal-wtopdayfocusRTL div a{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+.ms-cal-topday-today,.ms-cal-wtopday-today,.ms-cal-topday-todayRTL,.ms-cal-wtopday-todayRTL{
+/* [Recolorimage(themeColor:"Hyperlink",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/calnumBttntoday.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+}
+.ms-cal-topday-today,.ms-cal-wtopday-today{
+text-align:left;
+}
+.ms-cal-topday-todayRTL,.ms-cal-wtopday-todayRTL{
+text-align:right;
+}
+.ms-cal-topday-today div,.ms-cal-wtopday-today div,.ms-cal-topday-todayover div,.ms-cal-wtopday-todayover div,.ms-cal-topday-todayRTL div,.ms-cal-wtopday-todayRTL div,.ms-cal-topday-todayoverRTL div,.ms-cal-wtopday-todayRTLover div{
+padding:0px 0px 0px 4px;
+/* [ReplaceColor(themeColor:"Hyperlink")] */ border:solid 1px #ef9240;
+font-weight:bold;
+}
+.ms-cal-topday-todayover,.ms-cal-wtopday-todayover{
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+/* [ReplaceColor(themeColor:"Dark2")] */  border:solid 1px #0f7997;
+cursor:pointer;
+text-align:left;
+}
+.ms-cal-topday-todayoverRTL,.ms-cal-wtopday-todayRTLover{
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+cursor:pointer;
+text-align:right;
+}
+.ms-cal-topdayover,.ms-cal-topdayoverL,.ms-cal-wtopdayover,.ms-cal-wtopdayLover,
+.ms-cal-topdayfocusover,.ms-cal-wtopdayfocusover,.ms-cal-wtopdayfocusLover{
+/* [Recolorimage(themeColor:"Dark2-Medium",method:"Tinting")] */background-image:url("/_layouts/images/datatel/calnumBttnover.gif");
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+cursor:pointer;
+text-align:left;
+}
+.ms-cal-topdayoverRTL,.ms-cal-topdayoverRTLL,.ms-cal-topdayfocusoverRTL,.ms-cal-topdayfocusoverRTLL,
+.ms-cal-wtopdayRTLover,.ms-cal-wtopdayRTLLover,.ms-cal-wtopdayfocusRTLover,.ms-cal-wtopdayfocusRTLLover{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+cursor:pointer;
+text-align:right;
+}
+.ms-cal-topdayover div,.ms-cal-topdayoverL div,.ms-cal-topdayoverRTL div,.ms-cal-topdayoverRTLL div,
+.ms-cal-wtopdayover div,.ms-cal-wtopdayLover div,.ms-cal-wtopdayRTLover div,.ms-cal-wtopdayRTLLover div,
+.ms-cal-topdayfocusover div,.ms-cal-topdayfocusRTLover div,.ms-cal-wtopdayfocusover div,.ms-cal-wtopdayfocusLover div,
+.ms-cal-wtopdayfocusRTLover div,.ms-cal-wtopdayfocusRTLLover div{
+padding:1px 1px 2px 5px;
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:underline;
+}
+.ms-cal-topdayfocus,.ms-cal-topdayfocusL,.ms-cal-topdayfocusRTL,.ms-cal-topdayfocusRTLL,.ms-cal-wtopdayfocus,.ms-cal-wtopdayfocusL,.ms-cal-wtopdayfocusRTL,.ms-cal-wtopdayfocusRTLL{
+/* [Recolorimage(themeColor:"Hyperlink",method:"Tinting")] */background-image:url("/_layouts/images/datatel/selectednav.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+}
+.ms-cal-wtopdayfocus,.ms-cal-wtopdayfocusL{
+text-align:left;
+}
+.ms-cal-wtopdayfocusRTL,.ms-cal-wtopdayfocusRTLL{
+text-align:right;
+}
+.ms-cal-topdayfocus div,.ms-cal-topdayfocusL div,.ms-cal-topdayfocusRTL div,.ms-cal-topdayfocusRTLL div,.ms-cal-wtopdayfocus div,.ms-cal-wtopdayfocusL div,.ms-cal-wtopdayfocusRTL div,.ms-cal-wtopdayfocusRTLL div,{
+padding:1px 1px 2px 5px;
+font-weight:bold;
+}
+.ms-cal-topdayfocus div a,.ms-cal-topdayfocusL div a,.ms-cal-topdayfocusRTL div a,.ms-cal-topdayfocusRTLL div a,.ms-cal-wtopdayfocus div a,.ms-cal-wtopdayfocusL div a,.ms-cal-wtopdayfocusRTL div a,.ms-cal-wtopdayfocusRTLL div a{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+.ms-cal-wtopday div img,.ms-cal-wtopdayL div img,.ms-cal-wtopdayLover div img,.ms-cal-wtopdayover div img,
+.ms-cal-wtopdayRTL div img,.ms-cal-wtopdayRTLL div img,.ms-cal-wtopdayRTLover div img,.ms-cal-wtopdayRTLLover div img,
+.ms-cal-wtopdayfocusover div img,.ms-cal-wtopdayfocusLover div img,.ms-cal-wtopdayfocusRTLover div img,.ms-cal-wtopdayfocusRTLLover div img,
+.ms-cal-wtopday-todayRTLover div img,.ms-cal-wtopday-todayRTLLover div img,.ms-cal-wtopday-todayRTL div img,.ms-cal-wtopday-todayRTLL div img,
+.ms-cal-wtopdayfocusRTL div img,.ms-cal-wtopdayfocusRTLL div img,.ms-cal-wtopdayfocusL div img,.ms-cal-wtopdayfocus div img{
+width:96px;
+}
+.ms-cal-topday div a,.ms-cal-topday div a:active,.ms-cal-topday div a:link,.ms-cal-topday div a:visited,.ms-cal-topday div a:hover,
+.ms-cal-topdayL div a,.ms-cal-topdayL div a:active,.ms-cal-topdayL div a:link,.ms-cal-topdayL div a:visited,.ms-cal-topdayL div a:hover,
+.ms-cal-topdayRTL div a,.ms-cal-topdayRTL div a:active,.ms-cal-topdayRTL div a:link,.ms-cal-topdayRTL div a:visited,.ms-cal-topdayRTL div a:hover,
+.ms-cal-topdayRTLL div a,.ms-cal-topdayRTLL div a:active,.ms-cal-topdayRTLL div a:link,.ms-cal-topdayRTLL div a:visited,.ms-cal-topdayRTLL div a:hover,
+.ms-cal-topdayselectedRTLL div a,.ms-cal-topdayselectedRTLL div a:active,.ms-cal-topdayselectedRTLL div a:link,.ms-cal-topdayselectedR:TLL div a:visited,.ms-cal-topdayselectedRTLL div a:hover,
+.ms-cal-topdayselectedRTL div a,.ms-cal-topdayselectedRTL div a:active,.ms-cal-topdayselectedRTL div a:link,.ms-cal-topdayselectedRTL div a:visited,.ms-cal-topdayselectedRTL div a:hover,
+.ms-cal-topdayselectedL div a,ms-cal-topdayselectedL div a:active,ms-cal-topdayselectedL div a:link,.ms-cal-topdayselectedL div a:visited,.ms-cal-topdayselectedL div a:hover,
+.ms-cal-topdayselected div a,.ms-cal-topdayselected div a:active,.ms-cal-topdayselected div a:link,.ms-cal-topdayselected div a:visited,.ms-cal-topdayselected div a:hover,
+.ms-cal-topday-today div a,.ms-cal-wtopday-today div a,.ms-cal-topday-todayover div a,.ms-cal-wtopday-todayover div a,.ms-cal-topday-todayRTL div a,.ms-cal-wtopday-todayRTL div a,.ms-cal-topday-todayoverRTL div a,.ms-cal-wtopday-todayRTLover div a,
+.ms-cal-topdayover div a,.ms-cal-topdayoverL div a,.ms-cal-topdayoverRTL div a,.ms-cal-topdayoverRTLL div a,.ms-cal-wtopdayover div a,.ms-cal-wtopdayLover div a,.ms-cal-wtopdayRTLover div a,.ms-cal-wtopdayRTLLover div a,.ms-cal-topdayfocusover div a,.ms-cal-topdayfocusoverRTL div a,
+.ms-cal-topdayfocus div a,.ms-cal-topdayfocusL div a,.ms-cal-topdayfocusRTL div a,.ms-cal-topdayfocusRTLL div a,.ms-cal-wtopdayfocus div a,.ms-cal-wtopdayfocusL div a,.ms-cal-wtopdayfocusRTL div a,.ms-cal-wtopdayfocusRTLL div a{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:none;
+}
+.ms-cal-nodataMid td,.ms-cal-nodataLeft td,.ms-cal-nodataLeftBtm td,.ms-cal-nodataLeftBtmRTL td,.ms-cal-nodataLeftBtm2 td,.ms-cal-nodataLeftBtmRTL2 td,.ms-cal-nodataBtm td,.ms-cal-nodataBtm2 td{
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+vertical-align:top;
+}
+.ms-cal-nodataMid,.ms-cal-nodataLeft,.ms-cal-nodataLeftRTL,.ms-cal-nodataLeftBtm,.ms-cal-nodataLeftBtmRTL,.ms-cal-nodataLeftBtm2,.ms-cal-nodataLeftBtmRTL2,.ms-cal-nodataBtm,.ms-cal-nodataBtm2{
+padding:1px 0px 1px 0px;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */background-color:#e3eff2;
+vertical-align:top;
+}
+.ms-cal-nodataLeftBtm,.ms-cal-nodataLeftBtmRTL,.ms-cal-nodataLeftBtm2,.ms-cal-nodataLeftBtmRTL2,.ms-cal-nodataBtm,.ms-cal-nodataBtm2{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-bottom:1px solid #0f7997;
+}
+.ms-cal-muworkitem,.ms-cal-muworkitemL,.ms-cal-muworkitemR,.ms-cal-muworkitemRTL,.ms-cal-muworkitemRTLL{
+padding:1px 0 0 0;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+}
+.ms-cal-muworkitem td,.ms-cal-muworkitemL td,.ms-cal-muworkitemRTL td,.ms-cal-muworkitemRTLL td,.ms-cal-muworkitemR td,.ms-cal-todayitem td,.ms-cal-todayitemRTL td,.ms-cal-noworkitem td,.ms-cal-workitem td,.ms-cal-noworkitemRTL td{
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+vertical-align:top;
+}
+.ms-cal-workitem,.ms-cal-todayitem,.ms-cal-todayitemRTL{
+padding:1px 0px 1px 0px;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+vertical-align:top;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+}
+.ms-cal-workitem2{
+padding:2px 5px 1px 5px;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+}
+.ms-cal-workitem2B,.ms-cal-workitemRTL2B,.ms-cal-todayitem2B,.ms-cal-todayitemRTL2B{
+padding:2px 5px 1px 5px;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-bottom:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+}
+.ms-cal-workitemL2{
+padding:2px 5px 1px 5px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:3px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:1px solid #888888;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#FFFFFF;
+}
+.ms-cal-workitemRTLL2{
+padding:2px 5px 1px 5px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:1px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:3px solid #888888;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#FFFFFF;
+}
+.ms-cal-workitemL2B{
+padding:2px 5px 1px 5px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:3px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:1px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom:3px solid #888888;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#FFFFFF;
+}
+.ms-cal-workitemRTLL2B{
+padding:2px 5px 1px 5px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:1px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:3px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom:3px solid #888888;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#FFFFFF;
+}
+.ms-cal-noworkitem,.ms-cal-noworkitemL,.ms-cal-noworkitemRTL{
+padding:1px 0px 1px 0px;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+vertical-align:top;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+}
+.ms-cal-noworkitemB,.ms-cal-noworkitemLB,.ms-cal-noworkitem2B,.ms-cal-noworkitemL2B,.ms-cal-noworkitemRTL2B{
+padding:2px 5px 1px 5px;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-bottom:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+}
+.ms-cal-monthitem{
+font-size:8pt;
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */color:#000000;
+text-decoration:none;
+padding-left:5px;
+padding-right:5px;
+}
+td.ms-cal-monthitem a{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+}
+td.ms-cal-monthitem a:hover b{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+.ms-cal-monthitem b{
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+}
+.ms-cal-monthMultiDay,.ms-cal-monthMultiDay a,.ms-cal-monthMultiDay a:link,.ms-cal-monthMultiDay a:active,.ms-cal-monthMultiDay a:visited{
+padding:3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:7pt;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  background-color:#165c76;
+/* [ReplaceColor(themeColor:"Light1")] */ color:#FFFFFF;
+text-decoration:none;
+text-overflow:ellipsis;
+}
+.ms-cal-monthMultiDay a:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:7pt;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  background-color:#165c76;
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+text-decoration:none;
+text-overflow:ellipsis;
+}
+a.ms-cal-more,a.ms-cal-more:link,a.ms-cal-more:active,a.ms-cal-more:visited{
+padding:3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+text-decoration:none;
+text-overflow:ellipsis;
+margin-top:3px;
+margin-bottom:3px;
+}
+a.ms-cal-more:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:underline;
+}
+.ms-cal-more img{
+vertical-align:middle;
+}
+.ms-cal-defaultbgcolor{
+/* [Recolorimage(themeColor:"Hyperlink",method:"Tinting")] */background-image:url("/_layouts/images/datatel/alldayDefault.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+text-align:center;
+font-weight:bold;
+text-overflow:ellipsis;
+padding:4px 0px 4px 0px;
+cursor:pointer;
+}
+.ms-cal-defaultbgcolorsel{
+/* [Recolorimage(themeColor:"Accent3-Darkest",method:"Tinting")] */background-image:url("/_layouts/images/datatel/alldayDefaultOver.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+font-weight:bold;
+text-align:center;
+text-overflow:ellipsis;
+padding:4px 0px 4px 0px;
+text-decoration:none;
+cursor:pointer;
+}
+.ms-cal-monthAllDay{
+/* [Recolorimage(themeColor:"Hyperlink",method:"Tinting")] */background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:solid 2px #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:solid 2px #0f7997;
+text-align:center;
+font-weight:bold;
+text-overflow:ellipsis;
+padding:4px 0px 4px 0px;
+cursor:pointer;
+}
+td.ms-cal-defaultbgcolor a,td.ms-cal-monthAllDay a{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+font-size:11px;
+text-decoration:none;
+}
+td.ms-cal-monthAllDaysel a,td.ms-cal-defaultbgcolorsel a{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-size:11px;
+}
+.ms-cal-defaultbgcolor a:hover,.ms-cal-defaultbgcolorsel a:hover{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-size:11px;
+text-decoration:underline;
+}
+.ms-cal-monthAllDaysel{
+/* [Recolorimage(themeColor:"Accent3-Darkest",method:"Tinting")] */background-image:url("/_layouts/images/datatel/alldayDefaultOver.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:solid 2px #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:solid 2px #0f7997;
+text-align:center;
+font-weight:bold;
+text-overflow:ellipsis;
+padding:4px 0px 4px 0px;
+cursor:pointer;
+}
+.ms-cal-time{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-right:1px solid #d3d3d3;
+width:18px;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-cal-timeRTL{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+width:18px;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */background-color:#e3eff2;
+}
+.ms-cal-alldayevent{
+text-align:center;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:1px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:1px solid #888888;
+padding-top:1px;
+height:100%;
+vertical-align:top;
+text-overflow:ellipsis;
+text-decoration:none;
+}
+.ms-cal-alldayeventRTL{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:1px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:3px solid #888888;
+padding-top:1px;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#FFFFFF;
+height:100%;
+vertical-align:top;
+text-overflow:ellipsis;
+text-decoration:none;
+}
+.ms-cal-noworkhour{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:2px solid #888888;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:18px;
+}
+.ms-cal-blankimage{
+visibility:hidden;
+width:7px;
+height:76px;
+}
+.ms-cal-workhour,.ms-cal-workhourhalfhour,
+.ms-cal-workhourover,.ms-cal-workhourhalfhourover{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+text-align:right;
+width:30px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+padding:1px 4px 0px 0px;
+white-space:nowrap;
+vertical-align:top;
+}
+.ms-cal-workhourB,.ms-cal-workhourBhalfhour,
+.ms-cal-workhourBover,.ms-cal-workhourBhalfhourover{
+/* [ReplaceColor(themeColor:"Accent1-lighter")] */ border-bottom:solid 1px #c0e1ec;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+text-align:right;
+width:30px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+padding:1px 4px 0px 0px;
+white-space:nowrap;
+vertical-align:top;
+}
+.ms-cal-noworkhourRTL{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:2px solid #888888;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:18px;
+}
+.ms-cal-workhourRTL,.ms-cal-workhourRTLhalfhour,
+.ms-cal-workhourRTLover,.ms-cal-workhourRTLhalfhourover{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+text-align:left;
+width:30px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+padding:0px 0px 4px 1px;
+white-space:nowrap;
+vertical-align:top;
+}
+.ms-cal-workhourRTLB,.ms-cal-workhourRTLBhalfhour,
+.ms-cal-workhourRTLBover,.ms-cal-workhourRTLBhalfhourover{
+/* [ReplaceColor(themeColor:"Accent1-lighter")] */ border-bottom:solid 1px #c0e1ec;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+text-align:left;
+width:30px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+padding:0px 0px 4px 1px;
+white-space:nowrap;
+vertical-align:top;
+}
+.ms-cal-noworkhourF{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top:3px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:2px solid #888888;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:18px;
+}
+.ms-cal-workhourF,.ms-cal-workhourFover,
+.ms-cal-workhourFhalfhour,.ms-cal-workhourFhalfhourover{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+text-align:right;
+width:30px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+padding:2px 4px 0px 0px;
+white-space:nowrap;
+vertical-align:top;
+font-weight:normal;
+}
+.ms-cal-noworkhourRTLF{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top:3px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:2px solid #888888;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:18px;
+}
+.ms-cal-workhourRTLF,.ms-cal-workhourRTLFover,
+.ms-cal-workhourRTLFhalfhour,.ms-cal-workhourRTLFhalfhourover{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+text-align:left;
+width:30px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+padding:0px 0px 4px 2px;
+white-space:nowrap;
+vertical-align:top;
+font-weight:normal;
+}
+.ms-cal-upper-border{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top:3px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-right:1px solid #888888;
+}
+.ms-cal-upper-borderRTL{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top:3px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-left:1px solid #888888;
+}
+.ms-cal-workhourFover,.ms-cal-workhourRTLFover,.ms-cal-workhourover,
+.ms-cal-workhourBover,.ms-cal-workhourRTLover,.ms-cal-workhourRTLBover{
+text-decoration:underline;
+cursor:pointer;
+}
+.ms-cal-workhourFhalfhourover,.ms-cal-workhourRTLFhalfhourover,
+.ms-cal-workhourhalfhourover,.ms-cal-workhourBhalfhourover,
+.ms-cal-workhourRTLhalfhourover,.ms-cal-workhourRTLBhalfhourover{
+cursor:pointer;
+}
+.ms-cal-enoworkdayF,.ms-cal-enoworkdayRTLF{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:solid 1px #d3d3d3;
+}
+.ms-cal-eworkdayF,.ms-cal-eworkdayRTLF{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top:solid 1px #d3d3d3;
+}
+.ms-cal-workhourF,.ms-cal-workhourRTL,.ms-cal-workhourRTLF,.ms-cal-workhourFover,
+.ms-cal-workhourRTLFover,.ms-cal-workhour,.ms-cal-workhourB,.ms-cal-workhourFover,
+.ms-cal-workhourRTLFover,.ms-cal-workhourover,.ms-cal-workhourBover,.ms-cal-workhourRTLover,
+.ms-cal-workhourRTLBover{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:1px solid #d3d3d3;
+}
+.ms-cal-enoworkhour,.ms-cal-enoworkhourF,.ms-cal-enoworkhourRTL,.ms-cal-enoworkhourRTLF{
+border-top:none;}
+.ms-cal-eworkhourF .ms-cal-dayhour,.ms-cal-eworkhourF .ms-cal-dayhourF,.ms-cal-eworkhour .ms-cal-dayhourF,.ms-cal-eworkhour .ms-cal-dayhour,.ms-cal-eworkday .ms-cal-dayhour,.ms-cal-enoworkday .ms-cal-dayhour,.ms-cal-eworkday .ms-cal-dayhourF,.ms-cal-enoworkday .ms-cal-dayhourF,.ms-cal-enoworkhourF .ms-cal-dayhour,.ms-cal-enoworkhourF .ms-cal-dayhourF,.ms-cal-enoworkhour .ms-cal-dayhour,.ms-cal-enoworkhour .ms-cal-dayhourF{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:solid 1px #d3d3d3;
+height:100%;
+}
+.ms-cal-eworkhourRTLF .ms-cal-dayhourRTL,.ms-cal-eworkhourRTLF .ms-cal-dayhourRTLF,.ms-cal-eworkhourRTL .ms-cal-dayhourRTLF,.ms-cal-eworkhourRTL .ms-cal-dayhourRTL,.ms-cal-eworkdayRTL .ms-cal-dayhourRTL,.ms-cal-enoworkdayRTL .ms-cal-dayhourRTL,.ms-cal-eworkdayRTL .ms-cal-dayhourRTLF,.ms-cal-enoworkdayRTL .ms-cal-dayhourRTLF,.ms-cal-enoworkhourRTL .ms-cal-dayhourRTLF,.ms-cal-enoworkhourRTL .ms-cal-dayhourRTL,.ms-cal-enoworkhourRTLF .ms-cal-dayhourRTLF,.ms-cal-enoworkhourRTLF .ms-cal-dayhourRTL{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:solid 1px #d3d3d3;
+height:100%;
+}
+.ms-cal-eworkhourF .ms-cal-dayhalfhourF,.ms-cal-eworkhour .ms-cal-dayhalfhourF,.ms-cal-eworkhour .ms-cal-dayhalfhour,.ms-cal-eworkday .ms-cal-dayhalfhour,.ms-cal-enoworkday .ms-cal-dayhalfhour,.ms-cal-eworkday .ms-cal-dayhalfhourF,.ms-cal-enoworkday .ms-cal-dayhalfhourF,.ms-cal-enoworkhour .ms-cal-dayhalfhour,.ms-cal-enoworkhour .ms-cal-dayhalfhourF{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:solid 1px #d3d3d3;
+height:100%;
+}
+.ms-cal-eworkhourRTLF .ms-cal-dayhalfhourRTLF,.ms-cal-eworkhourRTL .ms-cal-dayhalfhourRTLF,
+.ms-cal-eworkhourRTL .ms-cal-dayhalfhourRTL,.ms-cal-eworkdayRTL .ms-cal-dayhalfhourRTL,
+.ms-cal-enoworkdayRTL .ms-cal-dayhalfhourRTL,.ms-cal-eworkdayRTL .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkdayRTL .ms-cal-dayhalfhourRTLF,.ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkhourRTLF .ms-cal-dayhalfhourRTLF,.ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTL,
+.ms-cal-workhourhalfhour,.ms-cal-workhourhalfhourB,.ms-cal-workhourRTLhalfhour,
+.ms-cal-workhourRTLBhalfhourover,.ms-cal-workhourRTLhalfhourover,
+.ms-cal-workhourBhalfhourover,.ms-cal-workhourBhalfhourover,
+.ms-cal-workhourhalfhourover,.ms-cal-workhourRTLFhalfhourover,
+.ms-cal-workhourFhalfhourover{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:solid 0px #d3d3d3;
+height:100%;
+}
+.ms-cal-enoworkhourB .ms-cal-dayhalfhour,
+.ms-cal-enoworkhourB .ms-cal-dayhour{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:solid 1px #d3d3d3;
+/* [ReplaceColor(themeColor:"Accent4")] */  border-bottom:solid 1px #d3d3d3;
+height:100%;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-cal-enoworkhourB .ms-cal-dayhalfhourF,
+.ms-cal-enoworkhourB .ms-cal-dayhourF{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:solid 1px #d3d3d3;
+/* [ReplaceColor(themeColor:"Accent4")] */  border-bottom:solid 1px #d3d3d3;
+height:100%;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-left:solid 1px #d3d3d3;
+}
+.ms-cal-enoworkhourF .ms-cal-dayhour,
+.ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkhourRTLF .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTL,
+.ms-cal-enoworkhourRTL .ms-cal-dayhourRTLF,
+.ms-cal-enoworkhourRTL .ms-cal-dayhourRTL,
+.ms-cal-enoworkhourRTLF .ms-cal-dayhourRTLF,
+.ms-cal-enoworkhourRTLF .ms-cal-dayhourRTL,
+.ms-cal-enoworkhour .ms-cal-dayhalfhourF,
+.ms-cal-enoworkhour .ms-cal-dayhalfhour,
+.ms-cal-enoworkhour .ms-cal-dayhourF,
+.ms-cal-enoworkhour .ms-cal-dayhour
+.ms-cal-enoworkhourF .ms-cal-dayhourF,
+.ms-cal-enoworkhour,
+.ms-cal-enoworkhourRTL,
+.ms-cal-enoworkhourRTLL,
+.ms-cal-enoworkhourL,
+.ms-cal-enoworkhourF,
+.ms-cal-enoworkhourRTLF{
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color:#c0e1ec;
+}
+.ms-cal-enoworkhourRTLB .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkhourRTLB .ms-cal-dayhourRTLF{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top:solid 1px #d3d3d3;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-bottom:solid 1px #d3d3d3;
+height:100%;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-right:solid 1px #d3d3d3;
+}
+.ms-cal-enoworkhourRTLB .ms-cal-dayhalfhourRTL,
+.ms-cal-enoworkhourRTLB .ms-cal-dayhourRTL{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top:solid 1px #d3d3d3;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-bottom:solid 1px #d3d3d3;
+height:100%;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-cal-eworkhourF .ms-cal-dayhourF,.ms-cal-eworkday .ms-cal-dayhourF,
+.ms-cal-enoworkday .ms-cal-dayhourF,.ms-cal-enoworkdayF .ms-cal-dayhourF,
+.ms-cal-eworkday .ms-cal-dayhalfhourF,.ms-cal-enoworkday .ms-cal-dayhalfhourF,
+.ms-cal-enoworkdayF .ms-cal-dayhalfhourF,.ms-cal-eworkdayF .ms-cal-dayhourF,
+.ms-cal-eworkhour .ms-cal-dayhourF,.ms-cal-eworkhour .ms-cal-dayhalfhourF{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-left:solid 1px #d3d3d3;
+height:100%;
+}
+.ms-cal-eworkhourRTLF .ms-cal-dayhourRTLF,.ms-cal-eworkdayRTL .ms-cal-dayhourRTLF,
+.ms-cal-enoworkhourRTLF .ms-cal-dayhalfhourRTLF,.ms-cal-enoworkdayRTL .ms-cal-dayhourRTLF,
+.ms-cal-enoworkdayRTLF .ms-cal-dayhourRTLF,.ms-cal-enoworkdayRTLF .ms-cal-dayhourRTLF,
+.ms-cal-eworkdayRTL .ms-cal-dayhalfhourRTLF,.ms-cal-enoworkdayRTL .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkdayRTLF .ms-cal-dayhalfhourRTLF,.ms-cal-eworkdayRTLF .ms-cal-dayhourRTLF,
+.ms-cal-eworkhourRTL .ms-cal-dayhourRTLF,.ms-cal-eworkhourRTL .ms-cal-dayhalfhourRTLF{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-right:solid 1px #d3d3d3;
+height:100%;
+}
+.ms-cal-enoworkhourF .ms-cal-dayhourF,.ms-cal-enoworkhour .ms-cal-dayhalfhourF,.ms-cal-enoworkhour .ms-cal-dayhourF{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-left:solid 1px #d3d3d3;
+height:100%;
+}
+.ms-cal-enoworkhourRTLF .ms-cal-dayhourRTLF,.ms-cal-enoworkhourRTL .ms-cal-dayhalfhourRTLF,.ms-cal-enoworkhourRTL .ms-cal-dayhourRTLF{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:solid 1px #0f7997;
+height:100%;
+}
+.ms-cal-enoworkhour,.ms-cal-enoworkhourRTL,.ms-cal-enoworkhourRTLL,.ms-cal-enoworkhourL,.ms-cal-enoworkhourF,.ms-cal-enoworkhourRTLF,
+.ms-cal-enoworkhourB,.ms-cal-enoworkhourRTLB,.ms-cal-enoworkhourRTLLB,.ms-cal-enoworkhourLB,.ms-cal-enoworkhourFB,.ms-cal-enoworkhourRTLFB{
+height:100%;
+}
+.ms-cal-enoworkday,.ms-cal-enoworkdayRTL{
+height:100%;
+vertical-align:top;
+}
+.ms-cal-eworkday,.ms-cal-eworkdayRTL,.ms-cal-eworkhour,.ms-cal-eworkhourRTL{
+/* [ReplaceColor(themeColor:"Light1")] */  background-color:#FFFFFF;
+height:100%;
+vertical-align:top;
+}
+.ms-cal-eworkday .ms-cal-tdayitem td div{
+overflow:hidden;
+white-space:auto;
+}
+.ms-cal-enoworkdayF .ms-cal-dayhalfhourF,
+.ms-cal-enoworkday .ms-cal-dayhalfhourF,
+.ms-cal-enoworkday .ms-cal-dayhourF,
+.ms-cal-enoworkdayF .ms-cal-dayhourF,
+.ms-cal-enoworkdayRTL .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkdayRTLF .ms-cal-dayhalfhourRTLF,
+.ms-cal-enoworkdayRTL .ms-cal-dayhourRTLF,
+.ms-cal-enoworkdayRTLF .ms-cal-dayhourRTLF,
+.ms-cal-enoworkday,
+.ms-cal-enoworkdayRTL,
+.ms-cal-enoworkdayF,
+.ms-cal-enoworkdayRTLF{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-cal-weekedge{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:4px;
+font-size:2px;
+}
+.ms-cal-wemptycell,.ms-cal-wemptycellL{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-left:1px solid #d3d3d3;
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color:#c0e1ec;
+}
+.ms-cal-walldayevent,.ms-cal-walldayeventL,.ms-cal-walldayeventRTL,.ms-cal-walldayeventRTLL{
+padding-top:1px;
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color:#c0e1ec;
+}
+.ms-cal-walldayevent td,.ms-cal-walldayeventRTL td,.ms-cal-walldayeventL td,.ms-cal-walldayeventR td,.ms-cal-walldayeventRTLL td,.ms-cal-walldayeventRTLR td{
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+}
+.ms-cal-alldayevent,.ms-cal-alldayeventL,.ms-cal-alldayeventRTL,.ms-cal-alldayeventRTLL{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:1px solid #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:1px solid #0f7997;
+}
+.ms-cal-alldayevent td,.ms-cal-alldayeventRTL td,.ms-cal-alldayeventL td,.ms-cal-alldayeventR td,.ms-cal-alldayeventRTLL td,.ms-cal-alldayeventRTLR td{
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+}
+.cont,.contR,.contB,.contL{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-bottom:solid 1px #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-top:solid 1px #0f7997;
+width:100%;
+}
+.contB{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:solid 0px #0f7997;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:solid 0px #0f7997;
+}
+.contL{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-left:solid 2px #0f7997;
+}
+.contR{
+/* [ReplaceColor(themeColor:"Dark2")] */ border-right:solid 2px #0f7997;
+}
+.ms-cal-weekitem,.ms-cal-weekitem a,.ms-cal-weekitem a:link,.ms-cal-weekitem a:active,.ms-cal-weekitem a:visited{
+font-family:Arial, Helvetica, sans-serif;
+font-size:7pt;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-align:center;
+text-decoration:none;
+text-overflow:ellipsis;
+height:100%;
+}
+.ms-cal-weekitem a:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:7pt;
+/* [ReplaceColor(themeColor:"Light1")] */ color:#FFFFFF;
+text-align:center;
+text-decoration:none;
+text-overflow:ellipsis;
+height:100%;
+}
+.ms-cal-tweekitem{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border:2px solid #888888;
+/* [Recolorimage(themeColor:"Hyperlink",method:"Tinting")] */background-image:url("/_layouts/images/datatel/alldayDefault.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+width:100%;
+height:100%;
+}
+.ms-cal-tweekitem td{
+padding:0px 4px 1px 4px;
+vertical-align:top;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+}
+.ms-cal-tweekitem td div{
+width:100%;
+height:100%;
+overflow:hidden;
+}
+.ms-cal-eworkday .ms-cal-tdayitem td div{
+overflow:hidden;
+white-space:auto;
+}
+.ms-cal-tdayitem{
+/* [ReplaceColor(themeColor:"Dark2")] */ border:1px solid #0f7997;
+/* [Recolorimage(themeColor:"Hyperlink",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/alldayDefault.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+width:100%;
+height:100%;
+}
+.ms-cal-tdayitem td{
+padding:0px 4px 1px 4px;
+vertical-align:top;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+}
+.ms-cal-tdayitem td div{
+height:100%;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+.ms-cal-eworkday .ms-cal-tdayitem td div{
+overflow:hidden;
+white-space:auto;
+}
+td.ms-cal-eworkday a.ms-cal-dayitem,td.ms-cal-enoworkhour a.ms-cal-dayitem,td.ms-cal-enoworkhourF a.ms-cal-dayitem,td.ms-cal-eworkhour a.ms-cal-dayitem,td.ms-cal-eworkhourF a.ms-cal-dayitem,td.ms-cal-enoworkday a.ms-cal-dayitem,td.ms-cal-enoworkhourB a.ms-cal-dayitem{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+text-decoration:none;
+}
+a.ms-cal-dayitem:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-align:center;
+text-decoration:none;
+text-overflow:ellipsis;
+}
+a.ms-cal-dayitem:hover NOBR{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+.ms-cal-dayitem NOBR{
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+}
+.ms-cal-gempty{
+border-collapse:collapse;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+cursor:default;
+}
+.ms-cal-navheader{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10pt;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-weight:bold;
+padding:10px 10px 10px 10px;
+}
+.ms-cal-nav-buttonsltr{
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#0f7997;
+text-align:right;
+font-size:10pt;
+padding:0px 15px 0px 0px;
+}
+.ms-cal-nav-buttonsRTL{
+/* [ReplaceColor(themeColor:"Accent3-Darkest")] */color:#8dd5ec;
+text-align:left;
+font-size:10pt;
+padding:0px 0px 0px 15px;
+}
+div.ms-cal-navheader a img{
+background-image:url("/_layouts/images/datatel/listheadergrad.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #0f7997;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+vertical-align:middle;
+}
+.ms-cal-hidden{
+display:none;
+}
+
+/* Calendar New Event Form */
+td.ms-areaseparatorleft{
+background-image:none;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  background-color: #165c76;
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  border-right:0px solid #165c76;
+height:100%;
+}
+div.ms-areaseparatorleft{
+/* [Recolorimage(themeColor:"Dark2-Darker",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/ts-bg.jpg");
+background-repeat:repeat-x;
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color: #c0e1ec;
+background-position:-143px 0px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  border-right:0px solid #165c76;
+height:100%;
+}
+div.ms-areaseparatorright{
+/* [Recolorimage(themeColor:"Dark2-Darker",method:"Tinting")] */ background-image: url("/_layouts/images/datatel/ts-bg.jpg");	
+background-repeat: repeat-x; 
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color: #c0e1ec;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  border-left:0px solid #165c76;
+padding-right:2px;
+height:100%;
+}
+.ms-titlearearight .ms-areaseparatorright{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  background-color:#165c76;
+background-image: none;
+background-repeat:no-repeat;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  border-left:0px solid #165c76;
+padding-right:2px;
+height:100%;
+}
+.ms-areaseparator{
+background-image: none;	 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  background-color:#165c76;
+border-right:none;
+border-left:none;
+padding-left:5px;
+height:10px;
+}
+div.dt-teamsites .ms-areaseparator-hm{
+background-image: none;	 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  background-color:#165c76;
+border-right:none;
+border-left:none;
+padding-left:0px;
+height:10px;
+}
+.ms-separator img{
+height:16px;
+width:1px;
+margin:0px 1px 0px 1px;
+/* [ReplaceColor(themeColor:"Dark2")] */ background-color:#0f7997;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ border-bottom:1px solid #e3eff2;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ border-right:1px solid #e3eff2;
+}
+.ms-formbody{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+vertical-align:top;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Accent4")] */  border-top:1px solid #d3d3d3;
+padding:3px 6px 4px 6px;
+}
+.ms-formbodysurvey{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+vertical-align:top;
+background-color:transparent;
+border-top:none;
+padding:5px 8px 15px 8px;
+}
+table.ms-toolbar,table.ms-viewtoolbar,.ms-toolbarContainer{
+/* [RecolorImage(themeColor:"Light2",includeRectangle:{x:0,y:610,width:1,height:42},method:"Tinting")] */ background-image:none;
+background-repeat:repeat-x;
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color:#c0e1ec;
+}
+table.ms-toolbar,.ms-toolbarContainer{
+/* [ReplaceColor(themeColor:"Dark2")] */ border:1px solid #0f7997;
+border-collapse:collapse;
+}
+.ms-toolbar,.ms-viewtoolbar,.ms-formtoolbar,.ms-toolbarContainer{
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+}
+.ms-formtoolbar td {
+padding:0px;
+vertical-align:top;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+}
+.ms-propertysheet{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+.ms-propertysheet th{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Light1")] */ color:white;
+}
+.ms-propertysheet a{
+text-decoration:none;
+}
+.ms-propertysheet a:hover{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+/* Mini Calendar in left column */
+.ms-picker-header{
+font-weight:normal;
+/* [RecolorImage(themeColor:"Accent3-Medium",method:"Blending",detach:"true")] */ background-image:url("/_layouts/images/datatel/quickLaunchHeader.gif");
+background-repeat:repeat-x;
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color:#c0e1ec;
+}
+table.ms-picker-table td.ms-picker-footer{
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ border-top:1px solid #c0e1ec;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ color:#666666;
+padding:5px;
+}
+.ms-picker-footer a{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+}
+.ms-picker-footer a:hover{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#000000;
+text-decoration:underline;
+}
+.ms-picker-table .ms-picker-dayheader{
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ color:#666666;
+text-align:center;
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ border-bottom:solid 1px #c0e1ec;
+/* [ReplaceColor(themeColor:"Dark2")] */ border-top:solid 1px #0f7997;
+padding:2px 0px 3px 0px;
+font-weight:normal;
+}
+table.ms-picker-table td.ms-picker-dayother,table.ms-picker-table td.ms-picker-daycenterOn,table.ms-picker-table td.ms-picker-daycenter{
+text-align:center;
+font-size:8pt;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ border:solid 1px #e3eff2;
+}
+.ms-picker-daycenter a,.ms-picker-today a,.ms-picker-dayselected a{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+text-decoration:none;
+}
+.ms-picker-dayother a{
+/* [ReplaceColor(themeColor:"Accent4")] */ color:#d3d3d3;
+text-decoration:none;
+}
+.ms-picker-dayother a:hover,.ms-picker-daycenterOn a,.mspicker-daycenterOn a:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:underline;
+}
+.ms-picker-table .ms-picker-daycenterOn{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#FFFFFF;
+}
+table.ms-picker-table td.ms-picker-dayselected{
+text-align:center;
+font-size:8pt;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Accent6-Lighter")] */ background-color:#ffdf88;
+border-style:solid;
+border-width:1px;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ border-color:#e3eff2;
+}
+.ms-quicklaunch table.ms-picker-table td.ms-picker-monthcenter{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+text-align:center;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ border:solid 1px #e3eff2;
+padding-bottom:3px;
+}
+.ms-picker-monthcenter a,.ms-picker-monthcenter a:active,.ms-picker-monthcenter a:link,.ms-picker-monthcenter a:visited,.ms-picker-monthcenter a:hover{
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+font-size:8pt;
+text-decoration:none;
+}
+
+/* Pictures */
+img.thumbnail{
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid #0f7997 3px;
+}
+tr.ms-imglibselectedrow,tr.ms-highlight{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-imglibthumbnail{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff; 
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid #0f7997 0px;
+}
+span.thumbnail{
+padding:16 10;position:relative;width:5px;
+}
+span.userdata{
+behavior:url(#default#userData);display:none;
+}
+.ms-imglibmenuarea{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+a.ms-imglibPreviewTitle{
+overflow:hidden;
+text-overflow:ellipsis;
+width:130px;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color:#333333;
+}
+.ms-navline{
+/* [ReplaceColor(themeColor:"Light1-Darker")] */ border-bottom:1px solid #666666;
+}
+.ms-authoringcontrols{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+}
+.ms-propertysheet th.ms-authoringcontrols{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#165c76;
+text-align:left;
+}
+
+/* Create Menu page options */
+table.ms-disc-bar{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+/* [RecolorImage(themeColor:"Dark2",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/quicklaunchheader.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:1px solid #0f7997;
+text-align:left;
+}
+table tr td.ms-disc-bordered-noleft{
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ border-left-width:1px solid #c0e1ec;
+padding:0px 10px 5px 10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:left;
+}
+td.ms-linksectionheader,th.ms-linksectionheader{
+ /* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color:#c0e1ec;
+/* [RecolorImage(themeColor:"Dark2",includeRectangle:{x:0,y:381,width:1,height:22},method:"Tinting")] */ background-image:url("/_layouts/images/datatel/linksectiongrad.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Dark2")] */ border:1px solid #0f7997;
+text-align:left;
+}
+
+/*Information hover */
+.ms-informationtablehover{
+ /* [ReplaceColor(themeColor:"Accent3-Darkest")] */border:solid 1px #8dd5ec;
+}
+.ms-informationtablehover td,.ms-informationtablehover th{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+}
+.ms-pageinformation th,.ms-createpageinformation th{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 color:#333333;
+text-align:left;
+}
+table.ms-createpageinformation{
+background-image:none;
+background-repeat:repeat-x;
+background-color:transparent;
+}
+table.ms-pageinformation{
+background-image:none;
+background-color:transparent;
+background-repeat:repeat-x;
+}
+.ms-informationtablestatic{
+background-image: none;
+background-repeat:no-repeat;
+}
+.ms-pageinformation table td,.ms-createpageinformation table td{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */ color:#333333;
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+padding:3px 5px 3px 1px;
+}
+
+/* Wiki buttons */
+.ms-wikieditouter{
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ border-color:#ef9240;
+border-style:solid solid none;
+border-width:2px 2px 0px 2px;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color: #165c76;
+font-size:8pt;
+height:23px;
+position:absolute;
+right:11px;
+text-align:center;
+top:8px;
+}
+.ms-wikieditthird {
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff
+background-image: none;
+background-repeat: repeat;
+background-position: scroll 0%;
+padding-left:3px;
+}
+/*style for wiki text content*/
+.ms-wikicontent{
+padding: 10px;
+}
+.ms-wikitoolbar a.ms-toolbar:hover {
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color:#333333;
+text-decoration:underline;
+}
+.ms-wikitoolbar a.ms-toolbar {
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	 color:#333333;
+}
+.ms-separator {
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-size:10pt;
+}
+.ms-wikitoolbar .ms-toolbar{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #ffffff;	
+}
+.ms-addnew{
+/* [ReplaceColor(themeColor:"Accent1-Darkest")] */ 	color:165c76;
+}
+
+/* Course drop-down menu */
+div.ms-MenuUIPopupBody.ms-MenuUIPopupScreen,div.ms-MenuUIPopupBody.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner,div.ms-MenuUIPopupBody.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div{
+font-weight:normal;
+height:auto;
+z-index:9999;
+white-space:normal;
+margin:0px;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
+display:block;
+text-decoration:none;
+background-image:none;
+padding:0px;
+cursor:pointer;
+font-family:Verdana,Arial,sans-serif;
+}
+.ms-vb-title{
+vertical-align:top;
+padding:2px 16px 2px 20px;
+}

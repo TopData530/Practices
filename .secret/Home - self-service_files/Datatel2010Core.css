@@ -1,0 +1,733 @@
+/*** ALL DATATEL 2010 CORE STYLES ***/
+
+body,form{
+margin:0;                     
+}
+
+/* Visited links throughout the site */
+a:visited {
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000;
+text-decoration:none;
+}
+
+/* Styles to control the centering, sidebars and masterpage content */
+.DatatelBody{
+/* [ReplaceFont(themeFont: "MinorFont")] */ font-family: "Trebuchet MS","Times New Roman", Times, serif; 
+/* [RecolorImage(themeColor:"Accent6-Lightest",method:"Tinting")] */ background-image: url("/_layouts/images/Datatel/Background-gradient.png");
+background-repeat: repeat-x;
+/* [ReplaceColor(themeColor:"Accent6")] */	background-color: #b3ac75;	
+background-position: center;
+background-position: top;
+width: 100%;
+height:100% !important;
+overflow: auto !important;	
+}
+body.datatelv4 {
+width: 100% !important;
+height:100% !important;
+overflow: auto !important;
+}
+
+/* Helps control location of the footer */
+body #s4-bodyContainer{
+min-height:800px;
+min-width:975px;
+}
+
+/* Side bars and page centering */
+.DatatelBody #s4-workspace{
+width: 90% !important;
+left:0;
+overflow-x: auto !important;
+-moz-overflow-x: hidden !important;
+overflow-y: hidden !important;
+position:relative;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:white;
+min-width:975px;
+min-height:800px;
+height:100% !important;
+/* [ReplaceColor(themeColor:"Accent5-Lightest")] */ border: #fdf2be 6px ridge;
+-moz-border-left-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+-moz-border-right-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+border-top: 0px;
+border-bottom: 0px;	
+padding-top:auto;
+}
+
+
+/* Page Layout styles */
+.datatel-workspace{
+width: 100%;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: white;
+}
+.dt-layout{
+max-width:98.9%;
+}
+
+/* Header repeating background gradient and side bar styles */
+.datatelv4 .ribbonbackground{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ background-color: #165c76;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */background-image:url("/_layouts/images/Datatel/Header-bkgrdgradient.png");
+background-repeat:repeat-x;
+width:90% !important;
+min-width:975px;	
+/* [ReplaceColor(themeColor:"Accent5-Lightest")] */ border: #fdf2be 6px ridge;
+-moz-border-left-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+-moz-border-right-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+border-top: 0px;
+border-bottom: 0px;
+}
+
+/* Ribbon action button row below header */
+BODY #s4-ribbonrow{
+overflow-y:visible;
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ background-color: #003759;
+}
+
+/* Datatel graphic image floating on far left of header gradient */
+.datatelv4-overlaydesign{
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("/_layouts/images/Datatel/Header-designbkgrd.png");
+background-position: top;
+background-position: left;
+}
+
+/* Header Logo Image */
+.datatelv4 .site-image-title{
+float: left;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */background-image:url("/_layouts/images/Datatel/DatatelPortal-logo2.png");	
+background-position: top;
+background-position: left;	
+width:627px;
+height:79px; 
+background-repeat:no-repeat;
+border:0px;
+}
+.datatelv4 .site-image-title img{
+vertical-align: middle;
+padding-left: 10px;
+border-width: 0px;
+}
+
+/* Title for site titles when images are not being used */
+.datatelv4 .site-image-title h2{
+margin-top: 12px;
+margin-bottom: 5px;
+}
+.datatelv4 .site-image-title h2 a, 
+.datatelv4 .site-image-title h2 a:link{
+display: inline;
+vertical-align: middle;
+/* [ReplaceColor(themeColor:"Light1")] */ color: #fff;
+font-size: 18pt;
+}
+
+/* Footer background gradient image */
+.datatelv4 .dt-footer {
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/footerpixel.png");
+background-repeat:repeat-x;
+background-position: bottom;
+vertical-align: bottom;
+height:44px;
+margin-top:10px;
+/* [ReplaceColor(themeColor:"Accent4-Darkest")] */ border-top:1px solid #c6c6c6; 
+}
+
+/* Footer text image */
+.datatelv4 .dt-footertext {
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/footertext.png");
+background-position:center;
+background-position:bottom;
+background-repeat:no-repeat;
+height:44px;
+}
+
+/* Styles for main page content */
+.main-content{
+padding:0px;
+}
+.datatelv4 #s4-workspace{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #fff;
+clear: both;
+width: 1000px;
+}
+.datatelv4 .body-wrapper{
+padding-top: 5px;
+position: relative;
+/* overflow-x:visible;
+	 overflow-y:hidden;*/
+}
+
+/* Social Notifier buttons */
+.socialnotif{
+float:right;
+}
+.datatelv4 .ms-mini-socialNotif-Container img{
+border: 1px solid transparent !important;
+}
+.datatelv4 .s4-signInLink{
+border: 1px transparent solid;
+padding-right: 8px;
+padding-left: 8px;
+/* [ReplaceColor(themeColor:"Light1")] */ color:#fff !important;	 
+}
+
+/* Links in top right of header */
+.datatel-toplinks{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-bottom: 1px solid #d3d3d3;
+}
+.datatelv4 .s4-trc-container{
+float: right;
+padding-right:10px;
+min-width:250px;
+width: 30%;
+}
+.datatelv4 .s4-trc-container-menu{
+height: auto;
+margin-top: 5px;
+float:left;
+padding-left:20px;
+}
+.datatelv4 .top-row-element{
+margin: 3px;
+display:inline;
+}
+.datatelv4 #s4-ribbonrow{
+clear: both;
+/* [ReplaceColor(themeColor:"Dark2",themeShade:"0.9")] */    background-color: transparent;
+}
+.datatelv4 #s4-titlerow td.title{
+vertical-align: top;
+}
+.datatelv4 h1{
+margin: 0;
+/* [ReplaceFont(themeFont: "MajorFont")] */
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 22pt; 
+font-weight: bold; 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+text-align: left;
+}
+.datatelv4 h1 input {
+font-size: 22pt; 
+font-family: inherit; 
+font-weight: bold; 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+}
+.datatelv4 #s4-titlerow{
+border: 0px;
+}
+.datatelv4 #s4-titlerow h3{
+margin: 0 0 0 2px;
+}
+.datatelv4 .splash-image img{
+max-width: 750px;
+}
+.ms-globalleft{
+float: left;
+}
+.ms-globalright{
+float:right;
+}
+.ms-globallinks{
+font-size: 8pt; 
+background-color: transparent;
+width:auto;
+}
+.ms-globallinks, .ms-globallinks a:link, .ms-globallinks a:visited {
+/* [ReplaceColor(themeColor:"Light1")] */  color: #fff;
+text-decoration: none;
+background-color: transparent;
+}
+.ms-globallinks a:hover{
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ color: #003759;
+text-decoration: none;
+background-color: transparent;
+}
+.datatelv4 .ms-mini-socialNotif-Container{
+display: inline-block;
+background-image: none; 
+width: auto;
+padding: 0px;
+float: left;
+margin-top: 8px;
+}
+.ms-sbtable ms-sbtable-ex s4-search{
+padding:0px;
+margin:0px;
+height:15px;
+}
+.ms-welcomeMenu{
+padding-top:0px;
+margin-top: 5px;
+margin-left:10px; 
+margin:0px;
+font-size:1em;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+border:1px solid transparent;
+display:inline;
+}
+.ms-welcomeMenu a:link{
+/* [ReplaceColor(themeColor:"Light1")] */ color:#fff;
+}
+.ms-welcomeMenu a:hover{
+text-decoration:none !important;
+	/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+}
+.ms-welcomeMenu.ms-SpLinkButtonActive{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-color:#888888;
+/* [RecolorImage(themeColor:"Dark2-Lightest",includeRectangle:{x:0,y:489,width:1,height:11},method:"Tinting")] */ background-image:url("/_layouts/images/bgximg.png");
+background-repeat: repeat-x;
+background-position: -0px -489px;
+/* [ReplaceColor(themeColor:"Dark2",themeShade:"0.8")] */ background-color:#21374c;
+}
+.ms-welcomeMenu.ms-SpLinkButtonActive a:link{
+	/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+}
+.ms-welcomeMenu .ms-menu-a{
+margin-right:10px;
+}
+
+/* Help button in header */
+.datatelv4 .s4-help{
+top: 1px;
+position:relative;
+display: inline;
+border: 1px solid transparent;
+height:22px;
+width:22px;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/helpicon.png");
+background-repeat:no-repeat;
+float:right;
+}
+
+/* Site search in header */
+.datatelv4 .s4-search s4-rp{
+padding:0px;
+margin:0px;
+height:15px;
+}
+.datatelv4 #s4-searcharea{
+float:right;
+}
+.datatelv4 .s4-search table{
+margin-right: 0px;
+margin-top: 5px;
+}
+.datatelv4 .s4-search TD.ms-sbcell{
+padding-right: 0px;
+padding-left: 0px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border: 1px solid #888888;
+}
+.s4-search .srch-gosearchimg {
+background-color: transparent;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-color:#888 #888 #888 #d3d3d3 -moz-use-text-color !important;
+border-style:solid solid solid solid !important;
+border-width:0px 0px 0px 0px !important;
+height:auto;
+padding:0 !important;
+}
+TD.ms-sbscopes SELECT {
+Margin-right:20px;
+}
+.s4-search select.ms-sbscopes {
+    margin-right: 20px;
+}
+.s4-search select.ms-sbscopes, .s4-search input.ms-sbplain {
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */  border: 1px solid #888888 !important;
+    color: #476382;
+    margin-top: 0;
+}
+.datatelv4 .s4-search .ms-sbtable{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border: 0px solid #888888;
+margin-right: 1px;
+}
+
+
+
+/* Site Actions Menu */
+.datatelv4 .ms-siteactionsmenuinner{
+/* [ReplaceColor(themeColor:"Dark2")] */	background-color: transparent;
+/* [RecolorImage(themeColor:"Dark2",method:"Tinting")] */	background-image: none;
+/* [ReplaceColor(themeColor:"Dark2")] */	border-color: transparent;
+}
+.ms-siteactionsmenu{
+font-size:12px;
+}
+.datatelv4 .ms-siteactionsmenuhover,
+.datatelv4 .s4-breadcrumb-anchor:hover,
+.datatelv4 .s4-breadcrumb-anchor-open,
+.datatelv4 .ms-mini-socialNotif-Container img:hover,
+.datatelv4 .ms-welcomeMenu.ms-SpLinkButtonActive, 
+.datatelv4 .ms-qatbutton:hover,
+.datatelv4 .s4-signInLink:hover,
+.datatelv4 .s4-help:hover{
+/* [RecolorImage(themeColor:"Light1",method:"Tinting")] */ background-image:url("/_layouts/images/selbg.png");
+background-repeat: repeat-x;
+background-position:  left top;
+background-color: transparent;
+/* [ReplaceColor(themeColor:"Dark2-Lighter")] */ border-color: #a0d4db !important;
+}
+
+/* Breadcrumbs */
+.breadcrumbs{
+float:left;
+}
+.breadcrumb, .breadcrumb a {
+background-color:transparent;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-size:11px;
+padding-left:5px;
+text-decoration:none;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.datatelv4 .breadcrumb{
+text-align: left;
+}
+.datatelv4 .s4-breadcrumb-anchor,
+.datatelv4 .ms-qatbutton{
+margin: 0px;
+}
+.datatelv4 .s4-breadcrumb-anchor{
+padding-bottom: 1px;
+}
+.datatelv4 .s4-breadcrumb-menu{
+/* [ReplaceColor(themeColor: "Light1")] */ background-image:url("/_layouts/images/selbg.png");
+background-repeat:  repeat-x;
+background-position:  left top;
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ background-color:#f8f8f8;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-color:#999999;
+}
+
+/* Browse, Page and Publish links next to Site Actions */
+.datatelv4 .ms-cui-tt-a:hover{
+/* [ReplaceColor(themeColor:"Dark2",themeTint:"0.8")] */ border-color: #a0d4db;
+}
+.datatelv4 .ms-cui-tt-s > .ms-cui-tt-a{
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ border-color: #003759;
+}
+.datatelv4 .ms-cui-topBar2{
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ border-color: #003759;
+}
+.datatelv4 div.ms-cui-tabContainer{
+width: 100%;
+}
+.datatelv4 .ms-cui-tabBody-or{
+/* [ReplaceColor(themeColor:"Accent2-Medium")] */ border-color: #8A3900 !important;
+}
+.datatelv4 .main-container{
+margin-left: 5px;
+}
+.datatelv4 .ms-cui-cg-or .ms-cui-cg-t {
+/* [ReplaceColor(themeColor:"Accent5-Medium")] */ color:#fdf289;
+}
+.datatelv4 .ms-cui-cg-or.ms-cui-cg-s .ms-cui-cg-t {
+/* [ReplaceColor(themeColor:"Accent2-Darker")] */ color:#58220B;
+}
+.datatelv4 .ms-cui-cg-pp .ms-cui-cg-t {
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ color:#F8f8f8;
+}
+.datatelv4 .ms-cui-cg-db .ms-cui-cg-t {
+/* [ReplaceColor(themeColor:"Accent1-Lightest")] */ color:#D7E8F4;
+}
+.ms-cui-tooltip H1{
+font-size: 1em;
+margin: 3px;
+}
+.ms-cui-ribbon{
+font-size:9pt;
+}
+
+/* Left panel content */
+body #s4-leftpanel-content{
+padding:0px 0px 5px;
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ background-color:#f8f8f8;
+/* [ReplaceColor(themeColor:"Light1")] */  border:0px solid #fff;
+border-top-width:0px;
+border-right-width:1px;
+border-bottom-width:1px;
+border-left-width:0px;
+}
+.s4-specialNavLinkList{
+margin:0px;
+/* [ReplaceColor(themeColor:"Light1")] */ border-top:1px solid #fff;
+padding-top:5px;
+}
+.datatelv4 #s4-titlerow .titlerow-table {
+padding:0px;
+width:100%;
+}
+.datatelv4 #s4-leftpanel{
+width: 180px;
+}
+.left-nav-bar .datatelv4-menu,
+.left-nav-bar .ms-quicklaunchouter{
+margin-left:5px;
+margin-right: 5px;
+margin-top:10px;
+font-size: 10pt; 
+line-height: 1.25em;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ 	border: 3px double #888;
+}
+.datatelv4 .s4-ca{
+margin-left: 185px;
+/* [ReplaceColor(themeColor:"Light1")] */	background-color: transparent;
+}
+.s4-ctx{
+padding: 0 0;
+}
+.datatelv4-menu a{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+text-decoration: none; 
+cursor: pointer;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ border-top: 1px solid #999;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ border-bottom: 1px solid #999;
+/* [RecolorImage(themeColor:"Dark2-Lighter",method:"Tinting")] */	background-image: url("/_layouts/images/datatel/left-menu-bkgrd.png");
+/* [ReplaceColor(themeColor:"Light1")] */  background-color:#f1f9fc;
+background-repeat: repeat-x;
+}
+.datatelv4-menu a:hover{
+/* [RecolorImage(themeColor:"Dark2-Medium",method:"Tinting")] */	background-image: url("/_layouts/images/datatel/left-menu-bkgrd_over.png");
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#f1f9fc;
+background-repeat: repeat-x;
+}
+.datatelv4-menu a, .datatelv4-menu span{
+display: block;
+text-decoration: none;
+padding: 2px 3px 1px 3px;
+}
+.datatelv4-menu ul.root a{
+font-size: 1em; 
+font-weight: bold; 
+/* [ReplaceColor(themeColor: "Dark1-darker")] */ color: #555;
+}
+.datatelv4-menu ul.root li:hover a{
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ color: #003759;
+}
+.datatelv4-menu ul.root ul.static a{
+font-size: 0.9em; 
+font-weight: normal; 
+padding: 2px 5px 1px 5px;
+background-image: none;
+border-bottom: 0;
+/* [ReplaceColor(themeColor: "Dark1-darker")] */color: #666;
+}
+.datatelv4-menu ul.root ul.static li:hover a{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #f8f8f8;
+}
+.datatelv4-menu ul.root ul.static ul.dynamic{
+width: 150px;
+left: -999em;
+position: absolute;
+}
+.datatelv4-menu ul.root ul.static ul.dynamic a{
+/* [ReplaceColor(themeColor:"Light1")] */ border-bottom: 1px #ffffff solid;
+/* [ReplaceColor(themeColor: "Dark1-Darker")] */color: #444444;
+/* [ReplaceColor(themeColor: "Accent1-Darker")] */background-color: #E6F1FA;
+}
+.datatelv4-menu ul.root ul.static ul.dynamic li:hover a{
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;
+/* [ReplaceColor(themeColor: "Accent1-Darkest")] */ background-color: #05ACC3;
+}
+.datatelv4-menu a.selected.static.menu-item, 
+.datatelv4-menu a.selected.static.menu-item-text{
+/* [ReplaceColor(themeColor: "Accent1-Medium")] */background-color: #E6F1FA;
+}
+.ms-wpadder{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:white;
+height:250px;
+/* [RecolorImage(themeColor:"Light2",method:"Filling")] */ background-image:url(/_layouts/images/wpadder_graygrad.png);
+background-repeat:repeat-x;
+background-position:bottom left;
+}
+
+.ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh2-nofilter,.ms-vh2-nofilter-icon,.ms-viewheadertr .ms-vh-group,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-ph,.ms-pickerresultheadertr{
+/* [RecolorImage(themeColor:"Accent6-lightest",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/dayheader.png");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color: #dedfc6;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:10px;
+padding-right:2px;
+margin:0px;
+vertical-align: middle;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border:1p solid #888;
+height: auto;
+}
+.ms-vh2-nofilter{
+font-weight:bold;
+vertical-align:middle;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ color:#b2b2b2;
+text-align:left;
+text-decoration:none;
+padding-top:10px;
+}
+.ms-vh, .ms-vh2, .ms-vh a, .ms-vh2 a {
+padding-left:5px;
+padding-bottom:3px;
+vertical-align: middle;
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ color:#003759;
+}
+.ms-vh div, .ms-vh2 div {
+margin:1px;
+height:18px;
+}
+.ms-vb a:link, .ms-vb2 a:link, .ms-vb-user a:link {
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#444;
+text-decoration:none;
+vertical-align:top;
+cursor: pointer;
+}
+.ms-vb a:hover, .ms-vb2 a:hover, .ms-vb-user a:hover {
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */  color:#337999;
+text-decoration:underline;
+vertical-align:top;
+cursor: pointer;
+}
+
+/* Top navigation links */
+body #s4-topheader2{
+/* [RecolorImage(themeColor:"Light1",method:"Tinting")] */ background-image:url("/_layouts/images/selbg.png");
+background-repeat:  repeat-x;
+background-position: left top;
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ background-color:#f6f6f6;
+vertical-align:middle;
+min-height:25px;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top:1px solid #e0e0e0;
+/* [ReplaceColor(themeColor:"Light1-Darker")] */ border-bottom:1px solid #b8babd;
+}
+.s4-tn li.static > .menu-item{
+/* [ReplaceColor(themeColor: "Dark1-Darker")] */ color:#666;
+white-space:nowrap;
+/* [ReplaceColor(themeColor:"Accent4")] */ border:1px solid #d3d3d3;
+padding:4px 10px;
+margin-left:5px;
+display:inline-block;
+height:15px;
+vertical-align:middle;
+}
+.s4-tn ul.dynamic{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:white;
+/* [ReplaceColor(themeColor:"Accent4")] */ border:1px solid #D3D3D3;
+}
+.s4-tn li.dynamic > .menu-item{
+display:block;
+padding:3px 10px;
+white-space:nowrap;
+font-weight:normal;
+}
+.s4-tn li.dynamic > a:hover{
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Accent4")] */ background-color:#D3D3D3;
+}
+.s4-tn li.static > a:hover{
+/* [ReplaceColor(themeColor:"Accent3")] */ color:#44aff6;
+text-decoration:underline;
+}
+.s4-toplinks .s4-tn a.selected{
+/* [ReplaceColor(themeColor:"Dark2-Lightest")] */ border-color:#91cdf2;
+/* [ReplaceColor(themeColor:"Dark2-Lightest")] */ border-bottom-color:#addbf7;
+/* [ReplaceColor(themeColor:"Dark2-Lightest")] */ border-top-color:#c6e5f8;
+/* [RecolorImage(themeColor:"Light1",method:"Tinting")] */ background-image:url("/_layouts/images/selbg.png");
+background-repeat:  repeat-x;
+background-position:  left top;
+/* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ color:#003759;
+padding:4px 5px;
+margin:0px 5px;
+}
+.s4-toplinks .s4-tn a.selected:hover{
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ color:#003759;
+}
+.s4-wpActive .ms-WPTitle,.s4-wpActive .ms-WPTitle a{
+/* [ReplaceColor(themeColor:"Light1")] */ color:#fff;
+}
+.menu-horizontal ul.static{
+display:inline;
+}
+.s4-status-s3{
+/* [ReplaceColor(themeColor:"Accent5-Medium")] */ background-color:#fdf289;
+/* [RecolorImage(themeColor:"Dark2-Lightest",includeRectangle:{x:0,y:489,width:1,height:11},method:"Tinting")] */ background-image: url("/_layouts/images/bgximg.png");
+background-repeat: repeat-x;
+background-position: 0px 0px;
+/* [ReplaceColor(themeColor:"Accent2-Darkest")] */ color:#4b3904;
+/* [ReplaceColor(themeColor:"Light1-Darkest")] */border-color:#ACA06A;
+}
+
+/* Site Settings Admin page styles */
+/* Section headers in Site Settings */
+.ms-linksection-level1
+{
+font-family:verdana;
+margin-left:0px;
+margin-top:0px;
+margin-bottom:2px;
+}
+.ms-linksection-level1 td
+{
+padding-left:0px;
+padding-bottom:17px;
+}
+.ms-linksection-level1 h3
+{
+font-size:11pt;
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Dark2-Darkest")] */ color:#003759;
+margin:0px;
+padding:0px;
+}
+.ms-linksection-level1 h3 a
+{
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ color:#288400;
+}
+.ms-linksection-level1 h3 a:hover
+{
+text-decoration:underline;
+}
+.ms-listedit .ms-gb .ms-vh2-nofilter,.ms-listedit .ms-gb .ms-vh2{
+/* [ReplaceColor(themeColor:"Dark2")] */ color:#003759;
+background-color:transparent;
+background-image:none;
+padding-left:4px;
+}
+tr.ms-viewheadertr > th.ms-vh,tr.ms-viewheadertr > th.ms-vh2{
+border:1px solid transparent;
+border-top-width:0px;
+border-right-width:0px;
+}
+tr.ms-viewheadertr > th.ms-vh:hover,tr.ms-viewheadertr > th.ms-vh2:hover{
+/* [ReplaceColor(themeColor:"Light2-Lighter")] */ border-color:#e2e2e2;
+/* [ReplaceColor(themeColor:"Light2")] */ background-color:#d3d4b5;
+}
+tr.ms-viewheadertr > th:hover .s4-ctx-show{
+/* [ReplaceColor(themeColor:"Light2")] */ background-color:#d3d4b5;
+background-image:none;
+/* [ReplaceColor(themeColor:"Light2-Lightest")] */ border:1px solid #e0e0e0;
+border-width:0px 1px;
+}
+tr.ms-viewheadertr > th .s4-ctx-show:hover{
+/* [RecolorImage(themeColor:"Light1")] */ background-image:url("/_layouts/images/selbg.png");
+background-repeat:  repeat-x;
+background-position: left top;
+/* [ReplaceColor(themeColor:"Light2-Lighter")] */ background-color:#c3b98c;
+/* [ReplaceColor(themeColor:"Light2-Medium")] */ border-right-color:#8e8e8e;
+/* [ReplaceColor(themeColor:"Light2-Medium")] */ border-right-color:#b2b2b2;
+}
+
+/* Pop-up windows */
+.ms-dialog .s4-ca{
+min-width:0px !important;
+min-height: 0px !important;
+width: 96% !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+@media print
+{
+	.webadvisormenuprint { display: none; }
+	.ribbonbackground { display: none; }
+	.dt-footer { display: none; }
+}

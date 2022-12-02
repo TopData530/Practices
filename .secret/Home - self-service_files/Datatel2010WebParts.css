@@ -1,0 +1,2498 @@
+/*** ONLY DATATEL 2010 SPECIFIC WEBPART PROPERTIES ***/
+
+/* My Team Sites web part */ 
+.myteamsites .entry-title {
+padding-top: 4px;
+padding-bottom: 4px;
+white-space: nowrap;
+}
+.myteamsites .entry-summary {
+padding: 0px;
+}
+.myteamsites .entry-summary .newannouncements{
+list-style-image: url(/_layouts/images/datatel/newlist.gif);
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left: 15px;
+}
+.myteamsites .entry-icon div{
+padding: 5px 10px 5px 10px;}
+
+/* Teamsite grouping icons */
+.myteamsites .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration: none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.myteamsites .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.myteamsites .dt-head .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closeALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+.myteamsites .dt-head .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+.myteamsites .dt-foot{
+display:none;
+}
+/* end Teamsite grouping icons */
+
+/* 
+Team site icons for Colleague-created sites.
+The MyTeamSites part will add a div with a non-breaking space and a style of
+dt-<DatatelSiteType in lowercase>. 
+So for instance if the site type is CONST for constituency site, the style
+will be dt-const
+*/
+
+.myteamsites .dt-cs{
+background-image: url(/_layouts/images/datatel/class.gif);
+background-repeat:no-repeat;
+background-position:  left center;
+}
+.myteamsites .dt-const{
+background-image: url(/_layouts/images/datatel/constituency.gif);
+background-repeat: no-repeat;
+background-position: left center;
+}
+.myteamsites .dt-dept{
+background-image: url(/_layouts/images/datatel/department.png);
+background-repeat: no-repeat;
+background-position: left center;
+}
+.myteamsites .dt-co{
+background-image: url(/_layouts/images/datatel/organization.png);
+background-repeat: no-repeat;
+background-position: left center;
+}
+.myteamsites .dt-other{
+background-image: url(/_layouts/images/datatel/other.png);
+background-repeat: no-repeat;
+background-position:  left center;
+}
+
+/* My Learning Provider Classes web part */ 
+
+.mylearningproviderclasses .dt-content a:link, .mylearningproviderclasses .dt-content a:visited, 
+.mylearningproviderclasses .dt-content a:active {
+/* [RecolorImage(themeColor:"Accent5-Darkest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/newlist.gif);
+background-position: left;
+background-repeat: no-repeat;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+margin-bottom: 2px;
+margin-left: 20px;
+margin-top: 0px;
+padding-left: 15px;
+}	
+.mylearningproviderclasses .dt-content a:hover {
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+display: block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+text-decoration:none;
+}
+.mylearningproviderclasses .entry-title {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+padding-bottom: 1px;
+padding-left:5px;
+display:block-inline;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333333;
+height:auto;
+}
+.mylearningproviderclasses .entry-summary {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+margin-left: 35px;
+height:0px;
+position:relative;
+left:3000px;
+}
+.mylearningproviderclasses .entry-icon div{
+padding: 5px 15px 5px 15px;
+}
+.mylearningproviderclasses .dt-myclasses-title{
+display:inline-block;
+height:auto;
+margin-left:5px;
+max-width:70%;
+margin-right:5px;
+cursor: pointer;
+float:middle;
+}
+.mylearningproviderclasses .dt-myclasses-title a{
+position:relative;
+padding-left:5px;
+width:80%;
+display: inline-block;
+white-space:pre-line;
+cursor: pointer;
+float:middle;
+}
+.mylearningproviderclasses .myproviderclassesheader{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color:#165c76;
+padding-left:8px;
+padding-right:3px;
+display:inline-block;
+height:auto;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10px;
+font-style: italic;
+}
+.mylearningproviderclasses .dt-rowtitle {
+-moz-margin-top:10px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top:1px solid #666;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-bottom:1px solid #666;
+/* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color: #dedfc6;
+}
+.mylearningproviderclasses .dt-rowtitle_grey {
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top:1px solid #666;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+font-weight:bold;
+height:auto;
+padding:2px 0px 2px 10px;
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color: #dedfc6;
+}
+.mylearningproviderclasses .dt-rowtitle_grey a:link, .dt-rowtitle_grey a:visited, .dt-rowtitle_grey a:hover, .dt-rowtitle_grey a:active {
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top:0 solid #666;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */color:#888;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+font-weight:bold;
+height:auto;
+padding:2px 0px 2px 0px;
+text-decoration:none;
+}
+.mylearningproviderclasses .learninggroup{
+height:auto;
+}
+.mylearningproviderclasses a.viewalllink, a.viewalllink:visited {
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color:#EF9240;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:bold;
+padding-left:50px;
+text-decoration:underline;
+}
+.mylearningproviderclasses .dt-moodlelearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/moodle_icon.gif);
+background-repeat:  no-repeat;
+padding:0px;
+background-position: 0px 50%;
+height:auto;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+.mylearningproviderclasses .dt-teamsitelearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/class.gif);
+background-repeat: no-repeat; 
+padding:0px;
+background-position: 0px 50%;
+height:auto;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+
+.mylearningproviderclasses .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.mylearningproviderclasses .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration: none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.mylearningproviderclasses .dt-head .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+.mylearningproviderclasses .dt-head .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closeALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+
+/* bblearningprovider */
+.dt-blackboardlearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-bb.gif);
+background-repeat:  no-repeat;
+vertical-align: top;
+}
+.dt-teamsitelearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/class.gif);
+background-repeat: no-repeat; 
+vertical-align: top;
+}
+
+/* Weather WebPart */    
+.weatherpoweredby a:link,.weatherpoweredby A:visited{
+/* [ReplaceColor(themeColor:"Light2-Darkest")] */ color: #a8a8a8;
+text-decoration: none;
+font-size: 9px;
+}
+div.weatherpoweredby {
+padding-left:10px;
+padding-right:10px;
+}
+div.weatherconditions img{
+height: 28px;
+}
+div.weathertitle, div.weathertitle a, div.weathertitle a:visited{
+font-size: 8pt;
+}
+div.weathertitle br{
+font-size: 1px;
+}
+
+/* Default weather text */
+#ctl00_m_g_a73fa056_3cb0_4b11_9c2c_bc60293b836c{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color: #888888;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;	
+}
+
+/* My Notifications */
+.mynotifications {
+overflow:hidden;
+width:100%;
+background-color:#fef6c3;
+}
+.dt-mynotificationsheader{
+border: 0px;
+/* [RecolorImage(themeColor:"Accent5-Darkest",method:"Tinting")] */background-image: url(/_layouts/images/datatel/notifications-gradient.png);
+background-repeat: repeat-x;
+/* [ReplaceColor(themeColor:"Accent5-Darkest")] */ background-color:#ffde00;
+height: 20px;
+vertical-align:middle;
+padding:10px;
+margin-width:0px;
+}
+.dt-mynotificationsalert {
+background-image: url(/_layouts/images/datatel/warning-icon.gif);
+background-repeat: no-repeat;
+float: left;
+float:top;	
+position:absolute;
+background-position: center;
+padding-top:3px;
+padding-bottom:2px;
+padding-left:10px;
+padding-right:10px;
+text-align:top;
+}
+.dt-mynotificationsintro A:link,.dt-mynotificationsintro A:visited,.dt-mynotificationsintro A:active,.dt-mynotificationsintro A:hover{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:underline;
+white-space: nowrap;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333;
+padding-left:30px;
+float: left;
+position:absolute;
+text-align:left;
+}
+.dt-mynotificationsexpandcollapse {
+padding-right:0px;
+width:50px;
+float: right;
+text-align:right;
+position:relative;
+}
+.dt-mynotificationsexpandcollapse .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+background-position: bottom;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+float:right;
+}
+.dt-mynotificationsexpandcollapse .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+background-position: bottom;
+float:right;
+}
+.mynotifications .dt-icon{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color: #000;
+width:100%;
+padding-top: 7px;
+padding-bottom: 0px;
+}
+.mynotifications .dt-title{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+text-decoration:none;
+display: block;
+}
+.mynotifications .dt-summary a:link, .mynotifications .dt-summary a:visited, .mynotifications .dt-summary a:active{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333;
+text-decoration:underline;
+width: 98%;
+padding-bottom: 5px;
+}
+.dt-mynotificationsfooter {
+font-style:italic;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+/*white-space: nowrap;*/
+text-align:center;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#999999;
+padding-top:10px;
+}
+
+/* Datatel Announcements web part */
+.datatelannouncements .newIcon{
+display: inline;
+padding: 10px 10px 10px 10px;
+background-image: url(/_layouts/images/datatel/new.gif);
+background-repeat:  no-repeat;
+background-position:  left center;
+}
+
+/* RSS Reader */
+.rss-groupheader {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align:left;
+font-size: 12px;
+padding-top: 5px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+padding-left:10px;
+padding-bottom:5px;
+}
+.rss-groupheader .dt-feedicon{
+background-image: url(/_layouts/images/rect.gif);
+background-repeat:  no-repeat;
+background-position:  left center;
+padding-right: 4px;
+width:16px;
+float: left;
+}
+.slm-layout-main .hfeed{
+display:none;
+}
+.rss-groupheader a:link, .rss-groupheader a:visited, .rss-groupheader a:active{
+padding-left: 4px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+padding-bottom:5px;
+}
+.rss-groupheader img{
+padding-right: 4px;
+}
+.rss-linkitem{
+padding:2px 0px 2px 8px;
+margin:2px 2px 2px 2px;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+display:block;
+}
+.rss-linkitem a:link, .rss-linkitem a:visited, .rss-linkitem a:active{
+padding:2px 0px 2px 8px;
+margin:2px 2px 2px 2px;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+display:block;
+}		
+.rss-description{
+padding:2px 5px 2px 8px;
+margin:2px 2px 2px 2px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+.rss-description a:link, .rss-description a:visited, .rss-description a:active{
+padding:2px 5px 2px 8px;
+margin:2px 2px 2px 2px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+}	
+
+/* bblearningprovider */
+div.bblearningprovider {
+background-image: url("/_layouts/images/datatel/Blackboard-logo.jpg");
+background-repeat: no-repeat;
+background-position: left bottom;
+margin-left: 15px;
+margin-top: 0px;
+padding-top: 0px;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color: #888888;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #ffffff;
+display: block;
+}
+div.bblearningprovider a, div.bblearningprovider a:visited{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+text-decoration: underline;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: .9em;
+vertical-align: top;
+margin-left: 55px;
+display: block;
+}
+
+/* bblearningprovider - moodle */
+
+.dt-moodlecoursesection{
+background-image: url(/_layouts/images/datatel/moodle_icon.gif);
+background-repeat:  no-repeat;
+background-position: 0px 50%;
+}
+.todolist .moodle-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/moodle_icon.gif);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:20px;
+padding-top:2px;
+height:15px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+}
+
+/* Unread Messages */
+.unreadmessages {
+background-image: url("/_layouts/images/datatel/emailEnvelope.gif");
+background-repeat: no-repeat;
+display:block;
+padding-left: 25px;
+}
+div.unreadmessages a, div.unreadmessages a:visited{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #db6e0e;
+text-decoration: underline;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+/* POP 3 */
+#ctl00_m_g_7e46adf6_3339_4253_8b69_4da64e6d7a96{
+width:98%;	
+}
+#ctl00_m_g_7e46adf6_3339_4253_8b69_4da64e6d7a96 .dt-head{
+width:98%;
+vertical-align: middle;
+display:block;	
+margin-bottom: 3px;
+text-align: center;
+margin-left:10px;
+}
+#ctl00_m_g_7e46adf6_3339_4253_8b69_4da64e6d7a96 .dt-foot{
+width:98%;
+vertical-align: middle;
+display:block;	
+margin-bottom: 3px;
+text-align: center;
+}
+#WebPartctl00_m_g_b131ef86_6cee_47af_9496_58bfb505ee25{
+width:98%	
+}
+.unreadmessagespop3 {
+background-image: url("/_layouts/images/datatel/emailEnvelope.gif");
+background-repeat: no-repeat;
+float:left;
+margin-left: 5px;
+margin-right: 5px;
+padding-left: 0px; 
+padding-right: 0px;
+}
+div.unreadmessagespop3 .dt-head{
+display:none;
+}
+div.unreadmessagespop3 a, div.unreadmessagespop3 a:visited{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+text-decoration: underline;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 13px; 
+padding-left:30px;
+padding-bottom:0px;
+}
+.unreadmessagespop3table table {
+width: 95%; 
+padding-left: 5px;
+}
+.unreadmessagespop3table .hentry {
+padding: 0px;
+margin:0px;
+width:98%;
+height:15px;
+clear: none; 
+}
+.unreadmessagespop3table .entry-title {
+float: left;
+height:15px;
+overflow:hidden;
+width: 35%; 
+vertical-align: top;
+margin-left:2px;
+margin-bottom:0px;
+margin-top:1px;
+margin-right:2px;
+padding:0px;
+vertical-align: top;
+/* [ReplaceColor(themeColor:"Accent4")] */  border-right:1px solid #d3d3d3;
+}
+.unreadmessagespop3table .dt-title {
+font-weight:bold;
+}
+.unreadmessagespop3table .entry-summary {
+float:left;
+height:15px;
+overflow:hidden;
+margin-bottom:0px;
+margin-top:1px;
+margin-left:2px;
+margin-right:2px;
+padding:0px;
+vertical-align: top;
+width:40%;
+/* [ReplaceColor(themeColor:"Accent4")] */  border-right:1px solid #d3d3d3;
+}
+.unreadmessagespop3table .dt-summary {
+font-weight:normal; 
+display:block;
+white-space:line;
+}
+.unreadmessagespop3table .entry-content {
+margin-bottom:0px;
+margin-top:1px;
+margin-left:2px;
+margin-right:2px;
+padding: 0px;
+height:14px;
+overflow: hidden;
+width:18%;
+vertical-align: bottom;
+}
+.unreadmessagespop3table .dt-date {
+padding-top: 0px;
+padding-bottom: 0px; 
+vertical-align: bottom;
+white-space:line;
+width:auto;
+display:block;
+}
+.unreadmessagespop3table .feed-th {
+height: 1px;
+padding-bottom: 0px;
+padding-top: 0px; 
+width:99%;
+}
+.unreadmessagespop3table tr {
+background-image: url(/_layouts/images/datatel/separator.gif);
+background-repeat: repeat-x; 
+width:99%; 
+}	
+.unreadmessagespop3 .ms-partline{
+font-size: 0px;
+margin-top:2px;
+margin-bottom:2px;
+height:1px;
+width:99%;
+}
+	
+/* Picture Rotator */
+.picturerotator {
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f4f3eb;
+}
+.picturerotator .entry-icon{
+float:none;
+}
+.picturerotator .hentry{
+background-image: none;
+}
+.picturerotator .dt-icon img{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border: 1px solid #555;
+}
+.picturerotator .dt-title{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #db6e0e;
+margin-left: 10px;
+margin-right: 10px;
+font-weight: normal;
+text-align: center;
+font-size:12px;
+font-weight:bold;
+}
+.picturerotator .dt-icon{
+vertical-align: middle;
+padding-top: 20px;
+padding-bottom: 10px;
+text-align:center;
+}
+.picturerotator .slideshowlink{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666;
+text-decoration: none;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+display: block;
+text-align: right;
+padding: 4px;
+cursor: pointer;
+}
+.picturerotator a.slideshowlink{
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+padding-left:5px;
+cursor: pointer;
+}
+.picturerotator a.slideshowlink:hover{
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration: underline;
+cursor: pointer;
+}
+
+/* My Week  ** All content in this part is contained by a div with the 'MyWeek' class.*/
+.myweek .calendarpanel { 
+text-align:center;
+width: 100%;
+}
+.myweek {
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f4f3eb;
+background-image: none;
+background-repeat:repeat-x;
+padding: 5px 5px 0 5px;
+}
+.myweek, .myweek a, .myweek hr, .myweek p{
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+}
+.myweek .dt-head{
+height: 24px;
+padding-top:3px;
+padding-bottom:10px;
+font-style:italic;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight:normal; 
+text-decoration: none;
+vertical-align: bottom;
+background-color:transparent;
+margin-left:0px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666;
+border:0px;
+text-align:center;
+}
+.myweek .dt-head  A:link,.MyWeek .dt-head A:visited,.MyWeek .dt-head A:active{
+padding-top: 3px;
+padding-bottom:10px;
+font-style:italic;
+height: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight:normal; 
+background-color:transparent;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666;
+text-decoration: none;
+vertical-align: bottom;
+border:0px;
+text-align:center;
+} 
+.myweek .dt-head .dt-help, .myweek .dt-head a.dt-help:hover, .myweek .dt-head a.dt-help:visited, .myweek .dt-head a.dt-help:active{
+width: 20px;
+height:16px;
+float: right;
+background-color: transparent;	
+background-image: url(/_layouts/images/datatel/help-sm.png);
+background-repeat: no-repeat;
+text-decoration:none; 
+border:0px;
+}	
+.myweek .dt-head .dt-refresh, .myweek .dt-head a.dt-refresh:hover, .myweek .dt-head a.dt-refresh:visited, .myweek .dt-head a.dt-refresh:active {
+width: 20px;
+height:16px;
+float: right;
+background-color: transparent;	
+background-image: url(/_layouts/images/datatel/refresh-icon.gif);
+background-repeat: no-repeat;
+text-decoration:none;
+border:0px;
+}
+.myweek .dt-bigthrobber {
+background-color:transparent;
+background-image: url(/_layouts/images/datatel/throbber.gif); 
+background-repeat:no-repeat;
+width: 32px;
+height:32px;
+border:0px;
+padding:0px;
+}
+.myweek .dt-head .dt-throbber {
+background-color:transparent;
+background-image: url(/_layouts/images/datatel/new-throbber.gif); 
+background-repeat:no-repeat;
+}	
+.myweek .dt-head a{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #ef9240;
+font-weight:bold;
+}
+.myweek .dt-head a:hover{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #ef9240;
+font-weight:bold;
+text-decoration: underline;
+}
+/* This affects all cells in the calendar control */
+.myweek td{
+padding: 0 6px;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+font-weight: bold;
+}
+/* The line separating the calendar control and events list */
+.myweek hr {
+height: 1px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+/* The 'today's date' header text */
+.myweek .todayis{
+font-weight:bold;
+margin-bottom: 5px;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333;
+}
+.myweek .todayis a:hover, .myweek .todayis a:link, .myweek .todayis a:active, .myweek .todayis a:visited{
+font-weight:bold;
+margin-bottom: 10px;
+padding-left: 7px;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333;
+}
+/* The link to today's date */
+.myweek .todaysdate{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #ef9240;
+margin-bottom: 5px;
+}
+.myweek .todaysdate a{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #ef9240;
+font-weight:bold;
+}
+.myweek .todaysdate a:hover, .myweek .todaysdate a:link, .myweek .todaysdate a:active, .myweek .todaysdate a:visited{
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #ef9240;
+font-weight:bold;
+text-decoration: underline;
+}
+/* The event list container */
+.myweek .events {
+padding-bottom: 5px;
+}
+.myweek .moreEvents { 	
+padding:0px;
+height: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;
+text-align:center;
+margin-left:10px;
+font-style:italic;
+display:inline;
+width:98%;
+}
+/* The date label for each day in the event list*/
+.myweek .dayheader {
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+/* [RecolorImage(themeColor:"Accent6-lightest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/dayheader.png); 
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color: #dedfc6;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border:1px solid #888888;
+font-weight:bold;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left:5px;
+width:auto;
+height: auto;
+margin-bottom:10px;
+overflow:hidden;
+}
+.myweek .hentry{
+background:none;
+width: 95%;
+float: left;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 8px;
+}
+/* The text label when a day has no events */
+.myweek .noevents{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666;
+font-weight:normal;
+font-style: italic;
+padding: 0 0 5px 20px;
+}
+/* These control the icon, time, and title columns in the event list */
+.myweek .list {
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333;
+padding-bottom: 1px;
+} 
+.myweek .list a:link, .list a:visited{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333;
+}
+.myweek .list a:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color: #444444;
+text-decoration: underline;
+}
+.myweek #leftlist {
+width: 16px;
+float: left;	
+position:absolute;
+}
+.myweek #middlelist {
+width: 100px;
+padding-left:25px;
+float: left;
+position:absolute;
+text-align:left;
+}
+.myweek #rightlist {
+padding-left:90px;
+padding-right:7px;
+float: left;
+float: middle;
+text-align:left;
+position:relative;
+min-width:45%;
+width:auto;
+display: block;
+overflow: visible;
+height:100%;
+} 
+.myweek .entry-title{
+height:auto;
+padding-bottom: 2px;
+padding-left:0px;
+padding-right: 0px;
+}
+.myweek .dt-title a{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+text-decoration:none;
+padding-left:0px;
+padding-right: 0px;
+}
+/* The hover box that shows more info for each event */
+/* The position MUST be absolute */
+/* IE and Mozilla have different margin settings since they calculate it differently */
+.myweek .entry-content .eventInfo{	
+position:absolute;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333333;
+/* [ReplaceColor(themeColor:"Accent3-Medium")] */background-color: #bfe6ef;
+/* [ReplaceColor(themeColor:"Accent4")] */ border: 4px ridge #e8e8e8;
+z-index: 10;
+margin-left: 90px;
+_margin-left: 45px;
+}
+.myweek br{
+_display:none;
+}
+.myweek .entry-content .eventInfo div{
+padding: 1px 0 1px 0;
+}
+/* These control the actual images used for each event's icon */
+.dt-colleaguecoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-ColleagueIcon.png);
+background-repeat:  no-repeat;
+background-position:  left center;
+}
+.dt-blackboardcoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-bb.png);
+background-repeat:  no-repeat;
+background-position: left center;
+}
+.dt-teamsitecoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-class.png);
+background-repeat:  no-repeat;
+background-position:  left center;
+}
+.dt-colleagueappointmentreminder{
+background-image: url(/_layouts/images/datatel/MyWeek-colleague.png);
+background-repeat:  no-repeat;
+background-position: left center;
+}
+.dt-exchangecalendarevent{
+background-image: url(/_layouts/images/datatel/MyWeek-exchange.png);
+background-repeat:  no-repeat;
+background-position:  left center;
+}
+.dt-colleaguecalendarevent{
+background-image: url(/_layouts/images/datatel/MyWeek-colleague.png);
+background-repeat:  no-repeat;
+background-position: left center;
+}
+.dt-moodlelearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/moodle_icon.gif); 
+background-repeat: no-repeat;
+background-position: left center;
+}
+
+/* Styles for the calendar control */
+.myweek .calendar {
+padding: 1px;
+margin-bottom: 10px;
+/* [RecolorImage(themeColor:"Dark2-Darker",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/calendar-gradient.png);
+background-repeat: repeat-x;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ background-color: #165c76;
+width:95%;
+}                              
+.myweek .calendarday {
+border:none;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+background-color:#fff;
+font-weight: bold;
+font-size: 1em;
+padding: 2px 6px 2px 6px;
+height:25px;
+}
+.myweek .calendarweekendday {
+border:none;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#0f7997;
+/* [ReplaceColor(themeColor:"Accent3-Medium")] */background-color:#dbf5fb;
+font-weight:bold;
+padding: 2px 6px 2px 6px;
+}
+.myweek .calendarothermonthday{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+border:none;
+/* [ReplaceColor(themeColor:"Accent3")] */background-color:#bfe6ef;
+padding: 2px 6px 2px 6px;
+font-weight:normal;	
+height: 25px;
+}
+.myweek .calendarOtherMonthDay a{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+font-weight:normal;		
+}
+.myweek .calendartodayday {
+border:none;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333;
+font-weight: bold;
+background-color: #ffdf88 !important;
+}
+.myweek .calendartodayday a {
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333;
+font-weight: bold;
+background-color: #ffdf88 !important;
+}
+.myweek .calendardayheader {
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color:#165c76;
+border:none;
+font-weight:bold;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/calendardayheader.png);
+background-repeat: repeat-x;
+height: 30px;
+}  
+.myweek .calendartitle {
+/* [ReplaceColor(themeColor:"Light1")] */ color:#ffffff;
+background-color: transparent;
+font-weight: bold;
+font-size: 1.1em;
+height:25px;
+}
+.myweek .calendarSelectedDay {
+/* [ReplaceColor(themeColor:"Accent3-Darker")] */background-color: #80e7ed !important;
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #ef9240;
+}
+.myweek .calendarSelectedDay a {
+/* [ReplaceColor(themeColor:"Accent3-Darker")] */color: #80e7ed !important;
+}
+.myweek .calendarNextPrev{
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Hyperlink")] */ color: #ef9240;
+vertical-align:bottom;
+}
+.myweek #myWeekNextMonth{
+/* [RecolorImage(themeColor:"Light2-Lightest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/next.png);
+background-repeat: no-repeat;
+background-position: left center;
+padding-bottom: 9px;
+width:16px;
+height:16px;
+cursor: pointer;
+}
+.myweek #myWeekNextMonth a:hover{
+/* [RecolorImage(themeColor:"Accent3-Darker",method:"Tinting")] */background-image: url(/_layouts/images/datatel/next-hover.png);
+background-repeat:  no-repeat;
+background-position: left center;
+cursor: pointer;
+}
+.myweek #myWeekPrevMonth{
+/* [RecolorImage(themeColor:"Light2-Lightest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/previous.png);
+background-repeat:  no-repeat;
+background-position: left center;
+padding-bottom: 9px;
+width:16px;
+height:16px;
+cursor: pointer;
+} 
+.myweek #myWeekPrevMonth a:hover{
+/* [RecolorImage(themeColor:"Accent3-Darker",method:"Tinting")] */background-image: url(/_layouts/images/datatel/previous-hover.png);
+background-repeat:  no-repeat;
+background-position:  left center;
+cursor: pointer;
+} 
+.myweek .dt-pleasewait{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;
+padding-top:45px;
+padding-bottom:5px;
+}
+
+ /* To Do List Styles */
+.todolist .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration: none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.todolist .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.todolist .dt-head .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closeALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+.todolist .dt-head .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+.todolist .coll-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/Colleague-ToDo.gif);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:20px;
+padding-top:2px;
+height:15px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+}
+.todolist .collnew-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/Colleague-ToDo-NEW.gif);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:20px;
+padding-top:2px;
+height:15px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+}
+.todolist .email-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/Exchange-ToDo.gif);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:20px;
+padding-top:2px;
+height:15px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+}
+.todolist .emailnew-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/Exchange-ToDo-NEW.gif);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:20px;
+padding-top:2px;
+height:15px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+}
+.todolist .todoinfo{
+position:absolute;
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333333;
+/* [ReplaceColor(themeColor:"Accent3-Medium")] */background-color: #bfe6ef;
+/* [ReplaceColor(themeColor:"Accent4")] */ border: 4px ridge #e8e8e8;
+z-index: 10;
+margin-left: 45px;
+_margin-left: 45px;
+}
+.todolist .todoinfo-title{
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333333;
+}
+.todolist .todoinfo-value{
+padding: 5px 5px 5px 5px;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333333;
+}
+
+/* WebAdvisor */
+.webadvisormenu .dt-head{
+padding:5px;	
+}
+.webadvisormenu .group-icon{
+visibility:hidden;
+background-repeat:no-repeat;
+background-position: 0px 50%;
+margin-left:10px;
+height:14px;
+text-decoration: none;
+vertical-align: middle;
+border:0px;
+display:none;
+}
+.webadvisormenu .dt-rowtitle a:link, .webadvisormenu .dt-rowtitle a:visited, .webadvisormenu .dt-rowtitle a:active{
+padding-left:5px;
+/* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color: #dedfc6;
+}
+.webadvisormenu  .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+}
+.webadvisormenu  .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+}
+.webadvisormenu .dt-row{
+height:auto;
+padding-left:25px;
+}
+.webadvisormenu .dt-rowtitle{
+height:auto;
+}
+#webAdvisorTable td {
+padding-left:0px;
+}
+#webAdvisorTable .WebAdvisorFormLabel{
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-weight:bold;
+vertical-align:middle;
+font-size: 12px;
+}
+#webAdvisorTable th{
+text-align:left;
+padding: 5px 5px;
+font-size: 12px;
+}
+#webAdvisorTable .webadvisorformfield{
+font-family:Arial, Helvetica, sans-serif;
+vertical-align:middle;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#ffffff;
+padding: 5px 5px 5px 5px;
+margin: 0 3px 0 3px;
+font-size: 12px;
+}
+#webAdvisorTable .dt-row, #webAdvisorTable .dt-rowAlt{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top:1px solid #888888;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom:1px solid #888888;
+padding: 5px 5px 5px 5px;
+margin: 0 3px 0 3px;
+}
+#webAdvisorTable a:link{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+}
+#webAdvisorTable a:hover{
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+text-decoration:underline;
+}
+.webadvisorwindow {
+padding-bottom: 10px;
+}
+.WebAdvisorHeader{
+margin-bottom: 5px;
+}
+.WebAdvisorHeader #customText{
+padding: 5px;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+}
+.webadvisorfooter{
+margin-top: 5px;
+}
+.webadvisorfooter #customtext{
+padding: 5px;
+/* [ReplaceColor(themeColor:"Accent5-Darker")] */ background-color:#ffdf88;
+}
+.webadvisorlinks{
+padding-bottom: 10px;
+}
+.webadvisorlinkstable{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#0f7997;
+/* [RecolorImage(themeColor:"Accent3-Medium",method:"Tinting")] */ background-image:url("/_layouts/images/datatel/toolgrad.gif");
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent3-Lightest")] */background-color:#e3eff2;
+/* [ReplaceColor(themeColor:"Accent3-Darkest")] */border:1px solid #8dd5ec;
+border-collapse:collapse;
+padding:2px;
+text-align:center;
+}
+.webadvisorlink{
+text-decoration:none;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+}
+.webadvisorsubmitbutton{
+min-width:7.5em;
+font:8pt tahoma;
+height:2.1em;
+padding-top:0.1em;
+padding-bottom:0.4em;
+}
+#webadvisortoolbar {
+padding-top:10px;
+}
+a.WebAdvisorBackButton, a.WebAdvisorBackButton:hover, a.WebAdvisorBackButton:visited, a.WebAdvisorBackButton:active {
+width: 81px;
+height: 20px;
+padding: 1px;
+padding-right: 5px;
+background-position:right;
+float: left;
+/* [RecolorImage(themeColor:"Dark1-Lightest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/Back-button.png);
+background-repeat: no-repeat;
+text-decoration:none; 
+}
+a.WebAdvisorForwardButton, a.WebAdvisorForwardButton:hover, a.WebAdvisorForwardButton:visited, a.WebAdvisorForwardButton:active {
+width: 81px;
+height: 20px;
+padding: 1px;
+padding-left: 5px;
+background-position:right;
+float: left;
+/* [RecolorImage(themeColor:"Dark1-Lightest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/forward-button.png);
+background-repeat: no-repeat;
+text-decoration:none; 
+}
+.webadvisorthrobber {
+width: 96px;
+height: 96px;
+background-image: url(/_layouts/images/datatel/throbber-webadvisor.gif);
+background-repeat: no-repeat;
+text-decoration:none; 
+}
+#WebAdvisorMainRow {
+background-image: none;
+}
+#WebAdvisorMainRow.visible {
+/* [RecolorImage(themeColor:"Dark1-Lightest",method:"Tinting")] */ background-image: url('/_layouts/images/datatel/gradient_bg.gif');
+background-repeat: repeat-x; 
+background-position: left top;
+}
+#webAdvisorTabRow .dt-containerTab .tabtext{
+vertical-align: middle;
+text-align:left;
+height:10px;
+border:0px;
+cursor:pointer;
+display: block;
+}
+#webAdvisorTabRow .dt-containerTab#openTab .tabtext{
+padding-right: 15px;
+}
+#webAdvisorTabRow .dt-containerTab #closeTabIcon{
+display:none;
+}
+#webAdvisorTabRow .dt-containerTab#openTab #closeTabIcon{
+display:inline;
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/ptclose.gif);
+background-position: 0px 50%;
+height:13px;
+width:13px;
+position:absolute;
+z-index:10;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+cursor:pointer;
+white-space: nowrap;
+right:7px;
+top:1px;
+}
+
+ /* My Documents */
+.mydocuments .dt-title{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+padding-left:7px;
+}
+
+.mydocuments a.morelink, a.morelink:visited {
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#0f7997;
+text-decoration:none;
+padding-left: 17px;
+}
+.mydocuments .dt-title a:link, .mydocuments .dt-title a:visited, .mydocuments .dt-head a:active {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+text-decoration:none;
+padding-left:7px;
+}	
+.mydocuments .dt-title a:hover {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333333;
+text-decoration:none;
+padding-left:7px;
+}		
+.mydocuments .feed-th {
+padding-left: 15px;
+} 
+.mydocuments .dt-icon{
+padding-left:15px;
+}
+ 
+/* Applications */
+.dt-appicon{
+width: 0px;
+height: 0px;
+float: left;
+}
+
+/* CMS News */
+/* Default text */
+.cmsnews{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding-left: 10px;
+padding-top: 0px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666;
+}
+
+/* UI Web Navigation */
+/* Outer div */
+.UIWebMenu 
+{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border: 1px solid #333333;
+/* [ReplaceColor(themeColor:"Accent4")] */  background-color: #d3d3d3;
+margin: 4px;
+padding: 5px;
+min-width: 216px;
+}
+/* Style app drop-down menu */
+.UIWebMenu .appMenu 
+{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border: 1px solid #333333;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ background-color: #0f7997;
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;
+padding: 5px;
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 12px;
+}
+.UIWebMenu .appLabel{
+display: inline;
+padding-right: 5px;
+padding-left: 10px;
+}
+.UIWebMenu .appDropDown{
+display: inline;
+}
+.UIWebMenu .dt-throbber {
+background-color:transparent;
+background-image: url(/_layouts/images/datatel/new-throbber-wt.gif); 
+background-repeat:no-repeat;
+}
+
+/* Style collapse-all div */
+.UIWebMenu .toolbar{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ 	background-color: #666666;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border-left: 1px solid #333333;	
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border-right: 1px solid #333333;	
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top: 1px solid #e8e8e8;	
+/* [ReplaceColor(themeColor:"Accent4")] */ border-bottom: 1px solid #e8e8e8;		
+padding: 2px;
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 10px;
+font-style: italic;
+}
+.UIWebMenu .toolbar a:link, .UIWebMenu .toolbar a:visited, .UIWebMenu .toolbar a:active{
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 10px;
+/* [ReplaceColor(themeColor:"Light1")] */ color: #ffffff;	
+font-style: italic;
+}
+.UIWebMenu .toolbar a:hover{
+font-family: Arial, Helvetica, sans-serif;	
+font-style: italic;
+text-decoration: underline;	
+/* [ReplaceColor(themeColor:"Light1")] */  color: #ffffff;		
+}
+.UIWebMenu .toolbar .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+background-repeat: no-repeat;
+padding-left: 10px;	
+background-position: center;
+display: inline;
+}
+
+/* Style multi-tier menus */
+.UIWebMenu .menu{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border-left: 1px solid #333333;	
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border-right: 1px solid #333333;	
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	border-bottom: 1px solid #333333;	
+}
+
+.UIWebMenu #leftlist {
+width: 16px;
+float: left;	
+position:absolute;
+margin-left: 5px;
+}
+
+.UIWebMenu #rightlist {
+padding-left:25px;
+padding-right:7px;
+text-align:left;
+position:relative;
+min-width:75%;
+} 
+
+/* Tier 1 */
+.UIWebMenu .tier1 
+{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ 	border-top: 1px solid #666666;
+/* [ReplaceColor(themeColor:"Accent3-Darkest")] */background-color: #8dd5ec;
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 13px;		
+font-weight: bold;		
+display: block;	
+}
+.UIWebMenu .tier1 a:link, .UIWebMenu .tier1 a:visited, .UIWebMenu .tier1 a:active{
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 13px;		
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */		color: #333333;
+}
+.UIWebMenu .tier1hover{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ 	border-top: 1px solid #666666;
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 13px;		
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */	color: #000000;
+/* [ReplaceColor(themeColor:"Accent4")] */  background-color: #d3d3d3;
+font-weight: bold;	
+display: block;	
+}
+.UIWebMenu .tier1hover a:link, .UIWebMenu .tier1hover a:visited, .UIWebMenu .tier1hover a:active{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */	color: #000000;	
+font-size: 13px;
+}
+
+/* Tier 2 */
+.UIWebMenu .tier2 {
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ 	border-top: 1px solid #666666;
+/* [ReplaceColor(themeColor:"Accent1-lighter")] */ background-color: #c0e1ec;
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 12px;		
+display: block;	
+}
+.UIWebMenu .tier2 #leftlist, .UIWebMenu .tier2hover #leftlist{
+margin-left: 10px;
+}
+.UIWebMenu .tier2 #rightlist, .UIWebMenu .tier2hover #rightlist{
+margin-left: 5px;
+_margin-left: 15px;
+}
+.UIWebMenu .tier2 a:link, .UIWebMenu .tier2 a:visited, .UIWebMenu .tier2 a:active{
+min-width: 45%;
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 12px;		
+}
+.UIWebMenu .tier2hover{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ 	border-top: 1px solid #666666;
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 12px;		
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color: #333333;
+/* [ReplaceColor(themeColor:"Accent4")] */  background-color: #d3d3d3;
+display: block;	
+}
+.UIWebMenu .tier2hover a:link, .UIWebMenu .tier2hover a:visited, .UIWebMenu .tier2hover a:active{
+min-width: 45%;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */	color: #333333;	
+font-size: 12px;
+}
+
+/* Styles for arrows */
+.UIWebMenu .expanded div.submenu-icon {
+background-image: url(/_layouts/images/BLK_DWN.gif);
+background-repeat:  no-repeat;
+background-position:  left center;
+}
+.UIWebMenu .collapsed div.submenu-icon {
+background-image: url(/_layouts/images/BLK_RGT.gif);
+background-repeat:  no-repeat;
+background-position: left center;	
+}
+
+/* Styles for icons */
+div.maintenance-icon{
+margin-left: 7px;
+/*	display: inline;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 15px;	
+*/	background-position: center;		
+background-image: url(/_layouts/images/datatel/maint.gif);
+background-repeat: no-repeat;
+background-position: left center;	
+}
+div.inquiry-icon{
+margin-left: 7px;
+/*	display: inline;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 15px;	
+*/	background-position: center;
+background-image: url(/_layouts/images/datatel/inq.gif);
+background-repeat: no-repeat;
+background-position: left center;
+}
+div.process-icon{
+margin-left: 7px;
+/*	display: inline;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 15px;	
+*/	background-position: center;	
+background-image: url(/_layouts/images/datatel/procs.gif);
+background-repeat:  no-repeat;
+background-position: left center;	
+}
+div.report-icon{
+margin-left: 7px;
+/*	display: inline;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 15px;	
+*/	background-position: center;	
+background-image: url(/_layouts/images/datatel/report.gif);
+background-repeat: no-repeat;
+background-position:  left center;		
+}
+
+.UIWebMenu .menuItemInfo{	
+position:absolute;
+padding: 5px 5px 5px 5px;
+font-size: 10px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */		color: #444444;
+/* [ReplaceColor(themeColor:"Accent4")] */  background-color: #d3d3d3;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */		border: 1px solid #444444;
+z-index: 10;
+margin-left: 50px;
+}
+
+/* Styles to control the opening of navigation rows */
+.UIWebMenu .expanded .submenulinks {
+display:block;
+}
+.UIWebMenu .collapsed .submenulinks {
+display:none;
+}
+
+
+
+/* Course Materials Manager (CMM) */
+
+.dt-cmm-sharemgr-container
+{
+width:100%;
+margin:0px;
+height: 100%;
+}
+.dt-cmm-sharemgr-leftnavigation
+{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border:1px solid #888888;
+vertical-align:top;
+width:100%;
+min-width:300px;
+max-width:700px;
+min-height:300px;
+max-height:700px;
+height:100%;
+}
+.dt-cmm-sharemgr-content
+{
+height:300px;
+width:40px;
+}
+.dt-cmm-sharemgr-rightnavigation
+{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border:1px solid #888888;
+vertical-align:top;
+width:100%;
+min-width:300px;
+max-width:700px;
+min-height:300px;
+height:100%;
+max-height:700px;
+}
+
+.dt-cmmgridheader
+{
+white-space: nowrap;
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f8f8ef;
+height: 20px;
+padding:5px;
+}
+
+.dt-cmmgridheader a:link
+{
+white-space: nowrap;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+font-weight:bold;
+}
+.dt-cmm-sharemgr-grid-header-style
+{
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f8f8ef;   
+font-weight:bold;
+margin-bottom:5px;
+padding-bottom:10px;
+}
+
+
+
+div.dt-cmm-body table
+{
+border:0px solid transparent;  
+width:100% 
+}
+div.dt-cmm-body td
+{
+border:0px solid transparent;  
+padding-top:5px;
+padding-bottom:5px; 
+padding-left:5px;
+padding-right:5px;
+word-wrap:break-word;
+width:180px !important;
+overflow:hidden;
+white-space:pre-line;
+}
+div.dt-cmm-body th
+{
+border:0px solid transparent;   
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom:1px solid #888;
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f8f8ef;
+}
+div.dt-cmm-body tr
+{
+/* [ReplaceColor(themeColor:"Accent4")] */  border-bottom:1px solid #d3d3d3;
+}
+
+
+
+
+
+div.dt-cmm-body-choose-collection .hentry
+{
+width:95%;
+font-style:italic;
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#0f7997;
+text-align:left;
+display:block;
+position:relative;
+white-space:normal;
+padding-top:30px;
+}
+
+div.dt-cmm-collectionslist
+{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border: #999 1px solid;
+padding-left: 0px;
+padding-top: 0px;
+margin-top: 10px;
+margin-left: 5px;
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f8f8ef;
+vertical-align: bottom;
+}
+div.dt-cmm-collectionslist span
+{    
+margin-bottom: 10px;
+vertical-align: bottom;
+}
+
+div.dt-cmm-collectionslist div.dt-cmm-heading
+{
+/* [RecolorImage(themeColor:"Dark1-Lighter",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/darkgrey-gradient.png); 
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom: #999 1px solid;
+background-repeat: repeat-x;
+font-size: 13px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Light1")] */ color:#ffffff;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+padding-left: 0px;
+margin-left:0px;
+padding-top: 5px;
+padding-bottom: 0px;
+height: 23px;
+}
+
+div.dt-cmm-personalcollectionslist
+{
+margin: 0px;
+}
+div.dt-cmm-sharedcollectionslist
+{
+margin: 0px;
+}
+div.dt-cmm-collectionslist
+{
+padding-left: 0px;
+}
+div.dt-navigation-heading
+{
+padding-left: 10px;
+}
+.dt-cmm-title
+{
+/* [RecolorImage(themeColor:"Accent6-Lightest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/Tan-gradient.png); 
+background-repeat: repeat-x; 
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f8f8ef;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom: #999 2px solid;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top: #999 1px solid;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666;
+padding-left: 10px;
+padding-top:5px;
+padding-bottom: 5px;
+}
+div.dt-cmm-body
+{
+width: 100%;
+}
+div.dt-cmm-signin
+{
+padding-left: 10px;
+padding-right: 10px;
+font-style:italic;
+font-weight:normal;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color: #888;
+}
+.cmm-grid-properties-header
+{
+font-size: 14px;
+font-family: Arial, helvetica, san-serif;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997; 
+vertical-align: top;
+}
+div.dt-cmm-heading
+{
+padding-top:5px;
+}
+div.dt-cmm-uploadImage
+{
+float:left;
+display:inline;
+padding-right:5px;
+border: none;
+cursor:pointer;
+}
+div.dt-cmm-uploadMultiImage
+{
+float:left;
+display:inline;
+padding-right:5px;
+border: none;
+cursor:pointer;
+}
+div.dt-cmm-addImage
+{
+float:left;
+display:inline;    
+padding-right:5px;
+border: none;
+cursor:pointer;
+}
+div.dt-cmm-deleteImage
+{
+float:left;
+display:inline;    
+padding-right:5px;
+border: none;
+cursor:pointer;
+}
+div.dt-cmm-editImage
+{
+float:left;
+display:inline;  
+padding-right:5px;
+border: none;
+cursor:pointer;
+}
+div.dt-cmm-shareImage
+{
+background-position:center;
+border: none;
+cursor:pointer;
+}
+div.dt-cmmheader
+{
+padding-top:10px;
+font-size: 12px;
+padding-left:10px;
+padding-bottom:10px;
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f8f8ef;
+}
+div.dt-cmmtitleheader
+{ 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+font-weight: bold;
+vertical-align: bottom;
+height: 40px;
+width: 100%; 
+float:left;
+display: block; 
+position: relative;
+}
+div.dt-cmmselectormenu
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+float: left;
+position:absolute;
+display:block;
+top:95px;
+}
+div.dt-cmmcollectionheader
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+float: left;
+position:absolute;
+display:block;
+top:100px; 
+left: 380px;   
+}
+
+
+.ms-vb-title{
+max-width:100px;
+width:100px !important;
+word-wrap:break-word;
+overflow-y:hidden;
+padding-left:5px;
+}
+.ms-vb itx{
+width:100px!important;
+overflow-y:hidden;}
+
+.ms-vb2{
+word-wrap:break-word;
+width:80px !important;
+overflow-y:hidden;
+}
+
+.ms-vb2 td{
+padding-left:8px;
+}
+.ms-vb-icon{
+padding-left:8px;
+padding-bottom:10px;
+}
+
+
+
+div.dt-cmmselectormenu td.ms-viewselector{
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #aaa;
+background-image:none;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
+font-weight:normal;
+padding:0px;
+font-size: 11px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */  color:#666;
+line-height:14px;
+}
+div.dt-cmmselectormenu td.ms-viewselector a{
+/* [ReplaceColor(themeColor:"Dark2")] */ border:solid 1px #fff;
+background-image:none;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
+}
+
+div.dt-collectionhead
+{
+width:100%; 
+height:auto;
+}
+div.dt-collectionheader
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997;
+vertical-align: bottom;
+height: 30px;
+float: left;	
+position:absolute;   
+padding-right:10px; 
+margin-left: 10px;
+}
+div.dt-cmmiconsnavigation
+{
+height: 24px;
+float: right;
+position:relative;
+width:auto;
+display: block;
+padding-right:10px;
+padding-bottom:5px;
+}
+.dt-cmmiconsnavbar
+{
+/* [RecolorImage(themeColor:"Accent6-Lightest",method:"Tinting")] */ background-image:url(/_layouts/images/Datatel/cmmheadergradient.png);
+background-repeat: repeat-x;
+height: 50px;  
+margin-bottom:20px;
+}
+.CollectionDisplayErrors{
+color:red; 
+font-weight: bold; 
+font-size: 10pt;
+/* [ReplaceColor(themeColor:"Light2")] */ background-color: #f8f8ef;
+width:100%;
+}
+.dt-cmmleftnav
+{
+ padding: 5px; 
+ margin: 5px;
+ padding-top:5px;
+ /* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border: 1px #999 solid;  
+ /* [ReplaceColor(themeColor:"Light1")] */  background-color: #f1f9fc;
+}
+.dt-cmmleftnavitem a
+{
+padding-left: 10px;  
+padding-top: 3px;
+padding-bottom: 3px; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color: #0f7997; 
+}
+
+th.cmm-grid-properties-header
+{
+font-family : Arial, Helvetica, san-serif;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color:#165c76;
+font-size : 11px;
+vertical-align :bottom;
+font-weight:normal;
+text-decoration:none;
+}
+.dt-cmmleftnavitem a:hover
+{
+padding-left: 10px;  
+padding-top: 3px;
+padding-bottom: 3px; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666; 
+}
+.dt-navigation-heading
+{
+padding:5px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-bottom: 1px #999 solid;  
+}
+
+
+SELECT{
+font-size:11px;
+line-height:auto;
+font-family: Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333;
+}
+SELECT a:hover{
+font-size:11px;
+line-height:auto;
+font-family: Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor:"Dark2-Medium")] */ color:#0f7997;
+}
+.ms-summarystandardbody
+{
+    padding-top:10px;
+}
+.ms-vh2
+{
+    line-height:normal;
+}
+
+
+.dt-cmm-search-container
+{
+
+float:left;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */     border: 1px solid #888;
+    padding: 10px;
+/* [ReplaceColor(themeColor:"Light1")] */  background-color: #f1f9fc;
+}
+.dt-search-textcontainer
+{
+    width:60%;
+    padding-left: 10px;
+    padding-top:10px;
+}
+.dt-search-text
+{
+    font-family:arial;
+    font-size: 1em;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */     color:#555;
+    font-weight: bold;
+}
+.dt-cmm-searchImage
+{
+    vertical-align:bottom;
+}
+
+.dt-search-collections-types
+{
+    width:40%; 
+    padding-right: 10px;
+    padding-top:10px;
+}
+.dt-search-collections-All input
+{
+
+}
+.dt-search-collections-Shared
+{ 
+padding-top:10px;  
+}
+.dt-search-collections-My
+{
+ padding-top:10px; 
+  
+}
+.dt-search-filters
+{
+    padding-top:15px;
+    padding-bottom:10px;
+    padding-left: 10px;
+    width:50%;
+    padding-left: 20px;
+}
+
+.dt-search-filters-doctype
+{
+    width:100%;
+    float:left;
+    padding-left:10px;
+    padding-top: 20px;
+    padding-bottom:10px;
+	 padding-right:20px;
+}
+.ddlDocTypes{
+display: inline-block;
+position:relative;
+padding-left:50px;
+}
+
+.dt-search-filters-modified
+{
+   width:100%;
+    float:left;
+    padding-left:10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 20px;
+}
+
+
+.dt-search-filters-author
+{
+    width:20%;
+    float:left;
+    padding-left:30px;
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+.dt-modified{
+display:block;
+}
+.dt-modified-label{
+display:inline;
+padding-right: 10px;
+}
+.dt-modified-from{
+float:left;
+position: relative;
+display:block;
+vertical-align:bottom;
+}
+.dt-modified-to{
+float:left;
+position:absolute;
+display:block;
+left: 70px;
+position:relative;
+vertical-align:bottom;
+}
+.dt-modified-row{
+width: 100%;
+display:block;
+padding-top: 10px;
+}
+.dt-modified-input{
+display: inline-block;
+padding-right: 60px;
+}
+.dt-cmm-widthcontrol
+{
+    max-width:99%;
+    width:auto;
+}
+
+.ms-listviewtable .ms-vb2
+{
+    padding-left:7px;
+}
+
+
+
+/* Styles for WebAdvisor Accordian Menu */
+.wa-dt-rowhead
+{
+/* [ReplaceColor(themeColor:"Dark2-Darker")]*/  color: #165c76;
+/* [RecolorImage(themeColor:"Accent6-lightest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/dayheader.png); 
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color: #dedfc6;
+/* [ReplaceColor(themeColor:"Accent4")] */ border:1px solid #d3d3d3;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 1px solid #666;
+height: auto;
+padding-right: 0px; 
+padding-bottom:5px;
+padding-top:5px;
+padding-left:0px; 
+display:block;
+left:5px; 
+}
+.wa-dt-rowhead A:link,.dt-rowhead A:visited, .dt-rowhead A:hover, .dt-rowhead A:active{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 0px solid #666; 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+padding-left:5px;
+}
+#wa-dt-rowtitleST-WBSTMP_ST-WBSTFP  
+{
+background:none repeat scroll 0 0 #e5eff0;
+width:99.8%;
+margin-top:5px;
+}
+
+.wa-dt-rowtitle{
+/* [ReplaceColor(themeColor:"Accent3-Medium")] */background-color: #c6dede;
+/* [RecolorImage(themeColor:"Accent3-darkest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/altrow.png); 
+background-repeat:repeat-x;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:none;
+vertical-align:middle;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+/* [ReplaceColor(themeColor: "Dark1-Light")] */ border: 1px solid #aaa;  
+height: auto;
+min-height:20px;
+width:100%;
+padding-top:5px;
+display:block;
+}
+
+
+.wa-dt-rowtitle A:link,.dt-rowtitle A:visited, .dt-rowtitle A:hover, .dt-rowtitle A:active{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:none;
+vertical-align:middle;
+/* [ReplaceColor(themeColor: "Dark1-Light")] */ border-bottom: 0px solid #aaa; 
+/* [ReplaceColor(themeColor: "Dark1-Light")] */ border-top: 0px solid #aaa; 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+height: auto;
+min-height:25px;
+width:100%;  
+padding:4px;
+}
+
+.wa-dt-rowtitle-initial{
+/* [ReplaceColor(themeColor:"Accent3-Medium")] */background-color: #c6dede;
+/* [RecolorImage(themeColor:"Accent3-darkest",method:"Tinting")] */ background-image: url(/_layouts/images/datatel/altrow.png); 
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Dark1-Light")] */ border:1px solid #aaa;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+vertical-align:middle;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Light")] */ border-top: 1px solid #aaa;
+height: auto;
+padding-right: 2px; 
+padding-bottom:5px;
+padding-top:5px;
+padding-left:10px;
+display:none;
+width:auto;
+margin-top:2px;
+margin:0px;
+}
+
+.WebAdvisorMenu dt-row a
+{
+ color:#777;
+ border-color: #bbb;  
+font-weight:normal;
+}
+
+.WebAdvisorMenu .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration: none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.WebAdvisorMenu .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+background-position: 0px 50%;
+margin-left:10px;
+padding-right:15px;
+padding-top:8px;
+height:8px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:right;
+}
+.WebAdvisorMenu .dt-head .expand-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-closeALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+.WebAdvisorMenu .dt-head .collapse-icon{
+background-repeat:no-repeat;
+background-image:url(/_layouts/images/datatel/accordian-openALLarrow.png);
+background-position: 0px 50%;
+margin-left:5px;
+padding-right:15px;
+padding-top:0px;
+height:12px;
+text-decoration:none;
+vertical-align: middle;
+border:0px;
+display:inline;
+float:left;
+}
+

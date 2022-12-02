@@ -1,0 +1,724 @@
+/*** ALL SHARED DATATEL AND MICROSOFT 2010 BASE WEBPART PROPERTIES ***/
+
+/* standard Microsoft SharePoint webparts general properties */
+	
+.ms-vb { 
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666; 	
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 12px; 
+padding-left:10px;
+padding-right:10px;
+vertical-align: top;
+}
+.ms-WPBody{
+font-size:12px;	
+font-family:Arial, Helvetica, sans-serif;
+}	
+.ms-WPBody TABLE,.ms-TPBody TABLE{
+font-size:1em;
+padding: 0px;
+}
+.ms-WPBody A:link,.ms-WPBody A:visited{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+font-size:12px;	
+text-decoration:none;
+vertical-align:bottom;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+cursor:pointer;
+}
+.ms-WPBody A:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration:underline;
+cursor:pointer;
+}
+.ms-WPBody th,.ms-TPBody th{
+font-weight:bold;
+}
+.ms-WPBody td{
+font-size:12px;	
+font-family:Arial, Helvetica, sans-serif;
+}	
+.ms-formbody{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+vertical-align: middle;
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+margin:0px;
+padding:0px;
+}
+.ms-summarycustombody{ 
+padding-left: 0px; 
+padding-right: 0px; 
+padding-top: 0px;
+padding-bottom: 0px;
+}
+.ms-partline{
+/* [ReplaceColor(themeColor:"Accent1-lightest")] */ background-color:#e3eff2;
+height:1px;
+}		
+.ms-WPHeader{
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ background-color: #888; 
+/* [RecolorImage(themeColor:"Accent3",method:"Tinting")] */ background-image: url('/_layouts/images/datatel/ms-WPHeader_bg.png'); 
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ border-top: solid 1px #888;
+/* [ReplaceColor(themeColor:"Light2-Darker")] */ border: solid 1px #c6c6c6;
+border-bottom: none;
+}
+.ms-WPHeaderTdMenu{
+border: 0px solid transparent;
+}
+.ms-standardheader{
+margin:0em;
+vertical-align: middle;
+height: 15px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight: bold;
+}
+.ms-standardheader span	{ 
+height: 15px; 
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: bold; 
+font-size: 12px;
+}
+.ms-gb h3.ms-standardheader	{ 
+margin:0px; 
+padding: 0px;
+vertical-align: middle;	
+}
+.ms-gb .ms-standardheader{
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+}
+.ms-wpborder{ 
+padding: 0px; 
+margin: 0px;
+/* [ReplaceColor(themeColor:"Light2-Darker")] */ border: solid 1px #c6c6c6;
+border-top: none;
+}
+.ms-WPBorder,.ms-WPBorderBorderOnly{
+/* [ReplaceColor(themeColor:"Light2-Darker")] */ border: solid 1px #c6c6c6;
+border-top: none;                               
+}
+.ms-WPHeader td, .ms-fakewptitle {
+border-bottom: none;
+}
+.ms-wpContentDivSpace{ 
+margin: 0px !important;
+}
+.ms-WPTitle	{ 
+margin: 4px 0 4px 0; 
+padding: 0;
+text-align: center; 
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: bold; 
+font-size: 12px; 
+/* [ReplaceColor(themeColor:"Light1")] */ color: #fff;
+}	
+.ms-WPTitle A:link,.ms-WPTitle A:visited,.ms-WPTitle A:hover{
+text-decoration:none;
+cursor:pointer;
+/* [ReplaceColor(themeColor:"Light1")] */ color: #fff;
+}
+/* Tabbed Container styles */
+.dt-containerTab {
+padding: 0px;
+margin: 0px;
+border: none;
+vertical-align: top; 
+}
+/* Holds the positioned rounded corner images */
+/* height here should be 1 pixel less then height of rounded corner images */
+.dt-containerCornerHolder{
+position: relative;
+height: 19px;
+vertical-align: middle;
+}
+/* padding for tab titles */
+.dt-containerCornerHolder .ms-WPTitle{
+padding: 2px 10px 0px 10px;
+}
+/* pointer for inactive, hover tabs */
+TD.dt-containerTabInactive, TD.dt-containerTabHover{
+cursor:pointer;
+}
+/* Holds the left rounded corner image */
+/* Height should match the height of the rounded corner image */
+.dt-containerCornerLeft {
+height: 20px;
+position:absolute;
+width:10px;
+left:0px;
+top:-1px;
+background-repeat:no-repeat;
+background-position: top left;
+}
+/* Holds the right rounded corner image */
+/* Height should match the height of the rounded corner image */
+.dt-containerCornerRight {
+height: 20px;
+position:absolute;
+width:100%;
+left:0px;
+top:-1px;
+/* background-repeat:no-repeat;
+	background-position: top right; */
+}
+/* show left and right borders of active tab */
+TD.dt-containerTabActive{
+/* border-left-width: 1px;
+border-right-width: 1px; */
+}	
+/* push out rounded corners on active tab to cover borders */
+TD.dt-containerTabActive .dt-containerCornerLeft{
+left: -1px;
+}	
+TD.dt-containerTabActive .dt-containerCornerRight{
+left: 1px;
+}	
+/* The following container styles should be overridden to modify the appearance of the tabs*/
+/* Background and border color of active tab */
+TD.dt-containerTabActive{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top-color: #d3d3d3;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ background-color: #0f7997; 
+/* [RecolorImage(themeColor:"Accent3",method:"Tinting")] */ background-image: url('/_layouts/images/datatel/ms-WPHeader_bg.png');
+background-repeat: repeat-x;	
+}	
+/* Background and border color of inactive tabs */
+TD.dt-containerTabInactive{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top-color: #d3d3d3;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ background-color: #0f7997;  
+/* [RecolorImage(themeColor:"Accent3-Medium",method:"Tinting")] */ 	background-image: url('/_layouts/images/datatel/ms-WPHeader_bg_other.png');
+background-repeat: repeat-x;
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ border-left: 1px #f8f8f8 solid;	
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ border-right: 1px #f8f8f8  solid;	
+}	
+/* Background and border color of hovered tabs */
+TD.dt-containerTabHover{
+/* [ReplaceColor(themeColor:"Accent4")] */ border-top-color: #d3d3d3;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ background-color: #0f7997;  
+/* [RecolorImage(themeColor:"Accent3-Darkest",method:"Tinting")] */  	background-image: url('/_layouts/images/datatel/ms-WPHeader_bg_alt.png');
+background-repeat: repeat-x;
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ border-left: 1px #f8f8f8  solid;	
+/* [ReplaceColor(themeColor:"Light1-Lightest")] */ border-right: 1px #f8f8f8  solid;			
+}	
+/* Image for left rounded corner of active tabs */
+.dt-containerTabActive .dt-containerCornerLeft{
+/* background-image: url('/_layouts/images/datatel/tl.gif'); */
+}
+/* Image for right rounded corner of active tabs */
+.dt-containerTabActive .dt-containerCornerRight{
+	/* background-image: url('/_layouts/images/datatel/tr.gif'); */
+}
+/* Image for left rounded corner of inactive tabs */
+.dt-containerTabInactive .dt-containerCornerLeft{
+/* background-image: url('/_layouts/images/datatel/tl_inactive.gif'); */
+}
+/* Image for right rounded corner of inactive tabs */
+.dt-containerTabInactive .dt-containerCornerRight{
+	/* background-image: url('/_layouts/images/datatel/tr_inactive.gif'); */
+}
+/* Image for left rounded corner of hovered tabs */
+.dt-containerTabHover .dt-containerCornerLeft{
+/* background-image: url('/_layouts/images/datatel/tl_hover.gif'); */
+}
+/* Image for right rounded corner of hovered tabs */
+.dt-containerTabHover .dt-containerCornerRight{
+	/* background-image: url('/_layouts/images/datatel/tr_hover.gif'); */
+}
+/* Text color for tab headings of active tabs */
+.dt-containerTabActive .ms-WPTitle{
+/* [ReplaceColor(themeColor:"Light1")] */ color: #fff;
+}
+/* Text color for tab headings of inactive tabs */
+.dt-containerTabInactive .ms-WPTitle{
+/* [ReplaceColor(themeColor:"Light1-lighter")] */ color: #d3d3d3;
+}
+/* Text color for tab headings of hovered tabs */
+.dt-containerTabHover .ms-WPTitle{
+/* [ReplaceColor(themeColor:"Light1")] */ color: #fff;
+}
+/* End container styles */
+
+/* Microsoft properties used in Datatel's webparts and larger display content */	
+
+.ms-announcementtitle a:link, .ms-announcementtitle a:visited {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color: #000000;
+text-decoration: none;
+padding: 0px;
+display: inline;
+}	
+.ms-descriptiontext a:link, .ms-descriptiontext a:visited {
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333333;
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+text-align:left;
+}
+.ms-title{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight:bold;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */  color:#000000;
+vertical-align:middle;
+margin:0;
+}		
+.ms-pagecaption{
+font-size:9pt;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-family:Arial, Helvetica, sans-serif;
+width: 100%;
+}
+td.ms-addnew{ 
+text-align: right;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+font-size:11px;	
+padding:5px;
+font-family:Arial, Helvetica, sans-serif
+}
+td.ms-addnew a{
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+text-decoration:none;
+padding:5px;	
+}	
+a.morelink, a.morelink:visited {
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+text-decoration:none;
+}	
+.uploadlink{
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;	
+float: right;
+padding:5px 5px 5px 5px;
+background-image: none;
+background-repeat: no-repeat;
+background-position: 0px;
+white-space: nowrap;
+cursor: pointer;
+}
+a.uploadlink, a.uploadlink:visited, a.uploadlink:link {
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666;
+padding-left:10px;
+cursor: pointer;
+}
+a.uploadlink:hover {
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+/* [ReplaceColor(themeColor:"Dark1-Darkest")] */ color:#000000;
+text-decoration: underline;
+cursor: pointer;
+}
+
+/* Datatel webparts - hAtom properties */
+.hfeed{
+padding: 0px;
+}
+.feed-logo{
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.feed-th {
+padding-top: 1px;
+padding-bottom: 8px;
+}
+td.feed-th {
+font-size: 8pt;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+}
+.hentry {
+padding-left: 15px;
+padding-right: 15px;
+}
+div.hentry {
+padding: 2px;
+margin-left:10px;
+margin-right:10px;
+/* [ReplaceColor(themeColor:"Accent4")] */ border-bottom: 1px solid #e8e8e8;
+}
+.entry-icon{
+float:left;
+white-space: nowrap;
+}
+.entry-title {
+padding-top:3px;
+padding-bottom: 3px;
+}
+.entry-summary {
+padding-top:2px;
+padding-bottom: 2px;
+width:100%;
+}
+.entry-content{
+padding-top:10px;
+padding-bottom: 2px;
+width:100%;
+}
+	
+/* New Phase 1 Datatel Webpart styles below */
+.dt-feed{
+padding: 0px;
+}
+.dt-th {
+padding-top: 1px;
+padding-bottom: 8px;
+}
+td.dt-th {
+font-size: 8px;
+font-family:Arial, Helvetica, sans-serif;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+}
+.dt-entry {
+padding-left: 15px;
+padding-right: 15px;
+}
+div.dt-entry {
+padding-bottom: 5px;
+background-position: bottom;
+background-image: url(/_layouts/images/datatel/separator.gif);
+background-repeat: repeat-x; 
+}
+.dt-head{
+height: auto;
+min-height: 15px;
+padding-top:4px;
+padding-bottom:10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:normal; 
+text-decoration: none;
+vertical-align: bottom;
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ color: #888888;
+border:0px;
+margin-left:0px;
+} 
+.dt-head  A:link, .dt-head A:visited, .dt-head A:active{
+padding-top: 4px;
+padding-bottom:10px;
+height: auto;
+min-height: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:normal; 
+/* [ReplaceColor(themeColor:"Dark1-Medium")] */ color: #888888;
+text-decoration: none;
+vertical-align: bottom;
+border:0px;
+float:left;
+} 
+.dt-logo{
+max-width: 150px;
+float: left;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;	
+}
+.dt-title{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333333;
+}
+.dt-title a:link, .dt-title a:visited, .dt-title a:active {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color:#333333;
+text-decoration:none;
+}
+.dt-title a:hover {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+text-decoration:none;
+}	
+.dt-summary{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+display: block;
+}
+.dt-summary a:link, .dt-summary a:visited, .dt-summary a:active {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color:#666666;
+display: block;
+}	
+.dt-summary a:hover {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color:#888888;
+text-decoration:none;
+display: block;
+}		
+.dt-content{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+display: block;
+}
+.dt-foot{
+padding:0px;
+height: auto;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */  color: #888888;
+text-align:center;
+font-style:italic;
+}
+.dt-icon{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+}		
+.dt-date{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color: #888888;
+}	
+.dt-help, a.dt-help:hover, a.dt-help:visited, a.dt-help:active {
+width: 20px;
+height:20px;
+float: right;
+background-color: transparent;	
+background-image: url(/_layouts/images/datatel/help-sm.png);
+background-repeat: no-repeat;
+text-decoration:none;
+font-size:11px;
+font-weight:normal; 
+}	
+.dt-refresh, a.dt-refresh:hover, a.dt-refresh:visited, a.dt-refresh:active {
+width: 20px;
+height:20px;
+float: right;
+background-color: transparent;	
+background-image: url(/_layouts/images/datatel/refresh-icon.gif);
+background-repeat: no-repeat;
+text-decoration:none;
+font-size:11px;
+font-weight:normal; 
+}
+.dt-throbber{
+background-color:transparent;
+background-image: url(/_layouts/images/datatel/new-throbber.gif); 
+background-repeat:no-repeat;
+width: 20px;
+height:20px;
+float:right;
+border:0px;
+padding:0px;
+}
+.dt-bigthrobber{
+background-color:transparent;
+background-image: url(/_layouts/images/datatel/throbber.gif); 
+background-repeat:no-repeat;
+width: 32px;
+height:32px;
+border:0px;
+padding:0px;
+}
+.spacer  {
+width:98%;
+height: 1px;
+}
+
+/* Styles for Rows */
+.dt-rowhead{
+/* [ReplaceColor(themeColor:"Accent3-Medium")] */background-color: #dbf5fb;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-bottom: 1px solid #666; 
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 1px solid #666; 
+height: auto;
+padding-right: 2px; 
+padding-bottom:5px;
+padding-top:5px;
+padding-left:10px;
+}
+.dt-rowhead A:link,.dt-rowhead A:visited, .dt-rowhead A:hover, .dt-rowhead A:active{
+/* [ReplaceColor(themeColor:"Accent3-Medium")] */background-color: #dbf5fb;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-bottom: 0px solid #666; 
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 0px solid #666; 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+height: auto;
+padding-right: 2px; 
+padding-bottom:5px;
+padding-top:5px;
+padding-left:10px;
+}
+.dt-rowtitle{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+/* [RecolorImage(themeColor:"Accent6-lightest",method:"Filling")] */ background-image: url(/_layouts/images/datatel/dayheader.png); 
+background-repeat:repeat-x;
+/* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color: #dedfc6;
+/* [ReplaceColor(themeColor:"Accent4")] */ border:1px solid #d3d3d3;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 1px solid #666;
+height: auto;
+padding-right: 2px; 
+padding-bottom:5px;
+padding-top:5px;
+padding-left:10px;
+}
+.dt-rowtitle A:link,.dt-rowtitle A:visited, .dt-rowtitle A:hover, .dt-rowtitle A:active{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 0px solid #666; 
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+}
+.dt-row{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 1px solid #666;   
+height: auto;
+padding: 5px; 
+padding-left:5px;
+vertical-align: middle;
+}
+.dt-row A:link,.dt-row A:visited, .dt-row A:hover, .dt-row A:active{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 0px solid #666;  
+height: auto;
+padding: 5px; 
+padding-left:0px;
+vertical-align: middle;
+line-height:18px;
+}
+.dt-rowalt{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 1px solid #666; 
+height: auto;
+padding: 5px;
+padding-left:0px;
+vertical-align: middle;
+width:auto;
+} 
+.dt-rowalt A:link,.dt-rowalt A:visited, .dt-rowalt A:hover, .dt-rowalt A:active{
+/* [ReplaceColor(themeColor:"Light1")] */ background-color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-style: normal;
+text-decoration:none;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ border-top: 0px solid #666; 
+padding: 5px;
+padding-left:0px;
+width:auto;
+height:15px;
+vertical-align: middle;
+}  
+.dt-rowclear {
+clear: both;
+height: 1px;
+width: 1px;
+font-size:1px;
+}
+
+/* Div list column styling */ 
+.dt-list {
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;	
+font-weight: normal;
+/* [ReplaceColor(themeColor: "Dark1-Medium")] */ color: #666666;
+padding-bottom: 1px;
+display: block;
+position:relative;
+float:left;
+} 
+.dt-list a:link, .list a:visited{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333333;
+}
+.dt-list a:hover{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color: #165c76;
+text-decoration: none;
+}
+#.dt-leftlist {
+float: left;	
+background-position:center;	
+position:absolute;
+display:block;
+width:16px;
+height: auto
+}
+#dt-rightlist {
+padding-left:5px;
+float: left;
+position:relative;
+display: block;
+overflow: visible;
+height:auto;
+width:auto;
+text-align:left;
+max-width:85%;
+}
+.spacer {
+display: block; 
+clear: left; 
+margin: 0px;
+padding:0px;
+visibility: hidden;
+height:1px;
+}
+.dt-error{
+min-height:auto;
+margin: 5px;
+}
+.dt-error a:link{
+text-decoration: underline;
+cursor: pointer;
+/* [ReplaceColor(themeColor:"Dark1-Lighter")] */ color: #888;
+}
+.dt-error a:hover{
+/* [ReplaceColor(themeColor:"Dark1-Darker")] */color: #333;
+}
+
+

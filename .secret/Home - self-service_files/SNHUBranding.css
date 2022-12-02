@@ -1,0 +1,1059 @@
+/*** Datatel Branding Stylesheet ***/
+
+/* This stylesheet contains all the styles used for changing images found within the Datatel stylesheets.  
+You can use this stylesheet as a starting point for creating your own stylesheets with custom images */
+
+
+/* custom */
+
+/* Header repeating background gradient and side bar styles */
+.datatelv4 .ribbonbackground{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ background-color: #033371;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */background-image:url("/_layouts/images/Datatel/Header-bkgrdgradient.png");
+background-repeat:repeat-x;
+width:90% !important;
+min-width:1475px;
+
+/* [ReplaceColor(themeColor:"Accent5-Lightest")] */ border: #fdf2be 6px ridge;
+-moz-border-left-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+-moz-border-right-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+border-top: 0px;
+border-bottom: 0px;
+}
+
+.datatelv4 .ms-cui-topBar2 {
+	border: 0!important;
+}
+
+/** Styles from Datatel2010Core.css **/
+
+/* Styles to control the centering, sidebars and masterpage content */
+.DatatelBody{
+background-image: url("/_layouts/images/Datatel/Background-gradient.png");
+
+}
+
+/* Header repeating background gradient and side bar styles */
+.datatelv4 .ribbonbackground{
+background-image:url("/_layouts/images/Datatel/SNHU/Header-bkgrdgradient.png");
+}
+
+/* Datatel graphic image floating on far left of header gradient */
+.datatelv4-overlaydesign{
+background-image:url("/_layouts/images/Datatel/Header-designbkgrd.png");
+}
+
+/* Header Logo Image */
+.datatelv4 .site-image-title{
+background-image:url("/_layouts/images/Datatel/SNHU/header.png");	
+width: 242px;
+height: 118px;
+position: relative;
+top: 12px;
+left: 25px;
+z-index: 100;
+}
+
+/* Footer background gradient image */
+.datatelv4 .dt-footer {
+background-image:url("/_layouts/images/datatel/SNHU/footerpixel.png");
+border: 0;
+width: 100%;
+border-bottom: 2px solid #fff;
+}
+
+/* Footer text image */
+.datatelv4 .dt-footertext {
+background-image:url("/_layouts/images/datatel/SNHU/footertext.png");
+
+}
+
+
+/* Links in top right of header */
+.ms-welcomeMenu.ms-SpLinkButtonActive{
+background-image: url("/_layouts/images/bgximg.png");
+width: 242px;
+height: 118px;
+
+}
+
+.ms-welcomeMenu.ms-SpLinkButtonActive a:link {
+	color: #fff;
+}
+
+
+
+
+/* Help button in header */
+.datatelv4 .s4-help{
+background-image:url("helpicon-A8F2832.png?ctag")!important;
+}
+
+/* Site Actions Menu */
+
+.datatelv4 .ms-siteactionsmenuinner{
+/* [RecolorImage(themeColor:"Dark2",method:"Tinting")] */	background-image: none;
+}
+
+.datatelv4 .ms-siteactionsmenuhover,
+.datatelv4 .s4-breadcrumb-anchor:hover,
+.datatelv4 .s4-breadcrumb-anchor-open,
+.datatelv4 .ms-mini-socialNotif-Container img:hover,
+.datatelv4 .ms-welcomeMenu.ms-SpLinkButtonActive, 
+.datatelv4 .ms-qatbutton:hover,
+.datatelv4 .s4-signInLink:hover,
+.datatelv4 .s4-help:hover{
+background-image: url("/_layouts/images/selbg.png");
+}
+.datatelv4 .s4-breadcrumb-menu{
+background-image: url("/_layouts/images/selbg.png");
+}
+
+
+/* Left panel content */
+
+.left-nav-bar .datatelv4-menu {
+	border: 1px solid #023371;
+}
+
+.datatelv4-menu a{
+background: #023371!important;
+color: #fff!important;
+border-color: #fff;
+}
+.datatelv4-menu a:hover{
+background: #fff!important;
+color: #023371!important;
+}
+.ms-wpadder{
+background-image:url(/_layouts/images/wpadder_graygrad.png);
+}
+.ms-vh,.ms-vh2,.ms-vh-icon,.ms-vh2-nofilter,.ms-vh2-nofilter-icon,.ms-viewheadertr .ms-vh-group,.ms-vh2-nograd,.ms-vh3-nograd,.ms-vh2-nograd-icon,.ms-ph,.ms-pickerresultheadertr {
+background: #abb8cd;
+}
+
+/* Top navigation links */
+body #s4-topheader2{
+background-image: url("/_layouts/images/selbg.png");
+background: #fcb832!important;
+border: 0 !important;
+
+
+
+background: transparent!important;
+position: absolute;
+padding: 10px 0 0 0;
+top: -81px;
+}
+
+
+.s4-toplinks {
+	margin-left: 302px;
+}
+
+body .s4-toplinks .s4-tn a.selected{
+background: #fcb832;
+color: #0d336f!important;
+font-color: #000000;
+}
+
+body .s4-toplinks .s4-tn:focus{
+outline-color: #ffffff;
+outline-width: 2px;
+outline-style: solid;
+}
+
+body .s4-toplinks .s4-tn a.selected:focus{
+outline-color: #ffffff;
+outline-width: 2px;
+outline-style: solid;
+}
+
+.status_1_body .status_1{
+color: #000000;
+}
+
+.s4-tn li.static > .menu-item {
+    border: 0 solid #DCDCDC;
+	color: #fff!important;
+	font-weight: bold;
+	padding: 11px 10px;
+	
+	border-radius: 10px 10px 0 0;
+	font-size: 110%;
+}
+
+.s4-tn li.static > .menu-item:focus{
+outline-style: solid;
+outline-width: 2px;
+outline-color:#fbb731
+}
+
+
+.s4-tn li.dynamic > .menu-item {
+	background: #fff!important;
+}
+
+.s4-tn li.dynamic > .menu-item:hover {
+	background: #abb8cd!important;
+	color: #fff!important;
+}
+
+a:focus {
+Outline-width: 2px;
+Outline-style: solid;
+outline-color: #033471;
+}
+
+/** Styles from Datatel2010BaseWebparts.css **/
+
+/* Standard Microsoft SharePoint webparts general properties */
+.ms-WPHeader{
+background-image: url('/_layouts/images/datatel/snhu/ms-WPHeader_bg.png'); 
+ background-position: 0 -5px;
+}
+
+/* The following container styles should be overridden to modify the appearance of the tabs*/
+/* Background and border color of active tab */
+TD.dt-containerTabActive{
+background-image: url('/_layouts/images/datatel/snhu/ms-WPHeader_bg_active.png');
+}	
+/* Background and border color of inactive tabs */
+TD.dt-containerTabInactive{
+background-image: url('/_layouts/images/datatel/snhu/ms-WPHeader_bg_other.png');
+}	
+/* Background and border color of hovered tabs */
+TD.dt-containerTabHover{
+background-image: url('/_layouts/images/datatel/snhu/ms-WPHeader_bg_active.png');		
+}	
+/* Image for left rounded corner of active tabs */
+.dt-containerTabActive .dt-containerCornerLeft{
+ background-image: url('/_layouts/images/datatel/snhu/tl.gif'); 
+ left: 0!important;
+ top: -4px;
+ background-repeat:: no-repeat;
+}
+/* Image for right rounded corner of active tabs */
+.dt-containerTabActive .dt-containerCornerRight{
+ background-image: url('/_layouts/images/datatel/snhu/tr.gif'); 
+ right: 0;
+ top: -4px;
+ left: auto!important;
+ width: 10px;
+  background-repeat:: no-repeat;
+}
+/* Image for left rounded corner of inactive tabs */
+.dt-containerTabInactive .dt-containerCornerLeft{
+ background-image: url('/_layouts/images/datatel/snhu/tl_inactive.gif'); 
+  left: 0!important;
+ top: -4px;
+ background-repeat:: no-repeat;
+}
+/* Image for right rounded corner of inactive tabs */
+.dt-containerTabInactive .dt-containerCornerRight{
+ background-image: url('/_layouts/images/datatel/snhu/tr_inactive.gif'); 
+  right: 0;
+ top: -4px;
+ left: auto!important;
+ width: 10px;
+  background-repeat:: no-repeat;
+}
+/* Image for left rounded corner of hovered tabs */
+.dt-containerTabHover .dt-containerCornerLeft{
+ background-image: url('/_layouts/images/datatel/snhu/tl.gif'); 
+  left: 0!important;
+ top: -4px;
+ background-repeat:: no-repeat;
+}
+/* Image for right rounded corner of hovered tabs */
+.dt-containerTabHover .dt-containerCornerRight{
+ background-image: url('/_layouts/images/datatel/snhu/tr.gif'); 
+  right: 0;
+ top: -4px;
+ left: auto!important;
+ width: 10px;
+  background-repeat:: no-repeat;
+}
+
+/* Dashed line in between sections within a webpart */
+div.dt-entry {
+background-image: url(/_layouts/images/datatel/separator.gif);
+}
+
+/* Help icon in a webpart */
+.dt-help, a.dt-help:hover, a.dt-help:visited, a.dt-help:active {
+background-image: url(/_layouts/images/datatel/help-sm.png);
+/* for a white help icon use this style reference >  background-image: url(/_layouts/images/datatel/help-sm-wt.png); */
+}	
+/* Refresh icon in a webpart */
+.dt-refresh, a.dt-refresh:hover, a.dt-refresh:visited, a.dt-refresh:active {
+background-image: url(/_layouts/images/datatel/refresh-icon.gif);
+/* for a white help icon use this style reference >  background-image: url(/_layouts/images/datatel/refresh-icon-wt.png); */
+}
+/* Loading animation in a webpart */
+.dt-throbber{
+background-image: url(/_layouts/images/datatel/new-throbber.gif); 
+}
+/* Loading animation in a webpart */
+.dt-bigthrobber{
+background-image: url(/_layouts/images/datatel/throbber.gif); 
+}
+
+/* Styles for Rows in a webpart */
+.dt-rowtitle{
+
+background:#fcb832!important;
+border-color: #fff!important;
+}
+
+
+/** Styles from Datatel2010Webparts.css **/
+
+/* Teamsite grouping icons */
+.myteamsites .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+}
+.myteamsites .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+}
+.myteamsites .dt-head .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-closeALLarrow.png);
+}
+.myteamsites .dt-head .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-openALLarrow.png);
+}
+
+/* 
+Team site icons for Colleague-created sites.
+The MyTeamSites part will add a div with a non-breaking space and a style of
+dt-<DatatelSiteType in lowercase>. 
+So for instance if the site type is CONST for constituency site, the style
+will be dt-const
+*/
+
+.myteamsites .dt-cs{
+background-image: url(/_layouts/images/datatel/class.gif);
+}
+.myteamsites .dt-const{
+background-image: url(/_layouts/images/datatel/constituency.gif);
+}
+.myteamsites .dt-dept{
+background-image: url(/_layouts/images/datatel/department.png);
+}
+.myteamsites .dt-co{
+background-image: url(/_layouts/images/datatel/organization.png);
+}
+.myteamsites .dt-other{
+background-image: url(/_layouts/images/datatel/other.png);
+}
+
+/* My Learning Provider Classes web part */ 
+.mylearningproviderclasses .dt-content a:link, .mylearningproviderclasses .dt-content a:visited, 
+.mylearningproviderclasses .dt-content a:active {
+background-image: url(/_layouts/images/datatel/newlist.gif);
+}	
+
+.mylearningproviderclasses .dt-moodlelearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/moodle_icon.gif);
+}
+.mylearningproviderclasses .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+}
+.mylearningproviderclasses .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+}
+.mylearningproviderclasses .dt-head .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-openALLarrow.png);
+}
+.mylearningproviderclasses .dt-head .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-closeALLarrow.png);
+}
+
+/* bblearningprovider */
+.dt-blackboardlearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-bb.gif);
+}
+.dt-teamsitelearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/class.gif); 
+}
+
+/* My Notifications */
+.dt-mynotificationsheader{
+background-image: url(/_layouts/images/datatel/notifications-gradient.png);
+}
+.dt-mynotificationsalert {
+background-image: url(/_layouts/images/datatel/warning-icon.gif);
+}
+.dt-mynotificationsexpandcollapse .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+}
+.dt-mynotificationsexpandcollapse .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+}
+
+/* Datatel Announcements web part */
+.datatelannouncements .newIcon{
+background-image: url(/_layouts/images/datatel/new.gif);
+}
+
+/* RSS Reader */
+.rss-groupheader .dt-feedicon{
+background-image: url(/_layouts/images/rect.gif);
+}
+
+/* bblearningprovider */
+div.bblearningprovider {
+background-image: url("/_layouts/images/datatel/Blackboard-logo.jpg");
+}
+
+/* bblearningprovider - moodle */
+.dt-moodlelearningprovidercoursesection{
+background-image: url(/_layouts/images/datatel/moodle_icon.gif);
+}
+.dt-moodlecoursesection{
+background-image: url(/_layouts/images/datatel/moodle_icon.gif);
+}
+.todolist .moodle-icon{
+background-image:url(/_layouts/images/datatel/moodle_icon.gif);
+}
+
+/* Unread Messages */
+.unreadmessages {
+background-image: url("/_layouts/images/datatel/emailEnvelope.gif");
+}
+.unreadmessagespop3 {
+background-image: url("/_layouts/images/datatel/emailEnvelope.gif");
+}
+.unreadmessagespop3table tr {
+background-image: url(/_layouts/images/datatel/separator.gif);
+}	
+
+/* My Week styles */
+.myweek .dt-head .dt-help, .myweek .dt-head a.dt-help:hover, .myweek .dt-head a.dt-help:visited, .myweek .dt-head a.dt-help:active{
+background-image: url(/_layouts/images/datatel/help-sm.png);
+}	
+.myweek .dt-head .dt-refresh, .myweek .dt-head a.dt-refresh:hover, .myweek .dt-head a.dt-refresh:visited, .myweek .dt-head a.dt-refresh:active {
+background-image: url(/_layouts/images/datatel/refresh-icon.gif);
+}
+.myweek .dt-bigthrobber {
+background-image: url(/_layouts/images/datatel/throbber.gif); 
+}
+.myweek .dt-head .dt-throbber {
+background-image: url(/_layouts/images/datatel/new-throbber.gif); 
+}	
+/* The date label for each day in the event list*/
+.myweek .dayheader {
+background: transparent!important;
+border: 0!important;
+}
+
+/* These control the actual images used for each event's icon */
+.dt-colleaguecoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-ColleagueIcon.png);
+}
+.dt-blackboardcoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-bb.png);
+}
+.dt-teamsitecoursesection{
+background-image: url(/_layouts/images/datatel/MyWeek-class.png);
+}
+.dt-colleagueappointmentreminder{
+background-image: url(/_layouts/images/datatel/MyWeek-colleague.png);
+}
+.dt-exchangecalendarevent{
+background-image: url(/_layouts/images/datatel/MyWeek-exchange.png);
+}
+.dt-colleaguecalendarevent{
+background-image: url(/_layouts/images/datatel/MyWeek-colleague.png);
+}
+/* Styles for the calendar control */
+.myweek .calendar {
+background-image: none;
+}   
+.myweek .calendardayheader {
+background: #8298b9;
+}             
+.myweek #myWeekNextMonth{
+background-image: url(/_layouts/images/datatel/next.png);
+}
+.myweek #myWeekNextMonth a:hover{
+background-image: url(/_layouts/images/datatel/next-hover.png);
+}
+.myweek #myWeekPrevMonth{
+background-image: url(/_layouts/images/datatel/previous.png);
+} 
+.myweek #myWeekPrevMonth a:hover{
+background-image: url(/_layouts/images/datatel/previous-hover.png);
+} 
+
+.myweek .calendartodayday,
+.myweek .calendartodayday a {
+	background-color: #ee9900!important;
+}
+
+.myweek .calendarothermonthday {
+background: #8298b9!important;	
+}
+
+.myweek .calendarweekendday {
+background: #edf0f5!important;
+}
+
+ /* To Do List Styles */
+.todolist .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+}
+.todolist .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+}
+.todolist .dt-head .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-closeALLarrow.png);
+}
+.todolist .dt-head .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-openALLarrow.png);
+}
+.todolist .coll-icon{
+background-image:url(/_layouts/images/datatel/Colleague-ToDo.gif);
+}
+.todolist .collnew-icon{
+background-image:url(/_layouts/images/datatel/Colleague-ToDo-NEW.gif);
+}
+.todolist .email-icon{
+background-image:url(/_layouts/images/datatel/Exchange-ToDo.gif);
+}
+.todolist .emailnew-icon{
+background-image:url(/_layouts/images/datatel/Exchange-ToDo-NEW.gif);
+}
+
+/* Webadvisor menu webpart styles */
+.webadvisormenu  .expand-icon{
+background-image:url(/_layouts/images/datatel/accordian-openarrow.png);
+}
+.webadvisormenu  .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+}
+.webadvisorlinkstable{
+background-image:url("/_layouts/images/datatel/toolgrad.gif");
+}
+a.webadvisorbackbutton, a.webadvisorbackbutton:hover, a.webadvisorbackbutton:visited, a.webadvisorbackbutton:active {
+background-image: url(/_layouts/images/datatel/Back-button.png);
+}
+a.webadvisorforwardbutton, a.webadvisorforwardbutton:hover, a.webadvisorforwardbutton:visited, a.webadvisorforwardbutton:active {
+background-image: url(/_layouts/images/datatel/forward-button.png);
+}
+.webadvisorthrobber {
+background-image: url(/_layouts/images/datatel/throbber-webadvisor.gif);
+}
+#WebAdvisorMainRow.visible {
+background-image: url('/_layouts/images/datatel/gradient_bg.gif');
+}
+#webAdvisorTabRow .dt-containerTab#openTab #closeTabIcon{
+background-image:url(/_layouts/images/datatel/ptclose.gif);
+}
+
+/* UI Web styles */
+.UIWebMenu .dt-throbber {
+background-image: url(/_layouts/images/datatel/new-throbber-wt.gif); 
+}
+.UIWebMenu .toolbar .collapse-icon{
+background-image:url(/_layouts/images/datatel/accordian-closearrow.png);
+}
+/* Styles for icons */
+div.maintenance-icon{
+background-image: url(/_layouts/images/datatel/maint.gif);	
+}
+div.inquiry-icon{
+background-image: url(/_layouts/images/datatel/inq.gif);
+}
+div.process-icon{
+background-image: url(/_layouts/images/datatel/procs.gif);	
+}
+div.report-icon{
+background-image: url(/_layouts/images/datatel/report.gif);		
+}
+
+
+/** Styles from Datatel2010CourseCatalog.css **/
+
+/* Styles for Search tabs when doing a search from the header search area */
+.ms-main .ms-sctabcf {
+background-image: url('/_layouts/images/topnavdivider.gif');
+}
+.ms-ptabcfhover, .ms-sctabcfhover {
+background-image: url("/_layouts/images/PortalTabHover.gif");
+}
+/***** Browse Courses and Sections page styles *****/
+/* Filter arrow in column header */
+.dt-browsearrow{
+background-image:url('/_layouts/images/datatel/BrowseArrow.png');
+}
+/* Add to preferred list and warning buttons graphics */
+.dt-addtolistbutton-available{
+background-image:url('/_layouts/images/datatel/AddtoPrefList_btn.png');
+}
+.dt-addtolistbutton-available a:hover{
+background-image:url('/_layouts/images/datatel/AddtoPrefList-over_btn.png');
+}
+.dt-addtolistbutton-notavailable{
+background-image:url('/_layouts/images/datatel/Unavailable.png');
+}
+.dt-addtolistbutton-enrolled{
+background-image:url('/_layouts/images/datatel/PrevEnrolled.png');
+}
+.dt-addtolistbutton-preferred {
+background-image:url('/_layouts/images/datatel/AlreadyonList.png');
+}
+.dt-addtolistbutton-success{
+background-image:url('/_layouts/images/datatel/SuccessAdd.png');
+}
+.dt-addtolistbutton-wait{
+background-image:url('/_layouts/images/datatel/PleaseWait.png');
+}
+.dt-addtolistbutton-failure{
+background-image:url('/_layouts/images/datatel/AddtoPrefList-disable_btn.png');
+}
+.dt-addtolisticon-warning {
+background-image:url('/_layouts/images/datatel/Warning_btn.png');
+}
+.dt-addtolisticon-error {
+background-image:url('/_layouts/images/datatel/Error_btn.png');
+}
+.datatelsectioninfo-preferredsectionslink {
+background-image:url('/_layouts/images/datatel/PreferredList.png');
+}
+/* book icon in course offerings web part */
+.dt-bookicon{
+background-image:url('/_layouts/images/datatel/bookprices.png');
+}
+/* Catalog style */
+.ms-gb{
+background-image:url('/_layouts/images/datatel/CatalogTitle-bkgrd.png');
+}
+/**** Admin Page Menu Bar Styles ****/
+/* Menu bar */
+.ms-menubuttonactivehover,.ms-buttonactivehover{
+background-image:url("/_layouts/images/datatel/menubuttonhover.gif");
+}
+.ms-menutoolbar td td.ms-viewselector,.ms-menutoolbar td td.ms-viewselectorhover,.ms-toolbar td td.ms-viewselector,.ms-toolbar td td.ms-viewselectorhover,.ms-authoringcontrols td td.ms-viewselector,.ms-authoringcontrols td td.ms-viewselectorhover,td.ms-viewselector{
+background-image:url("/_layouts/images/datatel/selectednav.gif");
+background-color:#FFD19D;
+}
+.ms-splitbuttonhover{
+background-image:url("/_layouts/images/datatel/menubuttonhover.gif");
+}
+.ms-menutoolbar td td.ms-viewselectorhover,.ms-toolbar td td.ms-viewselectorhover,.ms-authoringcontrols td td.ms-viewselectorhover{
+background-image:url("/_layouts/images/datatel/menubuttonhover.gif");
+}
+
+/* Quicklaunch Recycle Bin Text and Background */
+table.ms-recyclebin td{
+background-image:url("/_layouts/images/datatel/quickLaunch_bg.gif");
+}
+
+/**** Calendar Styles pulled from calendar.css ****/
+.ms-cal-week,.ms-cal-weekB,.ms-cal-weekRTL,.ms-cal-weekRTLB{
+background-image:url("/_layouts/images/datatel/weekbox.gif");
+}
+.ms-cal-topday,.ms-cal-topdayL,.ms-cal-wtopdayL,.ms-cal-wtopday{
+background-image:url("/_layouts/images/datatel/calnumBttn.gif");
+}
+.ms-cal-topdayRTL,.ms-cal-topdayRTLL,.ms-cal-wtopdayRTL,.ms-cal-wtopdayRTLL{
+background-image:url("/_layouts/images/datatel/calnumBttn.gif");
+}
+.ms-cal-topday-today,.ms-cal-wtopday-today,.ms-cal-topday-todayRTL,.ms-cal-wtopday-todayRTL{
+background-image:url("/_layouts/images/datatel/calnumBttntoday.gif");
+}
+.ms-cal-topdayover,.ms-cal-topdayoverL,.ms-cal-wtopdayover,.ms-cal-wtopdayLover,
+.ms-cal-topdayfocusover,.ms-cal-wtopdayfocusover,.ms-cal-wtopdayfocusLover{
+background-image:url("/_layouts/images/datatel/calnumBttnover.gif");
+}
+.ms-cal-topdayfocus,.ms-cal-topdayfocusL,.ms-cal-topdayfocusRTL,.ms-cal-topdayfocusRTLL,.ms-cal-wtopdayfocus,.ms-cal-wtopdayfocusL,.ms-cal-wtopdayfocusRTL,.ms-cal-wtopdayfocusRTLL{
+background-image:url("/_layouts/images/datatel/selectednav.gif");
+}
+.ms-cal-defaultbgcolor{
+background-image:url("/_layouts/images/datatel/alldayDefault.gif");
+}
+.ms-cal-defaultbgcolorsel{
+background-image:url("/_layouts/images/datatel/alldayDefaultOver.gif");
+}
+.ms-cal-tweekitem{
+background-image:url("/_layouts/images/datatel/alldayDefault.gif");
+}
+div.ms-areaseparatorleft{
+background-image:url("/_layouts/images/datatel/ts-bg.jpg");
+}
+div.ms-areaseparatorright{
+background-image: url("/_layouts/images/datatel/ts-bg.jpg");	
+}
+/* Mini Calendar in left column */
+.ms-picker-header{
+background-image:url("/_layouts/images/datatel/quickLaunchHeader.gif");
+}
+td.ms-linksectionheader,th.ms-linksectionheader{
+background-image:url("/_layouts/images/datatel/linksectiongrad.gif");
+}
+
+/*Search*/
+.ms-searchref-filterlink {
+    color: #333333 !important;
+    text-decoration: none !important;
+}
+.srch-BBTitle a:link, .srch-BBTitle a:visited, .srch-BBTitle a:hover {
+    color: #4e6509 !important;
+}
+span.srch-BB-URL2 {
+    color: #4e6509;
+}
+.srch-Title2 a:link, .srch-Title2 a:visited, .srch-Title2 a:hover {
+    color: #4e6509 !important;
+}
+.srch-URL2 {
+    color: #4e6509 !important;
+}
+.ms-searchsummarymain a:link, .ms-searchsummarymain a:visited {
+    color: #4e6509 !important;
+}
+
+
+/* Fix for hidden Horizontal Scroll bar issue */
+.DatatelBody{
+overflow: visible !important;
+/* HERE!!!! */
+width: auto;
+float: left;
+*float: none; /* Targets IE7 only */
+}
+.DatatelBody #s4-workspace{
+width: 100% !important;
+overflow: visible !important;
+}
+.datatelv4 .ribbonbackground{
+width: 100% !important;
+}
+body.datatelv4{
+width: 100% !important;
+overflow: visible !important;
+}
+.DatatelBody #s4-workspace{
+border: hidden;
+}
+.datatelv4 .ribbonbackground{
+border: hidden;
+}
+
+/* Copying all of N19_CustomStyles.css */
+/***** This stylesheet contains all the custom JJC styles *****/
+
+/* Information Site Layouts */
+.infoSiteWrapper p{margin-top: 0px;}
+.infoSiteWrapper h1{display: block;color: #333333;font-size: 18px;margin: 0px 0px 10px 0px;}
+.infoSiteWrapper .pageText h2{color: #333333;font-size: 16px;margin: 0px;}
+.infoSiteWrapper .pageText h3{color: #333333;font-size: 14px;margin: 15px 0px 0px 0px;}
+.infoSiteWrapper .pageText h4, .infoSiteWrapper h5{color: #333333;font-size: 12px;font-weight: bold;margin: 0px;}
+.infoSiteWrapper ul{list-style: square;}
+.infoSiteWrapper ul li{margin-top: 5px;}
+.infoSiteWrapper hr{color:#adadad;background-color:#adadad;height:1px;border:0px;}
+.infoSiteWrapper .ms-asset-icon{margin: 5px 5px 5px 0px;vertical-align: middle;}
+.pageContentWrapper{max-width: 850px;width: 850px;margin: 15px;color: #000000;}
+.landingPageWrapper{max-width: 680px;width: 680px;margin: 15px 15px 15px 15px;color: #000000;}
+.pageContentWrapper img, .landingPageWrapper img{border-color: #bbbbbb;color: #bbbbbb;}
+.pageLeftColumn{max-width:185px;width: 185px;float: left;margn-right: 15px;}
+.pageRightColumn{max-width: 580px;width: 580px;margin-left: 100px;float: left;}
+.pageContactWrap{clear: both;margin-top: 15px;}
+.pageText a, .pageContactWrap a, .pageLeftColumn a, .ms-descriptiontext a{color: #336699 !important;text-decoration: underline !important;}
+.pageText a:hover, .pageContactWrap a:hover, .pageLeftColumn a:hover, .ms-descriptiontext a:hover{text-decoration: none !important;}
+
+/* Information Site Navigation */
+.D01-nav{background-color: #f6f6f6;border: 1px #adadad solid;border-bottom: 0px;width: 183px;padding: 0px;}
+.D01-navheader, .D01-selectednavheader, .D01-selectednav, .D01-navitem{color: #336699;font-weight: bold;font-size: 12px;border-bottom: 1px #adadad solid;}
+.D01-navheader:hover, .D01-selectednavheader:hover, .D01-selectednav:hover{background-color: #e6e6e6;}
+.D01-navheader a, .D01-selectednavheader a, D01-selectednav a, .D01-navheader a:hover, D01-selectednavheader a:hover, .D01-selectednav a:hover
+	{color: #336699;padding: 5px 7px 5px 7px;display: block;text-decoration: none !important;}
+.D01-navheader a:hover, D01-selectednavheader a:hover, .D01-selectednav a:hover{background-color: #e6e6e6;color: #336699;text-decoration: none !important;}
+.D01-navitem{background-image: url('/_layouts/datatel/images/N19/N19_raquoBG.gif');background-repeat: no-repeat;background-position: left;}
+.D01-navitem:hover{background-color: #e6e6e6;background-image: url('/_layouts/datatel/images/D01/D01_raquoBG.gif');background-repeat: no-repeat;background-position: left;}
+.D01-navitem a, .D01-navitem a:hover{color: #336699;padding: 5px 7px 5px 25px;display: block;text-decoration: none !important;}
+.D01SiteLinks{font-weight:bold;color: #333333;}
+
+/* Landing Page Lists with Square Images */
+div.landingListWrap{min-width: 600px;}
+div.landingList{margin-bottom: 15px;margin-left: 0px;clear: both;width: 600px;max-width: 600px;text-align: left;}
+div.landingList img{border: 2px solid #666;color: #666666;float: left;margin-right: 15px;margin-bottom: 5px;}
+div.landingList p{margin: 0;padding: 0;}
+div.landingList h2{padding-top: 0px;font-size: 12px !important;margin-top: 0px;margin-bottom: 6px;}
+div.landingList h2 a{color: #336699 !important;text-decoration: underline !important;}
+
+/* Web Part Styling */
+.eventPhotos{z-index: 0;}
+.contentEditorMargin{margin: 10px;}
+.contentEditorMargin a, .formPanel a{color: #336699 !important;text-decoration: underline !important;}
+.contentEditorMargin a:hover, .formPanel a:hover{text-decoration: none !important;color: #336699 !important;}
+.ms-descriptiontext, .ms-descriptiontext a:link, .ms-descriptiontext a:visited, .ms-descriptiontext a{font-size: 12px !important;}
+
+/* Spacing */
+.topMargin{margin-top: 15px;clear: both;}
+.indent{padding:0 0 15px 25px;}
+
+/* Text Styling */
+.info{font-size:90%;font-style:italic;}
+.bold-red-text{color:#c00;font-weight:700;background:#fff;}
+.red-text{color:#c00;background:#fff;}
+
+/* Accessibility */
+.hidden{position:absolute;left:0;top:-5000px;width:1px;height:1px;overflow:hidden;}
+hr.invisible{display:none;}
+
+/* Image Styling */
+.floatRightPublishingImg{float:right;}
+.floatRightPublishingImg img{border-color: #bbbbbb;color: #bbbbbb;margin-left: 15px;margin-bottom: 15px;}
+.floatRight{float: right;margin-left: 15px;margin-bottom: 5px;border: 2px #bbbbbb solid;color: #bbbbbb;}
+.floatRight img{border-color: #bbbbbb;color: #bbbbbb;}
+.floatLeft{float: left;margin-right: 15px;margin-bottom: 5px;border: 2px #bbbbbb solid;color: #bbbbbb;}
+.floatLeft img{border-color: #bbbbbb;color: #bbbbbb;}
+
+/* Two Column Wrap */
+.TwoColWrap{clear: both;display: block;}
+.LeftColumn{float: left;width: 50%;display: block;}
+.RightColumn{float: left;width: 40%;padding-left: 50px;}
+.RightColumn ul{padding: 0;margin: 0;}
+.RightColumn ul li ul{padding-left: 40px;margin: 0;}
+.RightColumn li ul li ul{padding-left: 60px;margin: 0;}
+
+/*Table styles */
+.generalTable{border-color:#ccc;border-style:solid;border-collapse:collapse;margin-bottom:20px;margin-top: 10px;background-color: #ffffff;font-size: 12px;}
+.tableAltRow{background-color:#eeeeff;}
+.generalTableHead, .generalTable th{color:#555;text-align:left;}
+.generalTableWidth{width: 35%;}
+.tableAltRow{background-color:#eeeeff;}
+.greenKey{background-color: #99ff99;}
+.orangeKey{background-color: #ffcc66;}
+
+/* Trigger drop down */
+.triggerContent{padding: 5px;background-color: #eee;margin-left: 20px;margin-bottom: 10px;}
+.trigger{cursor: pointer;font-size: 1em;font-weight: normal;padding-left: 5px;margin: 0px 0px 10px 0px;}
+.expanded{color: #000;font-size: 1em;font-weight: normal;cursor: pointer;padding-left: 5px;}
+.trigger img, .expanded img{padding-right: 5px;margin: 0px 5px 0px 0px;border: 0;}
+.show{position: static;display: table;}
+.hide{position: absolute;left: -999em;height: 1px;width: 100px;overflow: hidden;}
+
+/* Forms */
+.form-field{padding: 0px;margin: 0;}
+.field{margin-bottom: 1em;}
+.comments{clear:both;padding:15px 0;}
+.presentation{border: solid 2px #666;padding: .75em;margin-top: 1em;background-color: #eee;clear: both;overflow: hidden;display: block;}
+.presentation a{color: #336699 !important;text-decoration: underline !important;}
+.presentation a:hover{color: #336699 !important;text-decoration: none !important;}
+.presentation img{border: 2px #bbbbbb solid;color: #bbbbbb;}
+
+/*Web Part Calendar View Fix*/
+td.ms-cal-eworkhour div, td.ms-cal-enoworkhourF div, td.ms-cal-enoworkhour div, td.ms-cal-enoworkhourB div, td.ms-cal-enoworkhour div, td.ms-cal-eworkday div, td.ms-cal-enoworkday div{
+overflow-y:hidden !important; }
+#WeeklyViewDefault_CalendarView, #DailyViewDefault_CalendarView {overflow-y: hidden !important;}
+
+
+/* Fix breadcrumbs */
+
+.datatel-toplinks {
+display: none;
+}
+
+
+/* Fix Virtual Advisor Pic */
+
+.topAdviseeInner_LeftDetail img{
+
+    height: 72px;
+    position: center;
+    padding: 15px;
+    padding-left: 20px;
+    width: 60px;
+}
+
+/* Hide Virtual Advisor Email */
+.topAdviseeInner_RightDetail > .detailsContainer + .detailsContainer + .detailsContainer {
+    display: none;
+}
+
+.SNHUCommFont {
+    font-family: Vardana,Arial;
+    font-size: 12px;
+    width: auto !important;
+}
+
+
+table 
+{
+
+    width:100%;
+}
+
+    .outerAdviseeCommunication
+    {
+        width: auto;
+        height: auto;
+        margin: 3px;
+    }
+
+    .AdviseeMessageBox
+    {
+        width: auto;
+        height: auto;
+        margin: 3px;
+    }
+
+.bottomAdviseeCommunication {
+    
+    max-height: 350px;
+    overflow: auto;
+   
+}
+
+
+/* Added by Jay Cohen, SNHU DBM - Remove the byline from Announcements */
+.dt-summary
+{
+display: none;
+}
+
+/* Added by Jay Cohen, SNHU ITS - Hide the content (Makes it titles only.) */
+.dt-content
+{
+display: none;
+}
+
+
+@media print 
+
+{
+/* Hide the Header and left side bar navigation when printing */
+#WAWebPartMenu { display:none; }
+.ms-navframemain { display:none; }
+
+/* Hide the Breadcrumbs when printing */
+.breadcrumb { display:none; }
+
+/* Hide the ok button when printing */
+#WASubmit.WebAdvisorSubmitButton { display:none; }
+}
+
+
+
+@media screen
+
+{
+/* Add the SNHU Logo to the page, but keep it hidden until printing */
+#SNHULogo { display:none; }
+}
+
+
+@media screen and (max-device-width: 480px){ 
+.datatelv4 .ribbonbackground{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ background-color: #033371;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */background-image:url("/_layouts/images/Datatel/Header-bkgrdgradient.png");
+background-repeat:repeat-x;
+width:90% !important;
+/* jsc  min-width:1575px; */	
+/* [ReplaceColor(themeColor:"Accent5-Lightest")] */ border: #fdf2be 6px ridge;
+-moz-border-left-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+-moz-border-right-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+border-top: 0px;
+border-bottom: 0px;
+}
+/* Footer background gradient image */
+.datatelv4 .dt-footer {
+background-image:url("/_layouts/images/datatel/SNHU/footerpixel.png");
+border: 0;
+/* jsc  width: 1575px; */
+border-bottom: 2px solid #fff;
+}
+}
+
+
+@media screen and (max-device-width: 481px){ 
+.datatelv4 .ribbonbackground{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ background-color: #033371;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */background-image:url("/_layouts/images/Datatel/Header-bkgrdgradient.png");
+background-repeat:repeat-x;
+width:90% !important;
+/* jsc min-width:1575px;	*/
+/* [ReplaceColor(themeColor:"Accent5-Lightest")] */ border: #fdf2be 6px ridge;
+-moz-border-left-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+-moz-border-right-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+border-top: 0px;
+border-bottom: 0px;
+}
+/* Footer background gradient image */
+.datatelv4 .dt-footer {
+background-image:url("/_layouts/images/datatel/SNHU/footerpixel.png");
+border: 0;
+/* jsc width: 1575px;  */
+border-bottom: 2px solid #fff;
+}
+}
+
+@media screen and (max-device-width: 1025px){ 
+.datatelv4 .ribbonbackground{
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ background-color: #033371;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */background-image:url("/_layouts/images/Datatel/Header-bkgrdgradient.png");
+background-repeat:repeat-x;
+width:90% !important;
+/* jsc  min-width:1575px; */	
+/* [ReplaceColor(themeColor:"Accent5-Lightest")] */ border: #fdf2be 6px ridge;
+-moz-border-left-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+-moz-border-right-colors: /* [ReplaceColor(themeColor:"Light1-Lightest")] */#f1eacf /* [ReplaceColor(themeColor:"Light1-Lighter")] */#e7dec0 /* [ReplaceColor(themeColor:"Light1-Medium")] */#d4cca5 /* [ReplaceColor(themeColor:"Light1-Darker")] */#c3b98c /* [ReplaceColor(themeColor:"Light1-Darkest")] */#aca06a;
+border-top: 0px;
+border-bottom: 0px;
+}
+/* Footer background gradient image */
+.datatelv4 .dt-footer {
+background-image:url("/_layouts/images/datatel/SNHU/footerpixel.png");
+border: 0;
+/* jsc width: 1575px; */
+border-bottom: 2px solid #fff;
+}
+/*makes the menu wrap correctly*/
+.s4-tn .menu-horizontal ul.root.static {
+    display: block;
+    white-space: normal;
+    zoom:1;
+}
+/*helps with making the menu wrap*/
+.s4-tn .menu-horizontal ul.root.static:after {
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    font-size:0;
+    line-height:0;
+}
+
+}
+
+.s4-ca {
+
+    overflow: auto;
+}
+
+.ms-vb-icon {
+
+width: 8px;
+}
+
+.ms-vb-user {
+
+width: 30px;
+}
+
+
+.dt-error {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF0000; !important
+}
+
+
+
+.html { overflow: hidden; }
+
+.body { height: 100%; width: 100%; overflow: scroll; }
+
